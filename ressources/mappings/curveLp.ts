@@ -121,7 +121,7 @@ import {
     CRV_DUO_PYUSD_USDC,
     CRV_DUO_CVG_ETH,
     CRV_DUO_cvgSDT_SDT,
-} from "./curve";
+} from "../lps/curve";
 
 export type LpTypeMap = Record<string, {type: string; stake_gauge: string; curve_gauge: string; curve_pool?: string}>;
 const TYPE_FACTORY = "factory";
