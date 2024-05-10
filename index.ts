@@ -1,4 +1,5 @@
 // Contracts
+export * as convergenceContracts from "./ressources/contracts/convergence";
 export * as chainlinkPriceFeed from "./ressources/contracts/chainlinkPriceFeeds";
 export * as convexContracts from "./ressources/contracts/convex";
 export * as stakeDaoContracts from "./ressources/contracts/stakeDao";
