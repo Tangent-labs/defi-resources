@@ -1,4 +1,5 @@
-import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR} from "../erc20/common";
+import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL} from "../erc20/common";
+import {CURVE_CNC_ETH_GAUGE, CURVE_MIM_DAI_USDC_USDT_GAUGE, CURVE_STETH_ETH_GAUGE, CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE} from "../erc20/curve";
 import {
     sdCRV,
     sdPENDLE,
@@ -18,6 +19,7 @@ import {
     sdYFI_GAUGE,
     sdAPW_GAUGE,
     _80BAL_20WETH,
+    SDT_RETH_ETH_GAUGE,
 } from "../erc20/stakeDao";
 import {BAL_80BAL_20WETH_ID, BAL_SDBAL} from "../lps/balancer";
 import {
@@ -136,6 +138,19 @@ export const SDASSETS: SdAssetStruct[] = [
         idReferencePool: null,
     },
 ];
+
+export const SPECIAL_LP_TOKENS: {[curveGaugeAddress: string]: string[]} = {
+    // TriLlama => WsETH
+    [CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE]: [wstETH],
+    // Mim 3CRV => SPELL
+    [CURVE_MIM_DAI_USDC_USDT_GAUGE]: [SPELL],
+    // rCRV => FIS
+    [SDT_RETH_ETH_GAUGE]: [FIS],
+    // CNC-ETH => CNC
+    [CURVE_CNC_ETH_GAUGE]: [CNC],
+    // ETH-stETH => LDO
+    [CURVE_STETH_ETH_GAUGE]: [LDO],
+};
 export interface SdAssetStruct {
     name: string;
     address: string;
