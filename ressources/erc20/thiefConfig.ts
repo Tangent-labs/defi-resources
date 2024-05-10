@@ -68,7 +68,14 @@ import {
 import {SD_FRAX_3CRV, sdCRV, sdCRV_GAUGE, sdPENDLE, sdFXS, sdBAL, BB_A_USD, sdANGLE, SAN_USDC_EUR, sdFXN, sdYFI, sdAPW, _80BAL_20WETH} from "./stakeDao";
 import {CVX_CRV, CVX_FXS, CVX_PRISMA, CVX_FXN, CVX_FPIS} from "./convex";
 
-export const THIEF_TOKEN_CONFIG = {
+export const THIEF_TOKEN_CONFIG: {
+    [tokenName: string]: {
+        isVyper: boolean;
+        slotBalance: number;
+        address: string;
+        decimals: number;
+    };
+} = {
     CVG: {
         isVyper: false,
         slotBalance: 0,
