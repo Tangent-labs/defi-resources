@@ -4,6 +4,7 @@
   "description": "Common methods and ressources used by Convergence Finance.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc"
   },
