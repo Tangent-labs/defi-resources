@@ -26,6 +26,7 @@ import {
     APW,
     AG_EUR,
     dYFI,
+    PYUSD,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -656,5 +657,11 @@ export const THIEF_TOKEN_CONFIG: {
         slotBalance: 101,
         address: APW,
         decimals: 18,
+    },
+    PYUSD: {
+        isVyper: false,
+        slotBalance: 1212,
+        address: PYUSD,
+        decimals: 6,
     },
 };
