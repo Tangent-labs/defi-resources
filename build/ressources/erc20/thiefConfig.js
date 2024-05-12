@@ -504,6 +504,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.YFI,
         decimals: 18,
     },
+    dYFI: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.dYFI,
+        decimals: 18,
+    },
     APW: {
         isVyper: false,
         slotBalance: 101,
