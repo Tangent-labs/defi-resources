@@ -25,6 +25,7 @@ import {
     YFI,
     APW,
     AG_EUR,
+    dYFI,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -623,7 +624,12 @@ export const THIEF_TOKEN_CONFIG: {
         address: YFI,
         decimals: 18,
     },
-
+    dYFI: {
+        isVyper: false,
+        slotBalance: 0,
+        address: dYFI,
+        decimals: 18,
+    },
     APW: {
         isVyper: false,
         slotBalance: 101,
