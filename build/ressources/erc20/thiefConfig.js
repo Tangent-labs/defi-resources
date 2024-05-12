@@ -163,6 +163,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: stakeDao_1.BB_A_USD,
         decimals: 18,
     },
+    BB_A_USD_OLD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: stakeDao_1.BB_A_USD_OLD,
+        decimals: 18,
+    },
     BAL: {
         isVyper: false,
         slotBalance: 1,

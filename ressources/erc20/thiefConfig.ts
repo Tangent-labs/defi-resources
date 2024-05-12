@@ -66,7 +66,22 @@ import {
     CRV_DUO_eUSD_FRAXBP,
     _3CRV,
 } from "../lps/curve";
-import {SD_FRAX_3CRV, sdCRV, sdCRV_GAUGE, sdPENDLE, sdFXS, sdBAL, BB_A_USD, sdANGLE, SAN_USDC_EUR, sdFXN, sdYFI, sdAPW, _80BAL_20WETH} from "./stakeDao";
+import {
+    SD_FRAX_3CRV,
+    sdCRV,
+    sdCRV_GAUGE,
+    sdPENDLE,
+    sdFXS,
+    sdBAL,
+    BB_A_USD,
+    sdANGLE,
+    SAN_USDC_EUR,
+    sdFXN,
+    sdYFI,
+    sdAPW,
+    _80BAL_20WETH,
+    BB_A_USD_OLD,
+} from "./stakeDao";
 import {CVX_CRV, CVX_FXS, CVX_PRISMA, CVX_FXN, CVX_FPIS} from "./convex";
 
 export const THIEF_TOKEN_CONFIG: {
@@ -243,6 +258,12 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: false,
         slotBalance: 0,
         address: BB_A_USD,
+        decimals: 18,
+    },
+    BB_A_USD_OLD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: BB_A_USD_OLD,
         decimals: 18,
     },
 
