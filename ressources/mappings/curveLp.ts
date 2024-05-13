@@ -88,7 +88,7 @@ import {
     TRI_CRVUSD_TBTC_WSTETH,
     AGEUR_EUROC,
     MIM_DAI_USDC_USDT,
-    CVXCRV_CRV,
+    CRV_DUO_cvxCRV_CRV,
     SDFXS_FXS,
     FRAX_USDC_LP,
     FRAX_USDC_POOL,
@@ -177,7 +177,7 @@ export const LPS: LpTypeMap = {
     },
     [AGEUR_EUROC]: {type: TYPE_FACTORY, stake_gauge: SDT_AGEUR_EUROC_GAUGE, curve_gauge: CURVE_AGEUR_EUROC_GAUGE},
     [MIM_DAI_USDC_USDT]: {type: TYPE_FACTORY, stake_gauge: SDT_MIM_DAI_USDC_USDT_GAUGE, curve_gauge: CURVE_MIM_DAI_USDC_USDT_GAUGE},
-    [CVXCRV_CRV]: {type: TYPE_FACTORY, stake_gauge: SDT_CVXCRV_CRV_GAUGE, curve_gauge: CURVE_CVXCRV_CRV_GAUGE},
+    [CRV_DUO_cvxCRV_CRV]: {type: TYPE_FACTORY, stake_gauge: SDT_CVXCRV_CRV_GAUGE, curve_gauge: CURVE_CVXCRV_CRV_GAUGE},
     [SDFXS_FXS]: {type: TYPE_FACTORY, stake_gauge: SDT_SDFXS_FXS_GAUGE, curve_gauge: CURVE_SDFXS_FXS_GAUGE},
     [FRAX_USDC_LP]: {
         type: TYPE_MAIN,

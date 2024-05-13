@@ -56,7 +56,7 @@ exports.LPS = {
     },
     [curve_2.AGEUR_EUROC]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_AGEUR_EUROC_GAUGE, curve_gauge: curve_1.CURVE_AGEUR_EUROC_GAUGE },
     [curve_2.MIM_DAI_USDC_USDT]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_MIM_DAI_USDC_USDT_GAUGE, curve_gauge: curve_1.CURVE_MIM_DAI_USDC_USDT_GAUGE },
-    [curve_2.CVXCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_CVXCRV_CRV_GAUGE, curve_gauge: curve_1.CURVE_CVXCRV_CRV_GAUGE },
+    [curve_2.CRV_DUO_cvxCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_CVXCRV_CRV_GAUGE, curve_gauge: curve_1.CURVE_CVXCRV_CRV_GAUGE },
     [curve_2.SDFXS_FXS]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_SDFXS_FXS_GAUGE, curve_gauge: curve_1.CURVE_SDFXS_FXS_GAUGE },
     [curve_2.FRAX_USDC_LP]: {
         type: TYPE_MAIN,
