@@ -158,7 +158,7 @@ export interface SdAssetStruct {
     referenceIndex: number;
     pool: string;
     type: number;
-    gauge: string;
-    referencePool: null | string;
-    idReferencePool: null | string;
+    gauge?: string;
+    referencePool?: null | string;
+    idReferencePool?: null | string;
 }
