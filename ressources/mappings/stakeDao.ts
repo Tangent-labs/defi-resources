@@ -48,7 +48,7 @@ export const REWARDS_TOKEN_SD_ASSETS: {[sdGaugeAsset: string]: string[]} = {
 // Mapping
 export const CURVE_TYPE = 1;
 export const BALANCER_TYPE = 2;
-export const SDASSETS: SdAssetStruct[] = [
+export const SDASSETS: LiquidLockerStruct[] = [
     {
         name: "sdCRV",
         address: sdCRV,
@@ -151,7 +151,7 @@ export const SPECIAL_LP_TOKENS: {[curveGaugeAddress: string]: string[]} = {
     // ETH-stETH => LDO
     [CURVE_STETH_ETH_GAUGE]: [LDO],
 };
-export interface SdAssetStruct {
+export interface LiquidLockerStruct {
     name: string;
     address: string;
     referenceAsset: string;

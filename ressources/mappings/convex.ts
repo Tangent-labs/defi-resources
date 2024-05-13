@@ -1,7 +1,7 @@
 import {CRV, FXN, FXS, PRISMA} from "../erc20/common";
 import {CVX_CRV, CVX_FXN, CVX_FXS, CVX_PRISMA} from "../erc20/convex";
 import {CRV_DUO_cvxCRV_CRV, CRV_DUO_cvxFXN_FXN, CRV_DUO_cvxFXS_FXS, CRV_DUO_cvxPRISMA_PRISMA} from "../lps/curve";
-import {CURVE_TYPE} from "./stakeDao";
+import {CURVE_TYPE, LiquidLockerStruct} from "./stakeDao";
 
 export type CvxAssetStruct = {
     name: string;
@@ -11,7 +11,7 @@ export type CvxAssetStruct = {
     pool: string;
     type: number;
 };
-export const cvxAssets_LP_ARRAY: CvxAssetStruct[] = [
+export const cvxAssets_LP_ARRAY: LiquidLockerStruct[] = [
     {
         name: "cvxCRV",
         address: CVX_CRV,
