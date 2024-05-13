@@ -27,6 +27,7 @@ import {
     AG_EUR,
     dYFI,
     PYUSD,
+    mkUSD,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -663,5 +664,11 @@ export const THIEF_TOKEN_CONFIG: {
         slotBalance: 1212,
         address: PYUSD,
         decimals: 6,
+    },
+    mkUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: mkUSD,
+        decimals: 18,
     },
 };

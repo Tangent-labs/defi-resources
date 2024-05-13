@@ -528,4 +528,10 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.PYUSD,
         decimals: 6,
     },
+    mkUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.mkUSD,
+        decimals: 18,
+    },
 };

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.eUSD = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.tBTC = exports.wstETH = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.WBTC = exports.WETH = exports.CVG = void 0;
+exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.eUSD = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.tBTC = exports.wstETH = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.WBTC = exports.WETH = exports.CVG = void 0;
 exports.CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
 exports.WETH = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
 exports.WBTC = "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599";
@@ -38,3 +38,4 @@ exports.FRAX = "0x853d955aCEf822Db058eb8505911ED77F175b99e";
 exports.USDT = "0xdac17f958d2ee523a2206206994597c13d831ec7";
 exports.crvUSD = "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e";
 exports.PYUSD = "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8";
+exports.mkUSD = "0x4591DBfF62656E7859Afe5e45f6f47D3669fBB28";
