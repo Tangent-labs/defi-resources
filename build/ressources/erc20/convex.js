@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.STK_CVX_FPIS = exports.CVX_FPIS = exports.STK_CVX_FXN = exports.CVX_FXN = exports.STK_CVX_PRISMA = exports.CVX_PRISMA = exports.STK_CVX_FXS = exports.CVX_FXS = exports.STK_CVX_CRV = exports.CVX_CRV = void 0;
 // cvxCRV
-exports.CVX_CRV = "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7";
+exports.CVX_CRV = "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7";
 exports.STK_CVX_CRV = "0xaa0C3f5F7DFD688C6E646F66CD2a6B66ACdbE434";
 // cvxCRV
 exports.CVX_FXS = "0xFEEf77d3f69374f66429C91d732A244f074bdf74";
