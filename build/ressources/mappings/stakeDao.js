@@ -22,6 +22,17 @@ exports.CURVE_TYPE = 1;
 exports.BALANCER_TYPE = 2;
 exports.SDASSETS = [
     {
+        name: "cvgSDT",
+        address: common_1.cvgSDT,
+        referenceAsset: common_1.SDT,
+        referenceIndex: 0,
+        pool: curve_2.CRV_DUO_cvgSDT_SDT,
+        type: exports.CURVE_TYPE,
+        gauge: stakeDao_1.SDT_cvgSDT_SDT_GAUGE,
+        referencePool: null,
+        idReferencePool: null,
+    },
+    {
         name: "sdCRV",
         address: stakeDao_1.sdCRV,
         referenceAsset: common_1.CRV,

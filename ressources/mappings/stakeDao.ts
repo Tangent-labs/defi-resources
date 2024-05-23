@@ -1,4 +1,4 @@
-import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL} from "../erc20/common";
+import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL, cvgSDT, SDT} from "../erc20/common";
 import {CURVE_CNC_ETH_GAUGE, CURVE_MIM_DAI_USDC_USDT_GAUGE, CURVE_STETH_ETH_GAUGE, CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE} from "../erc20/curve";
 import {
     sdCRV,
@@ -20,6 +20,7 @@ import {
     sdAPW_GAUGE,
     _80BAL_20WETH,
     SDT_RETH_ETH_GAUGE,
+    SDT_cvgSDT_SDT_GAUGE,
 } from "../erc20/stakeDao";
 import {BAL_80BAL_20WETH_ID, BAL_SDBAL} from "../lps/balancer";
 import {
@@ -30,6 +31,7 @@ import {
     CRV_DUO_SDFXS_FXS,
     CRV_DUO_SDPENDLE_PENDLE,
     CRV_DUO_SDYFI_YFI,
+    CRV_DUO_cvgSDT_SDT,
     _3CRV,
 } from "../lps/curve";
 
@@ -49,6 +51,17 @@ export const REWARDS_TOKEN_SD_ASSETS: {[sdGaugeAsset: string]: string[]} = {
 export const CURVE_TYPE = 1;
 export const BALANCER_TYPE = 2;
 export const SDASSETS: LiquidLockerStruct[] = [
+    {
+        name: "cvgSDT",
+        address: cvgSDT,
+        referenceAsset: SDT,
+        referenceIndex: 0,
+        pool: CRV_DUO_cvgSDT_SDT,
+        type: CURVE_TYPE,
+        gauge: SDT_cvgSDT_SDT_GAUGE,
+        referencePool: null,
+        idReferencePool: null,
+    },
     {
         name: "sdCRV",
         address: sdCRV,
