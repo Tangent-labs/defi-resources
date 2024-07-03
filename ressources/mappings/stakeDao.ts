@@ -1,4 +1,4 @@
-import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL, cvgSDT, SDT} from "../erc20/common";
+import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL, cvgSDT, SDT, crvUSD} from "../erc20/common";
 import {CURVE_CNC_ETH_GAUGE, CURVE_MIM_DAI_USDC_USDT_GAUGE, CURVE_STETH_ETH_GAUGE, CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE} from "../erc20/curve";
 import {
     sdCRV,
@@ -38,7 +38,7 @@ import {
 export const SD_TOKENS_LIST = [sdCRV, sdPENDLE, sdFXS, sdBAL, sdANGLE, sdFXN, sdYFI, sdAPW];
 
 export const REWARDS_TOKEN_SD_ASSETS: {[sdGaugeAsset: string]: string[]} = {
-    [sdCRV_GAUGE]: [_3CRV, CRV],
+    [sdCRV_GAUGE]: [_3CRV, CRV, crvUSD],
     [sdBAL_GAUGE]: [BAL, USDC],
     [sdANGLE_GAUGE]: [SAN_USDC_EUR, AG_EUR, ANGLE],
     [sdPENDLE_GAUGE]: [WETH, PENDLE],

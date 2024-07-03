@@ -8,7 +8,7 @@ const balancer_1 = require("../lps/balancer");
 const curve_2 = require("../lps/curve");
 exports.SD_TOKENS_LIST = [stakeDao_1.sdCRV, stakeDao_1.sdPENDLE, stakeDao_1.sdFXS, stakeDao_1.sdBAL, stakeDao_1.sdANGLE, stakeDao_1.sdFXN, stakeDao_1.sdYFI, stakeDao_1.sdAPW];
 exports.REWARDS_TOKEN_SD_ASSETS = {
-    [stakeDao_1.sdCRV_GAUGE]: [curve_2._3CRV, common_1.CRV],
+    [stakeDao_1.sdCRV_GAUGE]: [curve_2._3CRV, common_1.CRV, common_1.crvUSD],
     [stakeDao_1.sdBAL_GAUGE]: [common_1.BAL, common_1.USDC],
     [stakeDao_1.sdANGLE_GAUGE]: [stakeDao_1.SAN_USDC_EUR, common_1.AG_EUR, common_1.ANGLE],
     [stakeDao_1.sdPENDLE_GAUGE]: [common_1.WETH, common_1.PENDLE],
