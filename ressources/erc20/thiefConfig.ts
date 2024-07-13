@@ -67,6 +67,7 @@ import {
     CRV_DUO_cvgSDT_SDT,
     CRV_DUO_eUSD_FRAXBP,
     _3CRV,
+    CRV_DUO_cvgCVX_CVX1,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -573,6 +574,12 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: true,
         slotBalance: 38,
         address: CRV_DUO_cvgSDT_SDT,
+        decimals: 18,
+    },
+    cvgCVX_CVX1: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_cvgCVX_CVX1,
         decimals: 18,
     },
 
