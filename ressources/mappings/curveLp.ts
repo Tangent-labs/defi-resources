@@ -35,6 +35,7 @@ import {
     CURVE_PYUSD_USDC_GAUGE,
     CURVE_CVG_ETH_GAUGE,
     CURVE_cvgSDT_SDT_GAUGE,
+    CURVE_cvgCVX_CVX1_GAUGE,
 } from "../erc20/curve";
 import {
     SD_FRAX_3CRV,
@@ -73,6 +74,7 @@ import {
     SDT_PYUSD_USDC_GAUGE,
     SDT_CVG_ETH_GAUGE,
     SDT_cvgSDT_SDT_GAUGE,
+    SDT_cvgCVX_CVX1_GAUGE,
 } from "../erc20/stakeDao";
 import {
     FRAX3CRV,
@@ -121,6 +123,7 @@ import {
     CRV_DUO_PYUSD_USDC,
     CRV_DUO_CVG_ETH,
     CRV_DUO_cvgSDT_SDT,
+    CRV_DUO_cvgCVX_CVX1,
 } from "../lps/curve";
 
 export type LpTypeMap = Record<string, {type: string; stake_gauge: string; curve_gauge: string; curve_pool?: string}>;
@@ -267,5 +270,10 @@ export const LPS: LpTypeMap = {
         type: TYPE_FACTORY_STABLE_NG,
         stake_gauge: SDT_cvgSDT_SDT_GAUGE,
         curve_gauge: CURVE_cvgSDT_SDT_GAUGE,
+    },
+    [CRV_DUO_cvgCVX_CVX1]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: SDT_cvgCVX_CVX1_GAUGE,
+        curve_gauge: CURVE_cvgCVX_CVX1_GAUGE,
     },
 };

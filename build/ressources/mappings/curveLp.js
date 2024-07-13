@@ -144,4 +144,9 @@ exports.LPS = {
         stake_gauge: stakeDao_1.SDT_cvgSDT_SDT_GAUGE,
         curve_gauge: curve_1.CURVE_cvgSDT_SDT_GAUGE,
     },
+    [curve_2.CRV_DUO_cvgCVX_CVX1]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_cvgCVX_CVX1_GAUGE,
+        curve_gauge: curve_1.CURVE_cvgCVX_CVX1_GAUGE,
+    },
 };
