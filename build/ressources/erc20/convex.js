@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.STK_CVX_FPIS = exports.CVX_FPIS = exports.STK_CVX_FXN = exports.CVX_FXN = exports.STK_CVX_PRISMA = exports.CVX_PRISMA = exports.STK_CVX_FXS = exports.CVX_FXS = exports.STK_CVX_CRV = exports.CVX_CRV = void 0;
+exports.CVX1 = exports.cvgCVX = exports.STK_CVX_FPIS = exports.CVX_FPIS = exports.STK_CVX_FXN = exports.CVX_FXN = exports.STK_CVX_PRISMA = exports.CVX_PRISMA = exports.STK_CVX_FXS = exports.CVX_FXS = exports.STK_CVX_CRV = exports.CVX_CRV = void 0;
 // cvxCRV
 exports.CVX_CRV = "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7";
 exports.STK_CVX_CRV = "0xaa0C3f5F7DFD688C6E646F66CD2a6B66ACdbE434";
@@ -16,3 +16,5 @@ exports.STK_CVX_FXN = "0xEC60Cd4a5866fb3B0DD317A46d3B474a24e06beF";
 // cvxFPIS
 exports.CVX_FPIS = "0xa2847348b58CEd0cA58d23c7e9106A49f1427Df6";
 exports.STK_CVX_FPIS = "0xfA87DB3EAa93B7293021e38416650D2E666bC483";
+exports.cvgCVX = "0x2191df768ad71140f9f3e96c1e4407a4aa31d082";
+exports.CVX1 = "0x6c9815826fdf8c7a45ccfed2064dbab33a078712";

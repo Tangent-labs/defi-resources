@@ -448,6 +448,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_DUO_cvgSDT_SDT,
         decimals: 18,
     },
+    cvgCVX_CVX1: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_cvgCVX_CVX1,
+        decimals: 18,
+    },
     // CONVEX
     CVX_CRV: {
         isVyper: false,
