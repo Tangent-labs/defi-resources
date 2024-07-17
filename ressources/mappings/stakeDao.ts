@@ -58,7 +58,6 @@ export const SDASSETS: LiquidLockerStruct[] = [
         referenceIndex: 0,
         pool: CRV_DUO_cvgSDT_SDT,
         type: CURVE_TYPE,
-        gauge: SDT_cvgSDT_SDT_GAUGE,
         referencePool: null,
         idReferencePool: null,
     },

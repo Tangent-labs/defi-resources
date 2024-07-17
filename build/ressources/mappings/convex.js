@@ -7,6 +7,14 @@ const curve_1 = require("../lps/curve");
 const stakeDao_1 = require("./stakeDao");
 exports.cvxAssets_LP_ARRAY = [
     {
+        name: "cvgCVX",
+        address: convex_1.cvgCVX,
+        referenceAsset: common_1.CVX,
+        referenceIndex: 0,
+        pool: curve_1.CRV_DUO_cvgCVX_CVX1,
+        type: stakeDao_1.CURVE_TYPE,
+    },
+    {
         name: "cvxCRV",
         address: convex_1.CVX_CRV,
         referenceAsset: common_1.CRV,
