@@ -409,13 +409,13 @@ exports.THIEF_TOKEN_CONFIG = {
     PXETH_STETH: {
         isVyper: true,
         slotBalance: 38,
-        address: curve_1.CRV_DUO_pxETH_stETH,
+        address: curve_1.CRV_DUO_PXETH_STETH,
         decimals: 18,
     },
     PXETH_FRXETH: {
         isVyper: true,
         slotBalance: 38,
-        address: curve_1.CRV_DUO_pxETH_frxETH,
+        address: curve_1.CRV_DUO_PXETH_FRXETH,
         decimals: 18,
     },
     PYUSD_USDC: {

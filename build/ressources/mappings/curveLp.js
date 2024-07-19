@@ -149,4 +149,19 @@ exports.LPS = {
         stake_gauge: stakeDao_1.SDT_cvgCVX_CVX1_GAUGE,
         curve_gauge: curve_1.CURVE_cvgCVX_CVX1_GAUGE,
     },
+    [curve_2.CRV_DUO_CRVUSD_ZUNUSD]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_crvUSD_zunUSD_GAUGE,
+        curve_gauge: curve_1.CURVE_crvUSD_zunUSD_GAUGE,
+    },
+    [curve_2.CRV_DUO_ZUNETH_FRXETH]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_zunETH_frxETH_GAUGE,
+        curve_gauge: curve_1.CURVE_zunETH_frxETH_GAUGE,
+    },
+    [curve_2.CRV_DUO_PYUSD_CRVUSD]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_PYUSD_crvUSD_GAUGE,
+        curve_gauge: curve_1.CURVE_PYUSD_crvUSD_GAUGE,
+    },
 };

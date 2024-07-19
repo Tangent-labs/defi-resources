@@ -60,14 +60,14 @@ import {
     CRV_DUO_crvUSD_FRAX,
     CRV_DUO_ETHp_WETH,
     CRV_DUO_WETH_SDT,
-    CRV_DUO_pxETH_stETH,
-    CRV_DUO_pxETH_frxETH,
     CRV_DUO_PYUSD_USDC,
     CRV_DUO_CVG_ETH,
     CRV_DUO_cvgSDT_SDT,
     CRV_DUO_eUSD_FRAXBP,
     _3CRV,
     CRV_DUO_cvgCVX_CVX1,
+    CRV_DUO_PXETH_STETH,
+    CRV_DUO_PXETH_FRXETH,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -535,14 +535,14 @@ export const THIEF_TOKEN_CONFIG: {
     PXETH_STETH: {
         isVyper: true,
         slotBalance: 38,
-        address: CRV_DUO_pxETH_stETH,
+        address: CRV_DUO_PXETH_STETH,
         decimals: 18,
     },
 
     PXETH_FRXETH: {
         isVyper: true,
         slotBalance: 38,
-        address: CRV_DUO_pxETH_frxETH,
+        address: CRV_DUO_PXETH_FRXETH,
         decimals: 18,
     },
     PYUSD_USDC: {
