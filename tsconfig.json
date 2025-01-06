@@ -12,7 +12,8 @@
     "resolveJsonModule": true,
     /* Type Checking */
     "strict": true,                                   /* Enable all strict type-checking options. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true     ,
+    "declaration": true                            /* Skip type checking all .d.ts files. */
   },
   "include": ["src"],
 }
