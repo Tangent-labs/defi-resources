@@ -1,7 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.BAL_SDBAL_ID = exports.BAL_80BAL_20WETH_ID = exports.BAL_SDBAL = exports.BALANCER_VAULT = void 0;
-exports.BALANCER_VAULT = "0xBA12222222228d8Ba445958a75a0704d566BF2C8";
-exports.BAL_SDBAL = "0x2d011aDf89f0576C9B722c28269FcB5D50C2d179"; //Balancer
-exports.BAL_80BAL_20WETH_ID = "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56000200000000000000000014";
-exports.BAL_SDBAL_ID = "0x2d011adf89f0576c9b722c28269fcb5d50c2d17900020000000000000000024d";
