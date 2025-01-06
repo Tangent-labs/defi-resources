@@ -551,4 +551,10 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_LP_USDC_fxUSD,
         decimals: 18,
     },
+    fxUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.fxUSD,
+        decimals: 18,
+    },
 };

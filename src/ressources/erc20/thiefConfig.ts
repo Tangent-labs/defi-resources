@@ -29,6 +29,7 @@ import {
     pyUSD,
     mkUSD,
     frxETH,
+    fxUSD,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -594,49 +595,42 @@ export const THIEF_TOKEN_CONFIG: {
         address: cvxCRV,
         decimals: 18,
     },
-
     cvxFXS: {
         isVyper: false,
         slotBalance: 0,
         address: cvxFXS,
         decimals: 18,
     },
-
     cvxFXN: {
         isVyper: false,
         slotBalance: 0,
         address: cvxFXN,
         decimals: 18,
     },
-
     eUSD: {
         isVyper: false,
         slotBalance: 201,
         address: eUSD,
         decimals: 18,
     },
-
     eUSD_FRAXLP: {
         isVyper: true,
         slotBalance: 17,
         address: CRV_DUO_eUSD_FRAXBP,
         decimals: 18,
     },
-
     PRISMA: {
         isVyper: false,
         slotBalance: 7,
         address: PRISMA,
         decimals: 18,
     },
-
     FPIS: {
         isVyper: false,
         slotBalance: 0,
         address: FPIS,
         decimals: 18,
     },
-
     YFI: {
         isVyper: false,
         slotBalance: 0,
@@ -685,11 +679,16 @@ export const THIEF_TOKEN_CONFIG: {
         address: CRV_LP_pxETH_WETH,
         decimals: 18,
     },
-
     USDC_fxUSD: {
         isVyper: true,
         slotBalance: 6,
         address: CRV_LP_USDC_fxUSD,
+        decimals: 18,
+    },
+    fxUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: fxUSD,
         decimals: 18,
     },
 };
