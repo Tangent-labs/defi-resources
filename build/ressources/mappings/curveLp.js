@@ -119,7 +119,7 @@ exports.LPS = {
         curve_gauge: curve_1.CURVE_WETH_SDT_GAUGE,
         curve_pool: curve_2.WETH_SDT_POOL,
     },
-    [curve_2.CRV_DUO_PXETH_STETH]: {
+    [curve_2.CRV_LP_pxETH_stETH]: {
         type: TYPE_FACTORY_STABLE_NG,
         stake_gauge: stakeDao_1.SDT_PXETH_STETH_GAUGE,
         curve_gauge: curve_1.CURVE_PXETH_STETH_GAUGE,

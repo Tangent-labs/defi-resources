@@ -124,7 +124,6 @@ import {
     ETHp_WETH_POOL,
     WETH_SDT_LP,
     WETH_SDT_POOL,
-    CRV_DUO_PXETH_STETH,
     CRV_DUO_PXETH_FRXETH,
     CRV_DUO_PYUSD_USDC,
     CRV_DUO_CVG_ETH,
@@ -133,6 +132,7 @@ import {
     CRV_DUO_PYUSD_CRVUSD,
     CRV_DUO_CRVUSD_ZUNUSD,
     CRV_DUO_ZUNETH_FRXETH,
+    CRV_LP_pxETH_stETH,
 } from "../lps/curve";
 
 export type LpTypeMap = Record<string, {type: string; stake_gauge: string; curve_gauge: string; curve_pool?: string}>;
@@ -253,7 +253,7 @@ export const LPS: LpTypeMap = {
         curve_pool: WETH_SDT_POOL,
     },
 
-    [CRV_DUO_PXETH_STETH]: {
+    [CRV_LP_pxETH_stETH]: {
         type: TYPE_FACTORY_STABLE_NG,
         stake_gauge: SDT_PXETH_STETH_GAUGE,
         curve_gauge: CURVE_PXETH_STETH_GAUGE,

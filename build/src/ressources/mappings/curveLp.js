@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.LPS = exports.TYPES_CURVE = void 0;
 const curve_1 = require("../erc20/curve");
 const stakeDao_1 = require("../erc20/stakeDao");
-const curve_2 = require("./curve");
+const curve_2 = require("../lps/curve");
 const TYPE_FACTORY = "factory";
 const TYPE_MAIN = "main";
 const TYPE_FACTORY_CRYPTO = "factory-crypto";
@@ -56,7 +56,7 @@ exports.LPS = {
     },
     [curve_2.AGEUR_EUROC]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_AGEUR_EUROC_GAUGE, curve_gauge: curve_1.CURVE_AGEUR_EUROC_GAUGE },
     [curve_2.MIM_DAI_USDC_USDT]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_MIM_DAI_USDC_USDT_GAUGE, curve_gauge: curve_1.CURVE_MIM_DAI_USDC_USDT_GAUGE },
-    [curve_2.CVXCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_CVXCRV_CRV_GAUGE, curve_gauge: curve_1.CURVE_CVXCRV_CRV_GAUGE },
+    [curve_2.CRV_DUO_cvxCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_CVXCRV_CRV_GAUGE, curve_gauge: curve_1.CURVE_CVXCRV_CRV_GAUGE },
     [curve_2.SDFXS_FXS]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_SDFXS_FXS_GAUGE, curve_gauge: curve_1.CURVE_SDFXS_FXS_GAUGE },
     [curve_2.FRAX_USDC_LP]: {
         type: TYPE_MAIN,
@@ -119,7 +119,7 @@ exports.LPS = {
         curve_gauge: curve_1.CURVE_WETH_SDT_GAUGE,
         curve_pool: curve_2.WETH_SDT_POOL,
     },
-    [curve_2.CRV_DUO_PXETH_STETH]: {
+    [curve_2.CRV_LP_pxETH_stETH]: {
         type: TYPE_FACTORY_STABLE_NG,
         stake_gauge: stakeDao_1.SDT_PXETH_STETH_GAUGE,
         curve_gauge: curve_1.CURVE_PXETH_STETH_GAUGE,
@@ -143,5 +143,25 @@ exports.LPS = {
         type: TYPE_FACTORY_STABLE_NG,
         stake_gauge: stakeDao_1.SDT_cvgSDT_SDT_GAUGE,
         curve_gauge: curve_1.CURVE_cvgSDT_SDT_GAUGE,
+    },
+    [curve_2.CRV_DUO_cvgCVX_CVX1]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_cvgCVX_CVX1_GAUGE,
+        curve_gauge: curve_1.CURVE_cvgCVX_CVX1_GAUGE,
+    },
+    [curve_2.CRV_DUO_CRVUSD_ZUNUSD]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_crvUSD_zunUSD_GAUGE,
+        curve_gauge: curve_1.CURVE_crvUSD_zunUSD_GAUGE,
+    },
+    [curve_2.CRV_DUO_ZUNETH_FRXETH]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_zunETH_frxETH_GAUGE,
+        curve_gauge: curve_1.CURVE_zunETH_frxETH_GAUGE,
+    },
+    [curve_2.CRV_DUO_PYUSD_CRVUSD]: {
+        type: TYPE_FACTORY_STABLE_NG,
+        stake_gauge: stakeDao_1.SDT_PYUSD_crvUSD_GAUGE,
+        curve_gauge: curve_1.CURVE_PYUSD_crvUSD_GAUGE,
     },
 };

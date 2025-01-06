@@ -23,25 +23,28 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.durations = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.chainlinkPriceFeed = exports.convergenceContracts = void 0;
+exports.convexFxn = exports.convexCrv = exports.durations = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.chainlinkPriceFeed = exports.convergenceContracts = void 0;
 // Contracts
-exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
-exports.chainlinkPriceFeed = __importStar(require("./ressources/contracts/chainlinkPriceFeeds"));
-exports.convexContracts = __importStar(require("./ressources/contracts/convex"));
-exports.stakeDaoContracts = __importStar(require("./ressources/contracts/stakeDao"));
-exports.routers = __importStar(require("./ressources/contracts/routers"));
+exports.convergenceContracts = __importStar(require("./src/ressources/contracts/convergence"));
+exports.chainlinkPriceFeed = __importStar(require("./src/ressources/contracts/chainlinkPriceFeeds"));
+exports.convexContracts = __importStar(require("./src/ressources/contracts/convex"));
+exports.stakeDaoContracts = __importStar(require("./src/ressources/contracts/stakeDao"));
+exports.routers = __importStar(require("./src/ressources/contracts/routers"));
 // ERC20
-exports.commonERC20 = __importStar(require("./ressources/erc20/common"));
-exports.convexERC20 = __importStar(require("./ressources/erc20/convex"));
-exports.stakeDaoERC20 = __importStar(require("./ressources/erc20/stakeDao"));
-exports.thiefConfig = __importStar(require("./ressources/erc20/thiefConfig"));
+exports.commonERC20 = __importStar(require("./src/ressources/erc20/common"));
+exports.convexERC20 = __importStar(require("./src/ressources/erc20/convex"));
+exports.stakeDaoERC20 = __importStar(require("./src/ressources/erc20/stakeDao"));
+exports.thiefConfig = __importStar(require("./src/ressources/erc20/thiefConfig"));
 // LP
-exports.curveLp = __importStar(require("./ressources/lps/curve"));
-exports.uniswapLp = __importStar(require("./ressources/lps/uniswap"));
-exports.balancerLp = __importStar(require("./ressources/lps/balancer"));
+exports.curveLp = __importStar(require("./src/ressources/lps/curve"));
+exports.uniswapLp = __importStar(require("./src/ressources/lps/uniswap"));
+exports.balancerLp = __importStar(require("./src/ressources/lps/balancer"));
 // MAPPINGS
-exports.stakeDaoMapping = __importStar(require("./ressources/mappings/stakeDao"));
-exports.curveLpMapping = __importStar(require("./ressources/mappings/curveLp"));
-exports.convexMapping = __importStar(require("./ressources/mappings/convex"));
+exports.stakeDaoMapping = __importStar(require("./src/ressources/mappings/stakeDao"));
+exports.curveLpMapping = __importStar(require("./src/ressources/mappings/curveLp"));
+exports.convexMapping = __importStar(require("./src/ressources/mappings/convex"));
 // UTILS
-exports.durations = __importStar(require("./utils/durations"));
+exports.durations = __importStar(require("./src/utils/durations"));
+// PROTOCOLS
+exports.convexCrv = __importStar(require("./src/ressources/protocols/convexCrv"));
+exports.convexFxn = __importStar(require("./src/ressources/protocols/convexFxn"));

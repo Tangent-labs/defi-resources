@@ -66,8 +66,8 @@ import {
     CRV_DUO_eUSD_FRAXBP,
     _3CRV,
     CRV_DUO_cvgCVX_CVX1,
-    CRV_DUO_PXETH_STETH,
     CRV_DUO_PXETH_FRXETH,
+    CRV_LP_pxETH_stETH,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -535,7 +535,7 @@ export const THIEF_TOKEN_CONFIG: {
     PXETH_STETH: {
         isVyper: true,
         slotBalance: 38,
-        address: CRV_DUO_PXETH_STETH,
+        address: CRV_LP_pxETH_stETH,
         decimals: 18,
     },
 
