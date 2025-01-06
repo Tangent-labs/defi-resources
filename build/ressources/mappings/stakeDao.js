@@ -122,7 +122,7 @@ exports.SDASSETS = [
 ];
 exports.SPECIAL_LP_TOKENS = {
     // TriLlama => WsETH
-    [curve_1.CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE]: [common_1.wstETH],
+    [curve_1.CURVE_TRI_crvUSD_TBTC_WSTETH_GAUGE]: [common_1.wstETH],
     // Mim 3CRV => SPELL
     [curve_1.CURVE_MIM_DAI_USDC_USDT_GAUGE]: [common_1.SPELL],
     // rCRV => FIS

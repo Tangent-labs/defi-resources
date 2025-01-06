@@ -90,7 +90,7 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1._3CRV,
         decimals: 18,
     },
-    CRVUSD: {
+    crvUSD: {
         isVyper: true,
         slotBalance: 1,
         address: common_1.crvUSD,
@@ -219,7 +219,7 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_TRI_CRYPTO_USDC,
         decimals: 18,
     },
-    CRVUSD_USDT: {
+    crvUSD_USDT: {
         isVyper: true,
         slotBalance: 20,
         address: curve_1.CRV_DUO_USDT_crvUSD,
@@ -244,13 +244,13 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_DUO_SDCRV_CRV,
         decimals: 18,
     },
-    CRVUSD_USDC: {
+    crvUSD_USDC: {
         isVyper: true,
         slotBalance: 20,
         address: curve_1.CRV_DUO_USDC_crvUSD,
         decimals: 18,
     },
-    FRX_ETH_ETH: {
+    frxETH_ETH: {
         isVyper: true,
         slotBalance: 7,
         address: curve_1.CRV_DUO_frxETH_ETH,
@@ -316,7 +316,7 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_DUO_ETH_rETH,
         decimals: 18,
     },
-    CRVUSD_XAI: {
+    crvUSD_XAI: {
         isVyper: true,
         slotBalance: 20,
         address: curve_1.CRV_DUO_XAI_crvUSD,
@@ -328,13 +328,13 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_DUO_COIL_FRAXBP,
         decimals: 18,
     },
-    CRVUSD_SUSD: {
+    crvUSD_SUSD: {
         isVyper: true,
         slotBalance: 20,
-        address: curve_1.CRV_DUO_sUSD_CRVUSD,
+        address: curve_1.CRV_DUO_sUSD_crvUSD,
         decimals: 18,
     },
-    CRVUSD_DOLA: {
+    crvUSD_DOLA: {
         isVyper: true,
         slotBalance: 20,
         address: curve_1.CRV_DUO_DOLA_crvUSD,
@@ -358,7 +358,7 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_DUO_XAI_FRAXBP,
         decimals: 18,
     },
-    CRVUSD_FRXETH_SDT: {
+    crvUSD_FRXETH_SDT: {
         isVyper: true,
         slotBalance: 23,
         address: curve_1.CRV_TRI_CRYPTO_SDT,
@@ -388,7 +388,7 @@ exports.THIEF_TOKEN_CONFIG = {
         address: stakeDao_1.SD_FRAX_3CRV,
         decimals: 18,
     },
-    CRVUSD_FRAX: {
+    crvUSD_FRAX: {
         isVyper: true,
         slotBalance: 20,
         address: curve_1.CRV_DUO_crvUSD_FRAX,
@@ -455,37 +455,24 @@ exports.THIEF_TOKEN_CONFIG = {
         decimals: 18,
     },
     // CONVEX
-    CVX_CRV: {
+    cvxCRV: {
         isVyper: false,
         slotBalance: 0,
-        address: convex_1.CVX_CRV,
+        address: convex_1.cvxCRV,
         decimals: 18,
     },
-    CVX_FXS: {
+    cvxFXS: {
         isVyper: false,
         slotBalance: 0,
-        address: convex_1.CVX_FXS,
+        address: convex_1.cvxFXS,
         decimals: 18,
     },
-    CVX_PRISMA: {
+    cvxFXN: {
         isVyper: false,
         slotBalance: 0,
-        address: convex_1.CVX_PRISMA,
+        address: convex_1.cvxFXN,
         decimals: 18,
     },
-    CVX_FXN: {
-        isVyper: false,
-        slotBalance: 0,
-        address: convex_1.CVX_FXN,
-        decimals: 18,
-    },
-    CVX_FPIS: {
-        isVyper: false,
-        slotBalance: 0,
-        address: convex_1.CVX_FPIS,
-        decimals: 18,
-    },
-    //FRAXLP ASSETS
     eUSD: {
         isVyper: false,
         slotBalance: 201,
@@ -528,16 +515,40 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.APW,
         decimals: 18,
     },
-    PYUSD: {
+    pyUSD: {
         isVyper: false,
         slotBalance: 1212,
-        address: common_1.PYUSD,
+        address: common_1.pyUSD,
         decimals: 6,
     },
     mkUSD: {
         isVyper: false,
         slotBalance: 0,
         address: common_1.mkUSD,
+        decimals: 18,
+    },
+    frxETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.frxETH,
+        decimals: 18,
+    },
+    WETH_frxETH: {
+        isVyper: true,
+        slotBalance: 6,
+        address: curve_1.CRV_LP_WETH_frxETH,
+        decimals: 18,
+    },
+    pxETH_WETH: {
+        isVyper: true,
+        slotBalance: 6,
+        address: curve_1.CRV_LP_pxETH_WETH,
+        decimals: 18,
+    },
+    USDC_fxUSD: {
+        isVyper: true,
+        slotBalance: 6,
+        address: curve_1.CRV_LP_USDC_fxUSD,
         decimals: 18,
     },
 };

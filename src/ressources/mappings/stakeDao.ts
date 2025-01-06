@@ -1,5 +1,5 @@
 import {CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL, cvgSDT, SDT, crvUSD} from "../erc20/common";
-import {CURVE_CNC_ETH_GAUGE, CURVE_MIM_DAI_USDC_USDT_GAUGE, CURVE_STETH_ETH_GAUGE, CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE} from "../erc20/curve";
+import {CURVE_CNC_ETH_GAUGE, CURVE_MIM_DAI_USDC_USDT_GAUGE, CURVE_STETH_ETH_GAUGE, CURVE_TRI_crvUSD_TBTC_WSTETH_GAUGE} from "../erc20/curve";
 import {
     sdCRV,
     sdPENDLE,
@@ -20,7 +20,6 @@ import {
     sdAPW_GAUGE,
     _80BAL_20WETH,
     SDT_RETH_ETH_GAUGE,
-    SDT_cvgSDT_SDT_GAUGE,
 } from "../erc20/stakeDao";
 import {BAL_80BAL_20WETH_ID, BAL_SDBAL} from "../lps/balancer";
 import {
@@ -153,7 +152,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
 
 export const SPECIAL_LP_TOKENS: {[curveGaugeAddress: string]: string[]} = {
     // TriLlama => WsETH
-    [CURVE_TRI_CRVUSD_TBTC_WSTETH_GAUGE]: [wstETH],
+    [CURVE_TRI_crvUSD_TBTC_WSTETH_GAUGE]: [wstETH],
     // Mim 3CRV => SPELL
     [CURVE_MIM_DAI_USDC_USDT_GAUGE]: [SPELL],
     // rCRV => FIS

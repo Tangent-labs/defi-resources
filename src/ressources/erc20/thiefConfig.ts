@@ -26,8 +26,9 @@ import {
     APW,
     AG_EUR,
     dYFI,
-    PYUSD,
+    pyUSD,
     mkUSD,
+    frxETH,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -49,7 +50,7 @@ import {
     CRV_DUO_ETH_rETH,
     CRV_DUO_XAI_crvUSD,
     CRV_DUO_COIL_FRAXBP,
-    CRV_DUO_sUSD_CRVUSD,
+    CRV_DUO_sUSD_crvUSD,
     CRV_DUO_DOLA_crvUSD,
     CRV_DUO_mkUSD_FRAXBP,
     LP_CRV_DUO_ETH_CNC,
@@ -68,6 +69,9 @@ import {
     CRV_DUO_cvgCVX_CVX1,
     CRV_DUO_PXETH_FRXETH,
     CRV_LP_pxETH_stETH,
+    CRV_LP_WETH_frxETH,
+    CRV_LP_pxETH_WETH,
+    CRV_LP_USDC_fxUSD,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -85,7 +89,7 @@ import {
     _80BAL_20WETH,
     BB_A_USD_OLD,
 } from "./stakeDao";
-import {CVX_CRV, CVX_FXS, CVX_PRISMA, CVX_FXN, CVX_FPIS} from "./convex";
+import {cvxCRV, cvxFXS, cvxFXN} from "./convex";
 
 export const THIEF_TOKEN_CONFIG: {
     [tokenName: string]: {
@@ -181,7 +185,7 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
     },
 
-    CRVUSD: {
+    crvUSD: {
         isVyper: true,
         slotBalance: 1,
         address: crvUSD,
@@ -329,7 +333,7 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
     },
 
-    CRVUSD_USDT: {
+    crvUSD_USDT: {
         isVyper: true,
         slotBalance: 20,
         address: CRV_DUO_USDT_crvUSD,
@@ -358,14 +362,14 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
     },
 
-    CRVUSD_USDC: {
+    crvUSD_USDC: {
         isVyper: true,
         slotBalance: 20,
         address: CRV_DUO_USDC_crvUSD,
         decimals: 18,
     },
 
-    FRX_ETH_ETH: {
+    frxETH_ETH: {
         isVyper: true,
         slotBalance: 7,
         address: CRV_DUO_frxETH_ETH,
@@ -434,7 +438,7 @@ export const THIEF_TOKEN_CONFIG: {
         address: CRV_DUO_ETH_rETH,
         decimals: 18,
     },
-    CRVUSD_XAI: {
+    crvUSD_XAI: {
         isVyper: true,
         slotBalance: 20,
         address: CRV_DUO_XAI_crvUSD,
@@ -446,13 +450,13 @@ export const THIEF_TOKEN_CONFIG: {
         address: CRV_DUO_COIL_FRAXBP,
         decimals: 18,
     },
-    CRVUSD_SUSD: {
+    crvUSD_SUSD: {
         isVyper: true,
         slotBalance: 20,
-        address: CRV_DUO_sUSD_CRVUSD,
+        address: CRV_DUO_sUSD_crvUSD,
         decimals: 18,
     },
-    CRVUSD_DOLA: {
+    crvUSD_DOLA: {
         isVyper: true,
         slotBalance: 20,
         address: CRV_DUO_DOLA_crvUSD,
@@ -477,7 +481,7 @@ export const THIEF_TOKEN_CONFIG: {
         address: CRV_DUO_XAI_FRAXBP,
         decimals: 18,
     },
-    CRVUSD_FRXETH_SDT: {
+    crvUSD_FRXETH_SDT: {
         isVyper: true,
         slotBalance: 23,
         address: CRV_TRI_CRYPTO_SDT,
@@ -511,7 +515,7 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
     },
 
-    CRVUSD_FRAX: {
+    crvUSD_FRAX: {
         isVyper: true,
         slotBalance: 20,
         address: CRV_DUO_crvUSD_FRAX,
@@ -584,42 +588,27 @@ export const THIEF_TOKEN_CONFIG: {
     },
 
     // CONVEX
-    CVX_CRV: {
+    cvxCRV: {
         isVyper: false,
         slotBalance: 0,
-        address: CVX_CRV,
+        address: cvxCRV,
         decimals: 18,
     },
 
-    CVX_FXS: {
+    cvxFXS: {
         isVyper: false,
         slotBalance: 0,
-        address: CVX_FXS,
+        address: cvxFXS,
         decimals: 18,
     },
 
-    CVX_PRISMA: {
+    cvxFXN: {
         isVyper: false,
         slotBalance: 0,
-        address: CVX_PRISMA,
+        address: cvxFXN,
         decimals: 18,
     },
 
-    CVX_FXN: {
-        isVyper: false,
-        slotBalance: 0,
-        address: CVX_FXN,
-        decimals: 18,
-    },
-
-    CVX_FPIS: {
-        isVyper: false,
-        slotBalance: 0,
-        address: CVX_FPIS,
-        decimals: 18,
-    },
-
-    //FRAXLP ASSETS
     eUSD: {
         isVyper: false,
         slotBalance: 201,
@@ -666,16 +655,41 @@ export const THIEF_TOKEN_CONFIG: {
         address: APW,
         decimals: 18,
     },
-    PYUSD: {
+    pyUSD: {
         isVyper: false,
         slotBalance: 1212,
-        address: PYUSD,
+        address: pyUSD,
         decimals: 6,
     },
     mkUSD: {
         isVyper: false,
         slotBalance: 0,
         address: mkUSD,
+        decimals: 18,
+    },
+    frxETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: frxETH,
+        decimals: 18,
+    },
+    WETH_frxETH: {
+        isVyper: true,
+        slotBalance: 6,
+        address: CRV_LP_WETH_frxETH,
+        decimals: 18,
+    },
+    pxETH_WETH: {
+        isVyper: true,
+        slotBalance: 6,
+        address: CRV_LP_pxETH_WETH,
+        decimals: 18,
+    },
+
+    USDC_fxUSD: {
+        isVyper: true,
+        slotBalance: 6,
+        address: CRV_LP_USDC_fxUSD,
         decimals: 18,
     },
 };

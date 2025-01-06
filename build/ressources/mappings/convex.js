@@ -16,7 +16,7 @@ exports.cvxAssets_LP_ARRAY = [
     },
     {
         name: "cvxCRV",
-        address: convex_1.CVX_CRV,
+        address: convex_1.cvxCRV,
         referenceAsset: common_1.CRV,
         referenceIndex: 0,
         pool: curve_1.CRV_DUO_cvxCRV_CRV,
@@ -24,7 +24,7 @@ exports.cvxAssets_LP_ARRAY = [
     },
     {
         name: "cvxFXS",
-        address: convex_1.CVX_FXS,
+        address: convex_1.cvxFXS,
         referenceAsset: common_1.FXS,
         referenceIndex: 0,
         pool: curve_1.CRV_DUO_cvxFXS_FXS,
@@ -32,18 +32,10 @@ exports.cvxAssets_LP_ARRAY = [
     },
     {
         name: "cvxFXN",
-        address: convex_1.CVX_FXN,
+        address: convex_1.cvxFXN,
         referenceAsset: common_1.FXN,
         referenceIndex: 0,
         pool: curve_1.CRV_DUO_cvxFXN_FXN,
-        type: stakeDao_1.CURVE_TYPE,
-    },
-    {
-        name: "cvxPRISMA",
-        address: convex_1.CVX_PRISMA,
-        referenceAsset: common_1.PRISMA,
-        referenceIndex: 0,
-        pool: curve_1.CRV_DUO_cvxPRISMA_PRISMA,
         type: stakeDao_1.CURVE_TYPE,
     },
 ];
