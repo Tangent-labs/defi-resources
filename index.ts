@@ -23,3 +23,7 @@ export * as convexMapping from "./ressources/mappings/convex";
 
 // UTILS
 export * as durations from "./utils/durations";
+
+// PROTOCOLS
+export * as convexCrv from "./ressources/protocols/convexCrv";
+export * as convexFxn from "./ressources/protocols/convexFxn";
