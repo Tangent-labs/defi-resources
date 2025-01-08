@@ -547,7 +547,7 @@ exports.THIEF_TOKEN_CONFIG = {
     },
     USDC_fxUSD: {
         isVyper: true,
-        slotBalance: 6,
+        slotBalance: 38,
         address: curve_1.CRV_LP_USDC_fxUSD,
         decimals: 18,
     },
