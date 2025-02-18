@@ -569,4 +569,10 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.frxUSD,
         decimals: 18,
     },
+    USDe: {
+        isVyper: false,
+        slotBalance: 2,
+        address: common_1.USDe,
+        decimals: 18,
+    },
 };

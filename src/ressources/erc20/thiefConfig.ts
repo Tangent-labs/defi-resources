@@ -32,6 +32,7 @@ import {
     fxUSD,
     USR,
     frxUSD,
+    USDe,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -703,6 +704,12 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: false,
         slotBalance: 0,
         address: frxUSD,
+        decimals: 18,
+    },
+    USDe: {
+        isVyper: false,
+        slotBalance: 2,
+        address: USDe,
         decimals: 18,
     },
 };
