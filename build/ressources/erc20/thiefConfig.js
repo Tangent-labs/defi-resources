@@ -535,13 +535,13 @@ exports.THIEF_TOKEN_CONFIG = {
     },
     WETH_frxETH: {
         isVyper: true,
-        slotBalance: 6,
+        slotBalance: 20,
         address: curve_1.CRV_LP_WETH_frxETH,
         decimals: 18,
     },
     pxETH_WETH: {
         isVyper: true,
-        slotBalance: 6,
+        slotBalance: 38,
         address: curve_1.CRV_LP_pxETH_WETH,
         decimals: 18,
     },
@@ -553,7 +553,7 @@ exports.THIEF_TOKEN_CONFIG = {
     },
     fxUSD: {
         isVyper: false,
-        slotBalance: 0,
+        slotBalance: 151,
         address: common_1.fxUSD,
         decimals: 18,
     },
