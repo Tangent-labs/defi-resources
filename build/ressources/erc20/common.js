@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.pyUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
-exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = void 0;
+exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.pyUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
+exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = void 0;
 /******************************
             ETH
 *******************************/
@@ -46,6 +46,8 @@ exports.scrvUSD = "0x0655977feb2f289a4ab78af67bab0d17aab84367";
 exports.sDOLA = "0xb45ad160634c528cc3d2926d9807104fa3157305";
 exports.sFRAX = "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32";
 exports.sUSDS = "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd";
+exports.sfrxUSD = "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
+exports.wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
 // ALTS
 exports.CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
 exports.CRV = "0xD533a949740bb3306d119CC777fa900bA034cd52";

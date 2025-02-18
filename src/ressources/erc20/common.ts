@@ -45,6 +45,8 @@ export const scrvUSD = "0x0655977feb2f289a4ab78af67bab0d17aab84367";
 export const sDOLA = "0xb45ad160634c528cc3d2926d9807104fa3157305";
 export const sFRAX = "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32";
 export const sUSDS = "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd";
+export const sfrxUSD = "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
+export const wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
 
 // ALTS
 export const CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
