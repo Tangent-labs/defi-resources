@@ -36,6 +36,7 @@ export const USD0 = "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5";
 export const deUSD = "0x15700b564ca08d9439c58ca5053166e8317aa138";
 export const USR = "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110";
 export const GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
+export const frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 
 // SAVING ACCOUNTS
 export const sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";

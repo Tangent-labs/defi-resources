@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.pyUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
-exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = void 0;
+exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.pyUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
+exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = void 0;
 /******************************
             ETH
 *******************************/
@@ -38,6 +38,7 @@ exports.USD0 = "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5";
 exports.deUSD = "0x15700b564ca08d9439c58ca5053166e8317aa138";
 exports.USR = "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110";
 exports.GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
+exports.frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 // SAVING ACCOUNTS
 exports.sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";
 exports.sUSDe = "0x9d39a5de30e57443bff2a8307a4256c8797a3497";

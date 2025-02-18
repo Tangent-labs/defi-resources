@@ -33,6 +33,7 @@ export declare const USD0 = "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5";
 export declare const deUSD = "0x15700b564ca08d9439c58ca5053166e8317aa138";
 export declare const USR = "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110";
 export declare const GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
+export declare const frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 export declare const sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";
 export declare const sUSDe = "0x9d39a5de30e57443bff2a8307a4256c8797a3497";
 export declare const scrvUSD = "0x0655977feb2f289a4ab78af67bab0d17aab84367";
