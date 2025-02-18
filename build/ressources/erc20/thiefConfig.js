@@ -557,4 +557,16 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.fxUSD,
         decimals: 18,
     },
+    USR: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.USR,
+        decimals: 18,
+    },
+    frxUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.frxUSD,
+        decimals: 18,
+    },
 };
