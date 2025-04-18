@@ -34,6 +34,11 @@ import {
     frxUSD,
     USDe,
     DOLA,
+    sUSDe,
+    sDAI,
+    deUSD,
+    sUSDS,
+    scrvUSD,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -77,6 +82,12 @@ import {
     CRV_LP_WETH_frxETH,
     CRV_LP_pxETH_WETH,
     CRV_LP_USDC_fxUSD,
+    CRV_DUO_USDC_USDT,
+    CRV_DUO_USR_RLP,
+    CRV_DUO_frxUSD_USDe,
+    CRV_DUO_DOLA_USR,
+    CRV_DUO_scrvUSD_sUSDe,
+    CRV_DUO_crvUSD_USDe,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -717,6 +728,72 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: false,
         slotBalance: 6,
         address: DOLA,
+        decimals: 18,
+    },
+    CRV_USDC_USDT: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_USDC_USDT,
+        decimals: 18,
+    },
+    CRV_USR_RLP: {
+        isVyper: true,
+        slotBalance: 19,
+        address: CRV_DUO_USR_RLP,
+        decimals: 18,
+    },
+    CRV_frxUSD_USDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_frxUSD_USDe,
+        decimals: 18,
+    },
+    CRV_DOLA_USR: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_DOLA_USR,
+        decimals: 18,
+    },
+    CRV_scrvUSD_sUSDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_scrvUSD_sUSDe,
+        decimals: 18,
+    },
+    CRV_crvUSD_USDe: {
+        isVyper: true,
+        slotBalance: 1,
+        address: CRV_DUO_crvUSD_USDe,
+        decimals: 18,
+    },
+    sUSDe: {
+        isVyper: false,
+        slotBalance: 4,
+        address: sUSDe,
+        decimals: 18,
+    },
+    sDAI: {
+        isVyper: false,
+        slotBalance: 1,
+        address: sDAI,
+        decimals: 18,
+    },
+    deUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: deUSD,
+        decimals: 18,
+    },
+    sUSDS: {
+        isVyper: false,
+        slotBalance: 2,
+        address: sUSDS,
+        decimals: 18,
+    },
+    scrvUSD: {
+        isVyper: true,
+        slotBalance: 18,
+        address: scrvUSD,
         decimals: 18,
     },
 };
