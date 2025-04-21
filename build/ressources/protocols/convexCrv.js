@@ -53,7 +53,7 @@ exports.CVX_ETH = {
     pid: 64,
 };
 exports.USR_RLP = {
-    lp: curve_1.CRV_DUO_USR_RLP,
+    lpToken: curve_1.CRV_DUO_USR_RLP,
     cvxRewardToken: "0xc2892644C2d17C0C348ac7f4487353c0E9eE4F42",
     pid: 393,
 };
