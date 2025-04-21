@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.USR_RLP = exports.CVX_ETH = exports.GHO_cbBTC_WETH = exports.crvUSD_ETH_CRV = exports.USDC_WBTC_WETH = exports.USDT_WBTC_WETH = exports.DOLA_sUSDS = exports.frxETH_WETH = exports.pxETH_WETH = exports.CRVUSD_USDT = exports.CRVUSD_USDC = void 0;
+exports.USR_RLP = exports.CVX_ETH = exports.GHO_cbBTC_WETH = exports.crvUSD_ETH_CRV = exports.USDC_WBTC_WETH = exports.USDT_WBTC_WETH = exports.pxETH_stETH = exports.frxETH_WETH = exports.pxETH_WETH = exports.frxUSD_USDe = exports.USDC_USDT_STRATEGICR = exports.DOLA_sUSDS = exports.CRVUSD_USDT = exports.CRVUSD_USDC = void 0;
 const curve_1 = require("../lps/curve");
+// STABLECOINS POOLS
 exports.CRVUSD_USDC = {
     lpToken: curve_1.CRV_DUO_USDC_crvUSD,
     cvxRewardToken: "0x44D8FaB7CD8b7877D5F79974c2F501aF6E65AbBA",
@@ -12,6 +13,22 @@ exports.CRVUSD_USDT = {
     cvxRewardToken: "0xD1DdB0a0815fD28932fBb194C84003683AF8a824",
     pid: 179,
 };
+exports.DOLA_sUSDS = {
+    lpToken: curve_1.CRV_DUO_DOLA_crvUSD,
+    cvxRewardToken: "0x081EB123C1ddA50541eE778b59AC2f69704b9A19",
+    pid: 399,
+};
+exports.USDC_USDT_STRATEGICR = {
+    lpToken: curve_1.CRV_DUO_USDC_USDT,
+    cvxRewardToken: "0x83644fa70538e5251D125205186B14A76cA63606",
+    pid: 425,
+};
+exports.frxUSD_USDe = {
+    lpToken: curve_1.CRV_DUO_frxUSD_USDe,
+    cvxRewardToken: "0xb5a97cFB06f9005005a79dAA27EB44106b7ad79A",
+    pid: 431,
+};
+// ETH POOLS
 exports.pxETH_WETH = {
     lpToken: curve_1.CRV_LP_pxETH_WETH,
     cvxRewardToken: "0x3B793E505A3C7dbCb718Fe871De8eBEf7854e74b",
@@ -22,11 +39,12 @@ exports.frxETH_WETH = {
     cvxRewardToken: "0xFafDE12dC476C4913e29F47B4747860C148c5E4f",
     pid: 219,
 };
-exports.DOLA_sUSDS = {
-    lpToken: curve_1.CRV_DUO_DOLA_crvUSD,
-    cvxRewardToken: "0x081EB123C1ddA50541eE778b59AC2f69704b9A19",
-    pid: 399,
+exports.pxETH_stETH = {
+    lpToken: curve_1.CRV_LP_pxETH_stETH,
+    cvxRewardToken: "0x633556C8413FCFd45D83656290fF8d64EE41A7c1",
+    pid: 273,
 };
+// TRICRYPTO POOLS
 exports.USDT_WBTC_WETH = {
     lpToken: curve_1.CRV_TRI_CRYPTO_USDT,
     cvxRewardToken: "0xb05262D4aaAA38D0Af4AaB244D446ebDb5afd4A7",
@@ -47,6 +65,7 @@ exports.GHO_cbBTC_WETH = {
     cvxRewardToken: "0x4d10e7FC03dE065Aef3dfbc0394CbEd1e4d36D6E",
     pid: 409,
 };
+// DUOCRYPTO POOLS
 exports.CVX_ETH = {
     lpToken: curve_1.CRV_DUO_ETH_CVX_TOKEN,
     cvxRewardToken: "0xb1Fb0BA0676A1fFA83882c7F4805408bA232C1fA",

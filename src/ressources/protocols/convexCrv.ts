@@ -1,9 +1,12 @@
 import {
     CRV_DUO_DOLA_crvUSD,
     CRV_DUO_ETH_CVX_TOKEN,
+    CRV_DUO_frxUSD_USDe,
     CRV_DUO_USDC_crvUSD,
+    CRV_DUO_USDC_USDT,
     CRV_DUO_USDT_crvUSD,
     CRV_DUO_USR_RLP,
+    CRV_LP_pxETH_stETH,
     CRV_LP_pxETH_WETH,
     CRV_LP_WETH_frxETH,
     CRV_TRI_CRYPTO_CRV,
@@ -18,6 +21,8 @@ export type ConvexPool = {
     pid: number;
 };
 
+// STABLECOINS POOLS
+
 export const CRVUSD_USDC: ConvexPool = {
     lpToken: CRV_DUO_USDC_crvUSD,
     cvxRewardToken: "0x44D8FaB7CD8b7877D5F79974c2F501aF6E65AbBA",
@@ -29,6 +34,25 @@ export const CRVUSD_USDT: ConvexPool = {
     cvxRewardToken: "0xD1DdB0a0815fD28932fBb194C84003683AF8a824",
     pid: 179,
 };
+
+export const DOLA_sUSDS: ConvexPool = {
+    lpToken: CRV_DUO_DOLA_crvUSD,
+    cvxRewardToken: "0x081EB123C1ddA50541eE778b59AC2f69704b9A19",
+    pid: 399,
+};
+
+export const USDC_USDT_STRATEGICR: ConvexPool = {
+    lpToken: CRV_DUO_USDC_USDT,
+    cvxRewardToken: "0x83644fa70538e5251D125205186B14A76cA63606",
+    pid: 425,
+};
+export const frxUSD_USDe: ConvexPool = {
+    lpToken: CRV_DUO_frxUSD_USDe,
+    cvxRewardToken: "0xb5a97cFB06f9005005a79dAA27EB44106b7ad79A",
+    pid: 431,
+};
+
+// ETH POOLS
 
 export const pxETH_WETH: ConvexPool = {
     lpToken: CRV_LP_pxETH_WETH,
@@ -42,11 +66,13 @@ export const frxETH_WETH: ConvexPool = {
     pid: 219,
 };
 
-export const DOLA_sUSDS: ConvexPool = {
-    lpToken: CRV_DUO_DOLA_crvUSD,
-    cvxRewardToken: "0x081EB123C1ddA50541eE778b59AC2f69704b9A19",
-    pid: 399,
+export const pxETH_stETH: ConvexPool = {
+    lpToken: CRV_LP_pxETH_stETH,
+    cvxRewardToken: "0x633556C8413FCFd45D83656290fF8d64EE41A7c1",
+    pid: 273,
 };
+
+// TRICRYPTO POOLS
 
 export const USDT_WBTC_WETH: ConvexPool = {
     lpToken: CRV_TRI_CRYPTO_USDT,
@@ -71,6 +97,7 @@ export const GHO_cbBTC_WETH: ConvexPool = {
     pid: 409,
 };
 
+// DUOCRYPTO POOLS
 export const CVX_ETH: ConvexPool = {
     lpToken: CRV_DUO_ETH_CVX_TOKEN,
     cvxRewardToken: "0xb1Fb0BA0676A1fFA83882c7F4805408bA232C1fA",
