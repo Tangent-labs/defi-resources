@@ -1,29 +1,59 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DOLA_sUSDS = exports.frxETH_WETH = exports.pxETH_WETH = exports.CRVUSD_USDT = exports.CRVUSD_USDC = void 0;
+exports.USR_RLP = exports.CVX_ETH = exports.GHO_cbBTC_WETH = exports.crvUSD_ETH_CRV = exports.USDC_WBTC_WETH = exports.USDT_WBTC_WETH = exports.DOLA_sUSDS = exports.frxETH_WETH = exports.pxETH_WETH = exports.CRVUSD_USDT = exports.CRVUSD_USDC = void 0;
 const curve_1 = require("../lps/curve");
 exports.CRVUSD_USDC = {
-    lp: curve_1.CRV_DUO_USDC_crvUSD,
+    lpToken: curve_1.CRV_DUO_USDC_crvUSD,
     cvxRewardToken: "0x44D8FaB7CD8b7877D5F79974c2F501aF6E65AbBA",
     pid: 182,
 };
 exports.CRVUSD_USDT = {
-    lp: curve_1.CRV_DUO_USDT_crvUSD,
+    lpToken: curve_1.CRV_DUO_USDT_crvUSD,
     cvxRewardToken: "0xD1DdB0a0815fD28932fBb194C84003683AF8a824",
     pid: 179,
 };
 exports.pxETH_WETH = {
-    lp: curve_1.CRV_LP_pxETH_WETH,
+    lpToken: curve_1.CRV_LP_pxETH_WETH,
     cvxRewardToken: "0x3B793E505A3C7dbCb718Fe871De8eBEf7854e74b",
     pid: 219,
 };
 exports.frxETH_WETH = {
-    lp: curve_1.CRV_LP_WETH_frxETH,
+    lpToken: curve_1.CRV_LP_WETH_frxETH,
     cvxRewardToken: "0xFafDE12dC476C4913e29F47B4747860C148c5E4f",
     pid: 219,
 };
 exports.DOLA_sUSDS = {
-    lp: curve_1.CRV_DUO_DOLA_crvUSD,
+    lpToken: curve_1.CRV_DUO_DOLA_crvUSD,
     cvxRewardToken: "0x081EB123C1ddA50541eE778b59AC2f69704b9A19",
     pid: 399,
+};
+exports.USDT_WBTC_WETH = {
+    lpToken: curve_1.CRV_TRI_CRYPTO_USDT,
+    cvxRewardToken: "0xb05262D4aaAA38D0Af4AaB244D446ebDb5afd4A7",
+    pid: 188,
+};
+exports.USDC_WBTC_WETH = {
+    lpToken: curve_1.CRV_TRI_CRYPTO_USDC,
+    cvxRewardToken: "0x57f4cf13b325Ad101CfE9AD3a84d3B2302AA96c8",
+    pid: 189,
+};
+exports.crvUSD_ETH_CRV = {
+    lpToken: curve_1.CRV_TRI_CRYPTO_CRV,
+    cvxRewardToken: "0xF956a46DbA1A0a567168db8655bc18E9050C7738",
+    pid: 211,
+};
+exports.GHO_cbBTC_WETH = {
+    lpToken: curve_1.CRV_TRI_GHO_CBBTC_ETH,
+    cvxRewardToken: "0x4d10e7FC03dE065Aef3dfbc0394CbEd1e4d36D6E",
+    pid: 409,
+};
+exports.CVX_ETH = {
+    lpToken: curve_1.CRV_DUO_ETH_CVX_TOKEN,
+    cvxRewardToken: "0xb1Fb0BA0676A1fFA83882c7F4805408bA232C1fA",
+    pid: 64,
+};
+exports.USR_RLP = {
+    lp: curve_1.CRV_DUO_USR_RLP,
+    cvxRewardToken: "0xc2892644C2d17C0C348ac7f4487353c0E9eE4F42",
+    pid: 393,
 };
