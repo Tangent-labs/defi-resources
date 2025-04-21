@@ -88,8 +88,8 @@ import {
     CRV_DUO_DOLA_USR,
     CRV_DUO_scrvUSD_sUSDe,
     CRV_DUO_crvUSD_USDe,
-    CRV_TRI_GHO_CBBTC_ETH,
     CRV_DUO_ETH_CVX_TOKEN,
+    CRV_TRI_GHO_cbBTC_ETH,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -802,7 +802,7 @@ export const THIEF_TOKEN_CONFIG: {
     GHO_CBBTC_ETH: {
         isVyper: true,
         slotBalance: 23,
-        address: CRV_TRI_GHO_CBBTC_ETH,
+        address: CRV_TRI_GHO_cbBTC_ETH,
         decimals: 23,
     },
 

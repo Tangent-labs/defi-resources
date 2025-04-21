@@ -43,7 +43,7 @@ exports.crvUSD_ETH_CRV = {
     pid: 211,
 };
 exports.GHO_cbBTC_WETH = {
-    lpToken: curve_1.CRV_TRI_GHO_CBBTC_ETH,
+    lpToken: curve_1.CRV_TRI_GHO_cbBTC_ETH,
     cvxRewardToken: "0x4d10e7FC03dE065Aef3dfbc0394CbEd1e4d36D6E",
     pid: 409,
 };

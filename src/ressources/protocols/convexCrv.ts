@@ -9,7 +9,7 @@ import {
     CRV_TRI_CRYPTO_CRV,
     CRV_TRI_CRYPTO_USDC,
     CRV_TRI_CRYPTO_USDT,
-    CRV_TRI_GHO_CBBTC_ETH,
+    CRV_TRI_GHO_cbBTC_ETH,
 } from "../lps/curve";
 
 export type ConvexPool = {
@@ -66,7 +66,7 @@ export const crvUSD_ETH_CRV: ConvexPool = {
 };
 
 export const GHO_cbBTC_WETH: ConvexPool = {
-    lpToken: CRV_TRI_GHO_CBBTC_ETH,
+    lpToken: CRV_TRI_GHO_cbBTC_ETH,
     cvxRewardToken: "0x4d10e7FC03dE065Aef3dfbc0394CbEd1e4d36D6E",
     pid: 409,
 };

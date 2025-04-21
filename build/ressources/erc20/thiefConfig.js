@@ -650,7 +650,7 @@ exports.THIEF_TOKEN_CONFIG = {
     GHO_CBBTC_ETH: {
         isVyper: true,
         slotBalance: 23,
-        address: curve_1.CRV_TRI_GHO_CBBTC_ETH,
+        address: curve_1.CRV_TRI_GHO_cbBTC_ETH,
         decimals: 23,
     },
     CVX_ETH: {
