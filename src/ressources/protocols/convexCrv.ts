@@ -1,4 +1,5 @@
 import {
+    CRV_DUO_cbBTC_WBTC,
     CRV_DUO_DOLA_crvUSD,
     CRV_DUO_ETH_CVX_TOKEN,
     CRV_DUO_frxUSD_USDe,
@@ -70,6 +71,12 @@ export const pxETH_stETH: ConvexPool = {
     lpToken: CRV_LP_pxETH_stETH,
     cvxRewardToken: "0x633556C8413FCFd45D83656290fF8d64EE41A7c1",
     pid: 273,
+};
+
+export const cbBTC_WBTC: ConvexPool = {
+    lpToken: CRV_DUO_cbBTC_WBTC,
+    cvxRewardToken: "0xEd211Ec6F81f3516Ef6c5DFaC6CF09cD33A6Dff3",
+    pid: 392,
 };
 
 // TRICRYPTO POOLS

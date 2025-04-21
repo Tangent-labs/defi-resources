@@ -11,6 +11,7 @@ export declare const frxUSD_USDe: ConvexPool;
 export declare const pxETH_WETH: ConvexPool;
 export declare const frxETH_WETH: ConvexPool;
 export declare const pxETH_stETH: ConvexPool;
+export declare const cbBTC_WBTC: ConvexPool;
 export declare const USDT_WBTC_WETH: ConvexPool;
 export declare const USDC_WBTC_WETH: ConvexPool;
 export declare const crvUSD_ETH_CRV: ConvexPool;
