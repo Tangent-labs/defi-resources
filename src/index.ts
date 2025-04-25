@@ -1,6 +1,6 @@
 // Contracts
 export * as convergenceContracts from "./ressources/contracts/convergence";
-export * as chainlinkPriceFeed from "./ressources/contracts/chainlinkPriceFeeds";
+export {PRICE_FEEDS} from "./ressources/contracts/chainlinkPriceFeeds";
 export * as convexContracts from "./ressources/contracts/convex";
 export * as stakeDaoContracts from "./ressources/contracts/stakeDao";
 export * as routers from "./ressources/contracts/routers";
@@ -25,5 +25,5 @@ export * as convexMapping from "./ressources/mappings/convex";
 export * as durations from "./utils/durations";
 
 // PROTOCOLS
-export * as convexCrv from "./ressources/protocols/convexCrv";
-export * as convexFxn from "./ressources/protocols/convexFxn";
+export {ConvexCrvPools} from "./ressources/protocols/convexCrv";
+export {ConvexFxnPools} from "./ressources/protocols/convexFxn";

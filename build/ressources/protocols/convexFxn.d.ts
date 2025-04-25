@@ -1,4 +1,8 @@
-export declare const USDC_fxUSD: {
+type ConvexFxnPool = {
     lpToken: string;
     pid: number;
 };
+export declare const ConvexFxnPools: {
+    [key: string]: ConvexFxnPool;
+};
+export {};
