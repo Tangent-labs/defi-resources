@@ -1,6 +1,29 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PRICE_FEEDS = void 0;
+const ChainlinkPriceFeedKeys = [
+    "USDT_USD",
+    "USDC_USD",
+    "DAI_USD",
+    "FRAX_USD",
+    "crvUSD_USD",
+    "GHO_USD",
+    "USD0_USD",
+    "TUSD_USD",
+    "USDS_USD",
+    "USDP_USD",
+    "USDe_USD",
+    "USR_USD",
+    "ETH_USD",
+    "stETH_USD",
+    "ezETH_USD",
+    "BTC_USD",
+    "cbBTC_USD",
+    "CRV_USD",
+    "CVX_USD",
+    "FXS_USD",
+    "LINK_USD",
+];
 exports.PRICE_FEEDS = {
     USDT_USD: "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
     USDC_USD: "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",

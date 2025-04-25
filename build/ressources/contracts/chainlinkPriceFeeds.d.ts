@@ -1,23 +1,6 @@
+declare const ChainlinkPriceFeedKeys: readonly ["USDT_USD", "USDC_USD", "DAI_USD", "FRAX_USD", "crvUSD_USD", "GHO_USD", "USD0_USD", "TUSD_USD", "USDS_USD", "USDP_USD", "USDe_USD", "USR_USD", "ETH_USD", "stETH_USD", "ezETH_USD", "BTC_USD", "cbBTC_USD", "CRV_USD", "CVX_USD", "FXS_USD", "LINK_USD"];
+type ChainlinkPriceFeedKeys = (typeof ChainlinkPriceFeedKeys)[number];
 export declare const PRICE_FEEDS: {
-    USDT_USD: string;
-    USDC_USD: string;
-    DAI_USD: string;
-    FRAX_USD: string;
-    crvUSD_USD: string;
-    GHO_USD: string;
-    USD0_USD: string;
-    TUSD_USD: string;
-    USDS_USD: string;
-    USDP_USD: string;
-    USDe_USD: string;
-    USR_USD: string;
-    ETH_USD: string;
-    stETH_USD: string;
-    ezETH_USD: string;
-    BTC_USD: string;
-    cbBTC_USD: string;
-    CRV_USD: string;
-    CVX_USD: string;
-    FXS_USD: string;
-    LINK_USD: string;
+    [key in ChainlinkPriceFeedKeys]: string;
 };
+export {};

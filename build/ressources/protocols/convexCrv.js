@@ -2,6 +2,23 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ConvexCrvPools = void 0;
 const curve_1 = require("../lps/curve");
+const ConvexPoolKeys = [
+    "USDC_crvUSD",
+    "USDT_crvUSD",
+    "DOLA_sUSDS",
+    "USDC_USDT_STRATEGICR",
+    "frxUSD_USDe",
+    "WETH_pxETH",
+    "WETH_frxETH",
+    "pxETH_stETH",
+    "cbBTC_WBTC",
+    "USDT_WBTC_WETH",
+    "USDC_WBTC_WETH",
+    "crvUSD_ETH_CRV",
+    "GHO_cbBTC_WETH",
+    "CVX_ETH",
+    "USR_RLP",
+];
 exports.ConvexCrvPools = {
     // STABLECOIN POOLS
     USDC_crvUSD: {

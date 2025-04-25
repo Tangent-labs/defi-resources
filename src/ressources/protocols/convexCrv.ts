@@ -22,7 +22,26 @@ type ConvexCrvPool = {
     pid: number;
 };
 
-export const ConvexCrvPools: {[key: string]: ConvexCrvPool} = {
+const ConvexPoolKeys = [
+    "USDC_crvUSD",
+    "USDT_crvUSD",
+    "DOLA_sUSDS",
+    "USDC_USDT_STRATEGICR",
+    "frxUSD_USDe",
+    "WETH_pxETH",
+    "WETH_frxETH",
+    "pxETH_stETH",
+    "cbBTC_WBTC",
+    "USDT_WBTC_WETH",
+    "USDC_WBTC_WETH",
+    "crvUSD_ETH_CRV",
+    "GHO_cbBTC_WETH",
+    "CVX_ETH",
+    "USR_RLP",
+] as const;
+type ConvexPoolKeys = (typeof ConvexPoolKeys)[number];
+
+export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
     // STABLECOIN POOLS
     USDC_crvUSD: {
         lpToken: CRV_DUO_USDC_crvUSD,
