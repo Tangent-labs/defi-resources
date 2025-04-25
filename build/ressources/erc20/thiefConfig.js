@@ -647,6 +647,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.scrvUSD,
         decimals: 18,
     },
+    CRV_DUO_sDAI_sUSDe: {
+        address: curve_1.CRV_DUO_sDAI_sUSDe,
+        slotBalance: 38,
+        isVyper: true,
+        decimals: 18,
+    },
     GHO_CBBTC_ETH: {
         isVyper: true,
         slotBalance: 23,

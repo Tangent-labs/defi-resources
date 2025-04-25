@@ -153,3 +153,4 @@ export declare const CRV_DUO_DOLA_sUSDS = "0x8b83c4aA949254895507D09365229BC3a8c
 export declare const CRV_DUO_DOLA_scrvUSD = "0xff17dAb22F1E61078aBa2623c89cE6110E878B3c";
 export declare const CRV_DUO_scrvUSD_sUSDS = "0xfD1627E3f3469C8392C8c3A261D8F0677586e5e1";
 export declare const CRV_DUO_USR_USDC = "0x3ee841f47947fefbe510366e4bbb49e145484195";
+export declare const CRV_DUO_sDAI_sUSDe = "0x167478921b907422f8e88b43c4af2b8bea278d3a";
