@@ -665,4 +665,22 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curve_1.CRV_DUO_ETH_CVX_TOKEN,
         decimals: 18,
     },
+    stETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.stETH,
+        decimals: 18,
+    },
+    cbBTC_WBTC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_cbBTC_WBTC,
+        decimals: 23,
+    },
+    WBTC: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.WBTC,
+        decimals: 8,
+    },
 };

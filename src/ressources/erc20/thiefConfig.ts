@@ -39,6 +39,8 @@ import {
     deUSD,
     sUSDS,
     scrvUSD,
+    stETH,
+    WBTC,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -91,6 +93,7 @@ import {
     CRV_DUO_ETH_CVX_TOKEN,
     CRV_TRI_GHO_cbBTC_ETH,
     CRV_DUO_sDAI_sUSDe,
+    CRV_DUO_cbBTC_WBTC,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -818,5 +821,24 @@ export const THIEF_TOKEN_CONFIG: {
         slotBalance: 5,
         address: CRV_DUO_ETH_CVX_TOKEN,
         decimals: 18,
+    },
+    stETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: stETH,
+        decimals: 18,
+    },
+
+    cbBTC_WBTC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_cbBTC_WBTC,
+        decimals: 23,
+    },
+    WBTC: {
+        isVyper: false,
+        slotBalance: 0,
+        address: WBTC,
+        decimals: 8,
     },
 };
