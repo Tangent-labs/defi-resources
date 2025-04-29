@@ -683,4 +683,34 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.WBTC,
         decimals: 8,
     },
+    GHO_crvUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_GHO_crvUSD,
+        decimals: 18,
+    },
+    GHO_fxUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_GHO_fxUSD,
+        decimals: 18,
+    },
+    GHO_USDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_GHO_USDe,
+        decimals: 18,
+    },
+    GHO_USR: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_GHO_USR,
+        decimals: 18,
+    },
+    pxETH_stETH: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_pxETH_stETH,
+        decimals: 18,
+    },
 };
