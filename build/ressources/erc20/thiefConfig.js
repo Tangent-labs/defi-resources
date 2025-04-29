@@ -683,6 +683,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.WBTC,
         decimals: 8,
     },
+    GHO: {
+        isVyper: true,
+        slotBalance: 3,
+        address: common_1.GHO,
+        decimals: 18,
+    },
     GHO_crvUSD: {
         isVyper: true,
         slotBalance: 38,
