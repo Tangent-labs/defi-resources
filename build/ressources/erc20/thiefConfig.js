@@ -684,7 +684,7 @@ exports.THIEF_TOKEN_CONFIG = {
         decimals: 8,
     },
     GHO: {
-        isVyper: true,
+        isVyper: false,
         slotBalance: 3,
         address: common_1.GHO,
         decimals: 18,
