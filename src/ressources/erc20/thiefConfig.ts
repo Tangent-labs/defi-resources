@@ -42,6 +42,7 @@ import {
     stETH,
     WBTC,
     GHO,
+    cbBTC,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -839,7 +840,7 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: true,
         slotBalance: 38,
         address: CRV_DUO_cbBTC_WBTC,
-        decimals: 23,
+        decimals: 18,
     },
     WBTC: {
         isVyper: false,
@@ -883,5 +884,11 @@ export const THIEF_TOKEN_CONFIG: {
         slotBalance: 38,
         address: CRV_DUO_pxETH_stETH,
         decimals: 18,
+    },
+    cbBTC: {
+        isVyper: false,
+        slotBalance: 9,
+        address: cbBTC,
+        decimals: 8,
     },
 };

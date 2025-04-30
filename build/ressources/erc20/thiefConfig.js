@@ -675,7 +675,7 @@ exports.THIEF_TOKEN_CONFIG = {
         isVyper: true,
         slotBalance: 38,
         address: curve_1.CRV_DUO_cbBTC_WBTC,
-        decimals: 23,
+        decimals: 18,
     },
     WBTC: {
         isVyper: false,
@@ -718,5 +718,11 @@ exports.THIEF_TOKEN_CONFIG = {
         slotBalance: 38,
         address: curve_1.CRV_DUO_pxETH_stETH,
         decimals: 18,
+    },
+    cbBTC: {
+        isVyper: false,
+        slotBalance: 9,
+        address: common_1.cbBTC,
+        decimals: 8,
     },
 };
