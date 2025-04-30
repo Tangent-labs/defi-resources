@@ -850,7 +850,7 @@ export const THIEF_TOKEN_CONFIG: {
     },
 
     GHO: {
-        isVyper: true,
+        isVyper: false,
         slotBalance: 3,
         address: GHO,
         decimals: 18,
