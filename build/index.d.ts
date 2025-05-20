@@ -16,3 +16,4 @@ export * as convexMapping from "./ressources/mappings/convex";
 export * as durations from "./utils/durations";
 export { ConvexCrvPools } from "./ressources/protocols/convexCrv";
 export { ConvexFxnPools } from "./ressources/protocols/convexFxn";
+export { PendlePools } from "./ressources/protocols/pendle";

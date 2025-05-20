@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.PendlePools = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
@@ -61,3 +61,5 @@ var convexCrv_1 = require("./ressources/protocols/convexCrv");
 Object.defineProperty(exports, "ConvexCrvPools", { enumerable: true, get: function () { return convexCrv_1.ConvexCrvPools; } });
 var convexFxn_1 = require("./ressources/protocols/convexFxn");
 Object.defineProperty(exports, "ConvexFxnPools", { enumerable: true, get: function () { return convexFxn_1.ConvexFxnPools; } });
+var pendle_1 = require("./ressources/protocols/pendle");
+Object.defineProperty(exports, "PendlePools", { enumerable: true, get: function () { return pendle_1.PendlePools; } });

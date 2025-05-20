@@ -27,3 +27,4 @@ export * as durations from "./utils/durations";
 // PROTOCOLS
 export {ConvexCrvPools} from "./ressources/protocols/convexCrv";
 export {ConvexFxnPools} from "./ressources/protocols/convexFxn";
+export {PendlePools} from "./ressources/protocols/pendle";
