@@ -1,17 +1,17 @@
 export declare const PendlePools: {
-    "eUSDe 29/05/25": {
+    "eUSDe 05/29/25": {
         MARKET: string;
         PT: string;
     };
-    "eBTC 26/06/25": {
+    "eBTC 06/26/25": {
         MARKET: string;
         PT: string;
     };
-    "sUSDe 31/07/25": {
+    "sUSDe 07/31/25": {
         MARKET: string;
         PT: string;
     };
-    "wstUSR 25/07/25": {
+    "wstUSR 07/25/25": {
         MARKET: string;
         PT: string;
     };
