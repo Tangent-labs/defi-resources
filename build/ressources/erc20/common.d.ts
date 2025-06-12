@@ -4,6 +4,7 @@
 export declare const WETH = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
 export declare const wstETH = "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0";
 export declare const frxETH = "0x5e8422345238f34275888049021821e8e08caa1f";
+export declare const pxETH = "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6";
 export declare const stETH = "0xae7ab96520de3a18e5e111b5eaab095312d7fe84";
 export declare const ETHPlus = "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
 export declare const pufETH = "0xd9a442856c234a39a81a089c06451ebaa4306a72";

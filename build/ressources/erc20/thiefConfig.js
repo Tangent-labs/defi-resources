@@ -533,6 +533,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.frxETH,
         decimals: 18,
     },
+    pxETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.pxETH,
+        decimals: 18,
+    },
     WETH_frxETH: {
         isVyper: true,
         slotBalance: 20,

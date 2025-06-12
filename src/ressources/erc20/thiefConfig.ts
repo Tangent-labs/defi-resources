@@ -43,6 +43,7 @@ import {
     WBTC,
     GHO,
     cbBTC,
+    pxETH,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -693,6 +694,12 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: false,
         slotBalance: 0,
         address: frxETH,
+        decimals: 18,
+    },
+    pxETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: pxETH,
         decimals: 18,
     },
     WETH_frxETH: {
