@@ -535,7 +535,7 @@ exports.THIEF_TOKEN_CONFIG = {
     },
     pxETH: {
         isVyper: false,
-        slotBalance: 0,
+        slotBalance: 3,
         address: common_1.pxETH,
         decimals: 18,
     },

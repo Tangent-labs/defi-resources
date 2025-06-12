@@ -698,7 +698,7 @@ export const THIEF_TOKEN_CONFIG: {
     },
     pxETH: {
         isVyper: false,
-        slotBalance: 0,
+        slotBalance: 3,
         address: pxETH,
         decimals: 18,
     },
