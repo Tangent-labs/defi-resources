@@ -164,4 +164,10 @@ exports.LPS = {
         stake_gauge: stakeDao_1.SDT_PYUSD_crvUSD_GAUGE,
         curve_gauge: curve_1.CURVE_PYUSD_crvUSD_GAUGE,
     },
+    [curve_2.CRV_DUO_ETH_CVX_TOKEN]: {
+        type: TYPE_MAIN,
+        stake_gauge: stakeDao_1.SDT_CVX_ETH_GAUGE,
+        curve_gauge: curve_1.CURVE_CVX_ETH_GAUGE,
+        curve_pool: curve_2.CRV_DUO_ETH_CVX,
+    },
 };
