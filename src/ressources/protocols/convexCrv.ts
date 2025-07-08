@@ -42,6 +42,7 @@ const ConvexPoolKeys = [
 type ConvexPoolKeys = (typeof ConvexPoolKeys)[number];
 
 export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
+    // STABLECOIN POOLS
     USDC_crvUSD: {
         lpToken: CRV_DUO_USDC_crvUSD,
         cvxRewardToken: "0x44D8FaB7CD8b7877D5F79974c2F501aF6E65AbBA",
