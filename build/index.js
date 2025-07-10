@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PendlePools = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.PendlePools = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
@@ -54,6 +54,7 @@ exports.balancerLp = __importStar(require("./ressources/lps/balancer"));
 exports.stakeDaoMapping = __importStar(require("./ressources/mappings/stakeDao"));
 exports.curveLpMapping = __importStar(require("./ressources/mappings/curveLp"));
 exports.convexMapping = __importStar(require("./ressources/mappings/convex"));
+exports.CURVE_CONTEXT = __importStar(require("./ressources/mappings/curveContext"));
 // UTILS
 exports.durations = __importStar(require("./utils/durations"));
 // PROTOCOLS
