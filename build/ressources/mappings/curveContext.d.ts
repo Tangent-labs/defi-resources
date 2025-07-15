@@ -23,4 +23,8 @@ export declare const CURVE_CONTEXT: {
         convexRewardToken: string;
         convexPID: number;
     };
+    USDe_USDC: {
+        curveLp: string;
+        curveGauge: string;
+    };
 };
