@@ -26,5 +26,9 @@ export declare const CURVE_CONTEXT: {
     USDe_USDC: {
         curveLp: string;
         curveGauge: string;
+        stakeDaoVault: string;
+        stakeDaoGauge: string;
+        convexRewardToken: string;
+        convexPID: string;
     };
 };

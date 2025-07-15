@@ -34,5 +34,9 @@ exports.CURVE_CONTEXT = {
     USDe_USDC: {
         curveLp: curve_2.CRV_DUO_USDe_USDC,
         curveGauge: curve_1.CURVE_USDe_USDC_GAUGE,
+        stakeDaoVault: "",
+        stakeDaoGauge: "",
+        convexRewardToken: "",
+        convexPID: "",
     },
 };
