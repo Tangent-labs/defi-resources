@@ -1,3 +1,4 @@
+import {CURVE_USDe_USDC_GAUGE} from "../erc20/curve";
 import {LLAMA_LEND_sDOLA_crvUSD_GAUGE, LLAMA_LEND_sDOLA_crvUSD_VAULT} from "../erc20/llamalend";
 import {
     SDT_crvUSD_USDC_GAUGE,
@@ -7,7 +8,7 @@ import {
     SDT_LLAMA_sDOLA_crvUSD_GAUGE,
     SDT_LLAMA_sDOLA_crvUSD_STRAT,
 } from "../erc20/stakeDao";
-import {CRV_DUO_USDC_crvUSD, CRV_DUO_USDT_crvUSD, CRV_GAUGE_USDC_crvUSD, CRV_GAUGE_USDT_crvUSD} from "../lps/curve";
+import {CRV_DUO_USDC_crvUSD, CRV_DUO_USDe_USDC, CRV_DUO_USDT_crvUSD, CRV_GAUGE_USDC_crvUSD, CRV_GAUGE_USDT_crvUSD} from "../lps/curve";
 import {ConvexCrvPools} from "../protocols/convexCrv";
 
 export const CURVE_CONTEXT = {
@@ -19,7 +20,6 @@ export const CURVE_CONTEXT = {
         convexRewardToken: ConvexCrvPools.USDC_crvUSD.cvxRewardToken,
         convexPID: ConvexCrvPools.USDC_crvUSD.pid,
     },
-
     USDT_crvUSD: {
         curveLp: CRV_DUO_USDT_crvUSD,
         curveGauge: CRV_GAUGE_USDT_crvUSD,
@@ -28,7 +28,6 @@ export const CURVE_CONTEXT = {
         convexRewardToken: ConvexCrvPools.USDT_crvUSD.cvxRewardToken,
         convexPID: ConvexCrvPools.USDT_crvUSD.pid,
     },
-
     LLAMALEND_sDOLA_crvUSD: {
         curveLp: LLAMA_LEND_sDOLA_crvUSD_VAULT,
         curveGauge: LLAMA_LEND_sDOLA_crvUSD_GAUGE,
@@ -36,5 +35,9 @@ export const CURVE_CONTEXT = {
         stakeDaoGauge: SDT_LLAMA_sDOLA_crvUSD_GAUGE,
         convexRewardToken: ConvexCrvPools.LLAMALEND_sDOLA_crvUSD.cvxRewardToken,
         convexPID: ConvexCrvPools.LLAMALEND_sDOLA_crvUSD.pid,
+    },
+    USDe_USDC: {
+        curveLp: CRV_DUO_USDe_USDC,
+        curveGauge: CURVE_USDe_USDC_GAUGE,
     },
 };
