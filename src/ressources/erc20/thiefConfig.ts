@@ -44,6 +44,7 @@ import {
     GHO,
     cbBTC,
     pxETH,
+    cvgSDT,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -119,7 +120,7 @@ import {
     _80BAL_20WETH,
     BB_A_USD_OLD,
 } from "./stakeDao";
-import {cvxCRV, cvxFXS, cvxFXN} from "./convex";
+import {cvxCRV, cvxFXS, cvxFXN, cvgCVX} from "./convex";
 
 export const THIEF_TOKEN_CONFIG: {
     [tokenName: string]: {
@@ -129,6 +130,18 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: number;
     };
 } = {
+    cvgSDT: {
+        address: cvgSDT,
+        isVyper: false,
+        slotBalance: 0,
+        decimals: 18,
+    },
+    cvgCVX: {
+        address: cvgCVX,
+        isVyper: false,
+        slotBalance: 51,
+        decimals: 18,
+    },
     CVG: {
         isVyper: false,
         slotBalance: 0,

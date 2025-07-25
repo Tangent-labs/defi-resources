@@ -6,6 +6,18 @@ const curve_1 = require("../lps/curve");
 const stakeDao_1 = require("./stakeDao");
 const convex_1 = require("./convex");
 exports.THIEF_TOKEN_CONFIG = {
+    cvgSDT: {
+        address: common_1.cvgSDT,
+        isVyper: false,
+        slotBalance: 0,
+        decimals: 18,
+    },
+    cvgCVX: {
+        address: convex_1.cvgCVX,
+        isVyper: false,
+        slotBalance: 51,
+        decimals: 18,
+    },
     CVG: {
         isVyper: false,
         slotBalance: 0,
