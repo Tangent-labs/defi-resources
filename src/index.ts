@@ -20,6 +20,7 @@ export * as balancerLp from "./ressources/lps/balancer";
 export * as stakeDaoMapping from "./ressources/mappings/stakeDao";
 export * as curveLpMapping from "./ressources/mappings/curveLp";
 export * as convexMapping from "./ressources/mappings/convex";
+export * as CURVE_CONTEXT from "./ressources/mappings/curveContext";
 
 // UTILS
 export * as durations from "./utils/durations";

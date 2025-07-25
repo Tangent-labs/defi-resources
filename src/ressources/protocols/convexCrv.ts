@@ -38,6 +38,7 @@ const ConvexPoolKeys = [
     "GHO_cbBTC_WETH",
     "CVX_ETH",
     "USR_RLP",
+    "LLAMALEND_sDOLA_crvUSD",
 ] as const;
 type ConvexPoolKeys = (typeof ConvexPoolKeys)[number];
 
@@ -125,5 +126,10 @@ export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
         lpToken: CRV_DUO_USR_RLP,
         cvxRewardToken: "0xc2892644C2d17C0C348ac7f4487353c0E9eE4F42",
         pid: 393,
+    },
+    LLAMALEND_sDOLA_crvUSD: {
+        lpToken: "0x992B77179A5cF876bcD566FF4b3EAE6482012B90",
+        cvxRewardToken: "0x6095EC5De7acA5e8938F4ED92E1F868Cab243f5E",
+        pid: 445,
     },
 };
