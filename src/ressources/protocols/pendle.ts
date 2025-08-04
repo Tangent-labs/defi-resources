@@ -58,7 +58,7 @@ export const PendlePools: {
         YT: "0x1E24B022329f3CA0083b12FAF75d19639FAebF6f",
     },
 
-    "wstUSR 09/04/25": {
+    "USR 09/04/25": {
         MARKET: "0x33BdA865c6815c906e63878357335B28f063936c",
         PT: "0x5a5b93F762739fa94F3EcC0b34Af2e56702E7f70",
         SY: "0x6AFde97a0c27e57cf0582373F9D7dc2b9f1CC3A3",
