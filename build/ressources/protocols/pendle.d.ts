@@ -4,5 +4,7 @@ export declare const PendlePools: {
         PT: string;
         SY: string;
         YT: string;
+        UNDERLYING_IN: string[];
+        UNDERLYING_OUT: string[];
     };
 };
