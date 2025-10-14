@@ -1,25 +1,22 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CURVE_CONTEXT = void 0;
-const curve_1 = require("../erc20/curve");
 const llamalend_1 = require("../erc20/llamalend");
 const stakeDao_1 = require("../erc20/stakeDao");
-const curve_2 = require("../lps/curve");
+const curve_1 = require("../lps/curve");
 const convexCrv_1 = require("../protocols/convexCrv");
 exports.CURVE_CONTEXT = {
     USDC_crvUSD: {
-        curveLp: curve_2.CRV_DUO_USDC_crvUSD,
-        curveGauge: curve_2.CRV_GAUGE_USDC_crvUSD,
+        curveLp: curve_1.CRV_DUO_USDC_crvUSD,
+        curveGauge: curve_1.CRV_GAUGE_USDC_crvUSD,
         stakeDaoVault: stakeDao_1.SDT_crvUSD_USDC_STRAT,
-        stakeDaoGauge: stakeDao_1.SDT_crvUSD_USDC_GAUGE,
         convexRewardToken: convexCrv_1.ConvexCrvPools.USDC_crvUSD.cvxRewardToken,
         convexPID: convexCrv_1.ConvexCrvPools.USDC_crvUSD.pid,
     },
     USDT_crvUSD: {
-        curveLp: curve_2.CRV_DUO_USDT_crvUSD,
-        curveGauge: curve_2.CRV_GAUGE_USDT_crvUSD,
+        curveLp: curve_1.CRV_DUO_USDT_crvUSD,
+        curveGauge: curve_1.CRV_GAUGE_USDT_crvUSD,
         stakeDaoVault: stakeDao_1.SDT_crvUSD_USDT_STRAT,
-        stakeDaoGauge: stakeDao_1.SDT_crvUSD_USDT_GAUGE,
         convexRewardToken: convexCrv_1.ConvexCrvPools.USDT_crvUSD.cvxRewardToken,
         convexPID: convexCrv_1.ConvexCrvPools.USDT_crvUSD.pid,
     },
@@ -27,16 +24,14 @@ exports.CURVE_CONTEXT = {
         curveLp: llamalend_1.LLAMA_LEND_sDOLA_crvUSD_VAULT,
         curveGauge: llamalend_1.LLAMA_LEND_sDOLA_crvUSD_GAUGE,
         stakeDaoVault: stakeDao_1.SDT_LLAMA_sDOLA_crvUSD_STRAT,
-        stakeDaoGauge: stakeDao_1.SDT_LLAMA_sDOLA_crvUSD_GAUGE,
         convexRewardToken: convexCrv_1.ConvexCrvPools.LLAMALEND_sDOLA_crvUSD.cvxRewardToken,
         convexPID: convexCrv_1.ConvexCrvPools.LLAMALEND_sDOLA_crvUSD.pid,
     },
-    USDe_USDC: {
-        curveLp: curve_2.CRV_DUO_USDe_USDC,
-        curveGauge: curve_1.CURVE_USDe_USDC_GAUGE,
-        stakeDaoVault: "",
-        stakeDaoGauge: "",
-        convexRewardToken: "",
-        convexPID: "",
+    DOLA_sUSDS: {
+        curveLp: curve_1.CRV_DUO_DOLA_sUSDS,
+        curveGauge: curve_1.CRV_GAUGE_DOLA_sUSDS,
+        stakeDaoVault: stakeDao_1.SDT_DOLA_sUSDS_VAULT,
+        convexRewardToken: convexCrv_1.ConvexCrvPools.DOLA_sUSDS.cvxRewardToken,
+        convexPID: convexCrv_1.ConvexCrvPools.DOLA_sUSDS.pid,
     },
 };

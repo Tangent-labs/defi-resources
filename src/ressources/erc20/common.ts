@@ -38,6 +38,7 @@ export const deUSD = "0x15700b564ca08d9439c58ca5053166e8317aa138";
 export const USR = "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110";
 export const GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 export const frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
+export const USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
 
 // SAVING ACCOUNTS
 export const sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";
@@ -48,6 +49,7 @@ export const sFRAX = "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32";
 export const sUSDS = "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd";
 export const sfrxUSD = "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
 export const wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
+export const sUSDf = "0xc8cf6d7991f15525488b2a83df53468d682ba4b0";
 
 // ALTS
 export const CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
