@@ -47,7 +47,6 @@ import {
     SDT_crvUSD_USDT_GAUGE,
     SDT_STG_USDC_GAUGE,
     SDT_SDCRV_CRV_GAUGE,
-    SDT_crvUSD_USDC_GAUGE,
     SDT_FRXETH_ETH_GAUGE,
     SDT_TRI_USDT_WBTC_ETH_1_GAUGE,
     SDT_TRI_crvUSD_TBTC_WSTETH_GAUGE,
@@ -83,6 +82,7 @@ import {
     SDT_zunETH_frxETH_GAUGE,
     SDT_PYUSD_crvUSD_GAUGE,
     SDT_CVX_ETH_GAUGE,
+    SDT_crvUSD_USDC_VAULT,
 } from "../erc20/stakeDao";
 import {
     FRAX3CRV,
@@ -174,7 +174,7 @@ export const LPS: LpTypeMap = {
         curve_pool: STG_USDC_POOL,
     },
     [SDCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: SDT_SDCRV_CRV_GAUGE, curve_gauge: CURVE_SDCRV_CRV_GAUGE },
-    [crvUSD_USDC]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_USDC_GAUGE, curve_gauge: CURVE_crvUSD_USDC_GAUGE },
+    [crvUSD_USDC]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_USDC_VAULT, curve_gauge: CURVE_crvUSD_USDC_GAUGE },
     [FRXETH_ETH_LP]: {
         type: TYPE_MAIN,
         stake_gauge: SDT_FRXETH_ETH_GAUGE,

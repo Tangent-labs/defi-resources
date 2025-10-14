@@ -37,7 +37,7 @@ exports.LPS = {
         curve_pool: curve_2.STG_USDC_POOL,
     },
     [curve_2.SDCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: stakeDao_1.SDT_SDCRV_CRV_GAUGE, curve_gauge: curve_1.CURVE_SDCRV_CRV_GAUGE },
-    [curve_2.crvUSD_USDC]: { type: TYPE_FACTORY_crvUSD, stake_gauge: stakeDao_1.SDT_crvUSD_USDC_GAUGE, curve_gauge: curve_1.CURVE_crvUSD_USDC_GAUGE },
+    [curve_2.crvUSD_USDC]: { type: TYPE_FACTORY_crvUSD, stake_gauge: stakeDao_1.SDT_crvUSD_USDC_VAULT, curve_gauge: curve_1.CURVE_crvUSD_USDC_GAUGE },
     [curve_2.FRXETH_ETH_LP]: {
         type: TYPE_MAIN,
         stake_gauge: stakeDao_1.SDT_FRXETH_ETH_GAUGE,
