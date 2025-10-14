@@ -1,6 +1,7 @@
 import {
     CRV_DUO_cbBTC_WBTC,
     CRV_DUO_DOLA_crvUSD,
+    CRV_DUO_DOLA_sUSDS,
     CRV_DUO_ETH_CVX_TOKEN,
     CRV_DUO_frxUSD_USDe,
     CRV_DUO_USDC_crvUSD,
@@ -38,11 +39,11 @@ const ConvexPoolKeys = [
     "GHO_cbBTC_WETH",
     "CVX_ETH",
     "USR_RLP",
-    "LLAMALEND_sDOLA_crvUSD",
+    "LLAMALEND_sDOLA_crvUSD"
 ] as const;
 type ConvexPoolKeys = (typeof ConvexPoolKeys)[number];
 
-export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
+export const ConvexCrvPools: { [key in ConvexPoolKeys]: ConvexCrvPool } = {
     // STABLECOIN POOLS
     USDC_crvUSD: {
         lpToken: CRV_DUO_USDC_crvUSD,
@@ -55,7 +56,7 @@ export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
         pid: 179,
     },
     DOLA_sUSDS: {
-        lpToken: CRV_DUO_DOLA_crvUSD,
+        lpToken: CRV_DUO_DOLA_sUSDS,
         cvxRewardToken: "0x081EB123C1ddA50541eE778b59AC2f69704b9A19",
         pid: 399,
     },

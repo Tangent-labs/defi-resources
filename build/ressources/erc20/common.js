@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.pyUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
-exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = void 0;
+exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.pyUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
+exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = void 0;
 /******************************
             ETH
 *******************************/
@@ -40,6 +40,7 @@ exports.deUSD = "0x15700b564ca08d9439c58ca5053166e8317aa138";
 exports.USR = "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110";
 exports.GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 exports.frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
+exports.USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
 // SAVING ACCOUNTS
 exports.sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";
 exports.sUSDe = "0x9d39a5de30e57443bff2a8307a4256c8797a3497";
@@ -49,6 +50,7 @@ exports.sFRAX = "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32";
 exports.sUSDS = "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd";
 exports.sfrxUSD = "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
 exports.wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
+exports.sUSDf = "0xc8cf6d7991f15525488b2a83df53468d682ba4b0";
 // ALTS
 exports.CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
 exports.CRV = "0xD533a949740bb3306d119CC777fa900bA034cd52";

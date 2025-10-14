@@ -3,7 +3,6 @@ export declare const CURVE_CONTEXT: {
         curveLp: string;
         curveGauge: string;
         stakeDaoVault: string;
-        stakeDaoGauge: string;
         convexRewardToken: string;
         convexPID: number;
     };
@@ -11,7 +10,6 @@ export declare const CURVE_CONTEXT: {
         curveLp: string;
         curveGauge: string;
         stakeDaoVault: string;
-        stakeDaoGauge: string;
         convexRewardToken: string;
         convexPID: number;
     };
@@ -19,16 +17,14 @@ export declare const CURVE_CONTEXT: {
         curveLp: string;
         curveGauge: string;
         stakeDaoVault: string;
-        stakeDaoGauge: string;
         convexRewardToken: string;
         convexPID: number;
     };
-    USDe_USDC: {
+    DOLA_sUSDS: {
         curveLp: string;
         curveGauge: string;
         stakeDaoVault: string;
-        stakeDaoGauge: string;
         convexRewardToken: string;
-        convexPID: string;
+        convexPID: number;
     };
 };

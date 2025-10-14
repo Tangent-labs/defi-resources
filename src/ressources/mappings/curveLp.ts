@@ -47,7 +47,6 @@ import {
     SDT_crvUSD_USDT_GAUGE,
     SDT_STG_USDC_GAUGE,
     SDT_SDCRV_CRV_GAUGE,
-    SDT_crvUSD_USDC_GAUGE,
     SDT_FRXETH_ETH_GAUGE,
     SDT_TRI_USDT_WBTC_ETH_1_GAUGE,
     SDT_TRI_crvUSD_TBTC_WSTETH_GAUGE,
@@ -83,6 +82,7 @@ import {
     SDT_zunETH_frxETH_GAUGE,
     SDT_PYUSD_crvUSD_GAUGE,
     SDT_CVX_ETH_GAUGE,
+    SDT_crvUSD_USDC_VAULT,
 } from "../erc20/stakeDao";
 import {
     FRAX3CRV,
@@ -139,7 +139,7 @@ import {
     CRV_DUO_ETH_CVX,
 } from "../lps/curve";
 
-export type LpTypeMap = Record<string, {type: string; stake_gauge: string; curve_gauge: string; curve_pool?: string}>;
+export type LpTypeMap = Record<string, { type: string; stake_gauge: string; curve_gauge: string; curve_pool?: string }>;
 const TYPE_FACTORY = "factory";
 const TYPE_MAIN = "main";
 const TYPE_FACTORY_CRYPTO = "factory-crypto";
@@ -160,21 +160,21 @@ export const TYPES_CURVE = [
 ];
 
 export const LPS: LpTypeMap = {
-    [FRAX3CRV]: {type: TYPE_MAIN, stake_gauge: SD_FRAX_3CRV, curve_gauge: CURVE_FRAX_3CRV_GAUGE},
+    [FRAX3CRV]: { type: TYPE_MAIN, stake_gauge: SD_FRAX_3CRV, curve_gauge: CURVE_FRAX_3CRV_GAUGE },
     [TRI_USDC_WBTC_ETH]: {
         type: TYPE_FACTORY_TRICRYPTO,
         stake_gauge: SDT_TRI_USDC_WBTC_ETH_GAUGE,
         curve_gauge: CURVE_TRI_USDC_WBTC_ETH_GAUGE,
     },
-    [crvUSD_USDT]: {type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_USDT_GAUGE, curve_gauge: CURVE_crvUSD_USDT_GAUGE},
+    [crvUSD_USDT]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_USDT_GAUGE, curve_gauge: CURVE_crvUSD_USDT_GAUGE },
     [STG_USDC_LP]: {
         type: TYPE_FACTORY_CRYPTO,
         stake_gauge: SDT_STG_USDC_GAUGE,
         curve_gauge: CURVE_STG_USDC_GAUGE,
         curve_pool: STG_USDC_POOL,
     },
-    [SDCRV_CRV]: {type: TYPE_FACTORY, stake_gauge: SDT_SDCRV_CRV_GAUGE, curve_gauge: CURVE_SDCRV_CRV_GAUGE},
-    [crvUSD_USDC]: {type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_USDC_GAUGE, curve_gauge: CURVE_crvUSD_USDC_GAUGE},
+    [SDCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: SDT_SDCRV_CRV_GAUGE, curve_gauge: CURVE_SDCRV_CRV_GAUGE },
+    [crvUSD_USDC]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_USDC_VAULT, curve_gauge: CURVE_crvUSD_USDC_GAUGE },
     [FRXETH_ETH_LP]: {
         type: TYPE_MAIN,
         stake_gauge: SDT_FRXETH_ETH_GAUGE,
@@ -191,17 +191,17 @@ export const LPS: LpTypeMap = {
         stake_gauge: SDT_TRI_crvUSD_TBTC_WSTETH_GAUGE,
         curve_gauge: CURVE_TRI_crvUSD_TBTC_WSTETH_GAUGE,
     },
-    [AGEUR_EUROC]: {type: TYPE_FACTORY, stake_gauge: SDT_AGEUR_EUROC_GAUGE, curve_gauge: CURVE_AGEUR_EUROC_GAUGE},
-    [MIM_DAI_USDC_USDT]: {type: TYPE_FACTORY, stake_gauge: SDT_MIM_DAI_USDC_USDT_GAUGE, curve_gauge: CURVE_MIM_DAI_USDC_USDT_GAUGE},
-    [CRV_DUO_cvxCRV_CRV]: {type: TYPE_FACTORY, stake_gauge: SDT_CVXCRV_CRV_GAUGE, curve_gauge: CURVE_CVXCRV_CRV_GAUGE},
-    [SDFXS_FXS]: {type: TYPE_FACTORY, stake_gauge: SDT_SDFXS_FXS_GAUGE, curve_gauge: CURVE_SDFXS_FXS_GAUGE},
+    [AGEUR_EUROC]: { type: TYPE_FACTORY, stake_gauge: SDT_AGEUR_EUROC_GAUGE, curve_gauge: CURVE_AGEUR_EUROC_GAUGE },
+    [MIM_DAI_USDC_USDT]: { type: TYPE_FACTORY, stake_gauge: SDT_MIM_DAI_USDC_USDT_GAUGE, curve_gauge: CURVE_MIM_DAI_USDC_USDT_GAUGE },
+    [CRV_DUO_cvxCRV_CRV]: { type: TYPE_FACTORY, stake_gauge: SDT_CVXCRV_CRV_GAUGE, curve_gauge: CURVE_CVXCRV_CRV_GAUGE },
+    [SDFXS_FXS]: { type: TYPE_FACTORY, stake_gauge: SDT_SDFXS_FXS_GAUGE, curve_gauge: CURVE_SDFXS_FXS_GAUGE },
     [FRAX_USDC_LP]: {
         type: TYPE_MAIN,
         stake_gauge: SDT_FRAX_USDC_GAUGE,
         curve_gauge: CURVE_FRAX_USDC_GAUGE,
         curve_pool: FRAX_USDC_POOL,
     },
-    [ALUSD_FRAX_USDC]: {type: TYPE_FACTORY, stake_gauge: SDT_ALUSD_FRAX_USDC_GAUGE, curve_gauge: CURVE_ALUSD_FRAX_USDC_GAUGE},
+    [ALUSD_FRAX_USDC]: { type: TYPE_FACTORY, stake_gauge: SDT_ALUSD_FRAX_USDC_GAUGE, curve_gauge: CURVE_ALUSD_FRAX_USDC_GAUGE },
     [TRI_USDT_WBTC_ETH_2_LP]: {
         type: TYPE_CRYPTO,
         stake_gauge: SDT_TRI_USDT_WBTC_ETH_2_GAUGE,
@@ -214,23 +214,23 @@ export const LPS: LpTypeMap = {
         curve_gauge: CURVE_RETH_ETH_GAUGE,
         curve_pool: RETH_ETH_POOL,
     },
-    [crvUSD_XAI]: {type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_XAI_GAUGE, curve_gauge: CURVE_crvUSD_XAI_GAUGE},
+    [crvUSD_XAI]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_XAI_GAUGE, curve_gauge: CURVE_crvUSD_XAI_GAUGE },
     [COIL_FRAX_USDC_LP]: {
         type: TYPE_FACTORY_CRYPTO,
         stake_gauge: SDT_COIL_FRAX_USDC_GAUGE,
         curve_gauge: CURVE_COIL_FRAX_USDC_GAUGE,
         curve_pool: COIL_FRAX_USDC_POOL,
     },
-    [crvUSD_SUSD]: {type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_SUSD_GAUGE, curve_gauge: CURVE_crvUSD_SUSD_GAUGE},
-    [crvUSD_DOLA]: {type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_DOLA_GAUGE, curve_gauge: CURVE_crvUSD_DOLA_GAUGE},
+    [crvUSD_SUSD]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_SUSD_GAUGE, curve_gauge: CURVE_crvUSD_SUSD_GAUGE },
+    [crvUSD_DOLA]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_DOLA_GAUGE, curve_gauge: CURVE_crvUSD_DOLA_GAUGE },
     [TRI_crvUSD_ETH_CRV]: {
         type: TYPE_FACTORY_TRICRYPTO,
         stake_gauge: SDT_TRI_crvUSD_ETH_CRV_GAUGE,
         curve_gauge: CURVE_TRI_crvUSD_ETH_CRV_GAUGE,
     },
-    [MKUSD_FRAX_USDC]: {type: TYPE_FACTORY, stake_gauge: SDT_MKUSD_FRAX_USDC_GAUGE, curve_gauge: CURVE_MKUSD_FRAX_USDC_GAUGE},
-    [CNC_ETH_LP]: {type: TYPE_FACTORY_CRYPTO, stake_gauge: SDT_CNC_ETH_GAUGE, curve_gauge: CURVE_CNC_ETH_GAUGE, curve_pool: CNC_ETH_POOL},
-    [XAI_FRAX_USDC]: {type: TYPE_FACTORY, stake_gauge: SDT_XAI_FRAX_USDC_GAUGE, curve_gauge: CURVE_XAI_FRAX_USDC_GAUGE},
+    [MKUSD_FRAX_USDC]: { type: TYPE_FACTORY, stake_gauge: SDT_MKUSD_FRAX_USDC_GAUGE, curve_gauge: CURVE_MKUSD_FRAX_USDC_GAUGE },
+    [CNC_ETH_LP]: { type: TYPE_FACTORY_CRYPTO, stake_gauge: SDT_CNC_ETH_GAUGE, curve_gauge: CURVE_CNC_ETH_GAUGE, curve_pool: CNC_ETH_POOL },
+    [XAI_FRAX_USDC]: { type: TYPE_FACTORY, stake_gauge: SDT_XAI_FRAX_USDC_GAUGE, curve_gauge: CURVE_XAI_FRAX_USDC_GAUGE },
     [TRI_crvUSD_FRXETH_SDT]: {
         type: TYPE_FACTORY_TRICRYPTO,
         stake_gauge: SDT_TRI_crvUSD_FRXETH_SDT_GAUGE,
@@ -242,8 +242,8 @@ export const LPS: LpTypeMap = {
         curve_gauge: CURVE_STETH_ETH_GAUGE,
         curve_pool: STETH_ETH_POOL,
     },
-    [DETH_FRXETH]: {type: TYPE_FACTORY, stake_gauge: SDT_DETH_FRXETH_GAUGE, curve_gauge: CURVE_DETH_FRXETH_GAUGE},
-    [crvUSD_FRAX]: {type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_FRAX_GAUGE, curve_gauge: CURVE_crvUSD_FRAX_GAUGE},
+    [DETH_FRXETH]: { type: TYPE_FACTORY, stake_gauge: SDT_DETH_FRXETH_GAUGE, curve_gauge: CURVE_DETH_FRXETH_GAUGE },
+    [crvUSD_FRAX]: { type: TYPE_FACTORY_crvUSD, stake_gauge: SDT_crvUSD_FRAX_GAUGE, curve_gauge: CURVE_crvUSD_FRAX_GAUGE },
     [ETHp_WETH_LP]: {
         type: TYPE_FACTORY_CRYPTO,
         stake_gauge: SDT_ETHp_WETH_GAUGE,
@@ -310,4 +310,5 @@ export const LPS: LpTypeMap = {
         curve_gauge: CURVE_CVX_ETH_GAUGE,
         curve_pool: CRV_DUO_ETH_CVX,
     },
+
 };
