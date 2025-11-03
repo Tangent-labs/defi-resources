@@ -1,6 +1,7 @@
 // Contracts
 export * as convergenceContracts from "./ressources/contracts/convergence";
-export {PRICE_FEEDS} from "./ressources/contracts/chainlinkPriceFeeds";
+export { CHAINLINK_PRICE_FEEDS } from "./ressources/contracts/chainlinkPriceFeeds";
+export { REDSTONE_PRICE_FEEDS } from "./ressources/contracts/redstonePriceFeeds";
 export * as convexContracts from "./ressources/contracts/convex";
 export * as stakeDaoContracts from "./ressources/contracts/stakeDao";
 export * as routers from "./ressources/contracts/routers";
@@ -26,6 +27,6 @@ export * as CURVE_CONTEXT from "./ressources/mappings/curveContext";
 export * as durations from "./utils/durations";
 
 // PROTOCOLS
-export {ConvexCrvPools} from "./ressources/protocols/convexCrv";
-export {ConvexFxnPools} from "./ressources/protocols/convexFxn";
-export {PendlePools} from "./ressources/protocols/pendle";
+export { ConvexCrvPools } from "./ressources/protocols/convexCrv";
+export { ConvexFxnPools } from "./ressources/protocols/convexFxn";
+export { PendlePools } from "./ressources/protocols/pendle";

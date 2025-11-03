@@ -23,7 +23,7 @@ const ChainlinkPriceFeedKeys = [
 ] as const;
 type ChainlinkPriceFeedKeys = (typeof ChainlinkPriceFeedKeys)[number];
 
-export const PRICE_FEEDS: {[key in ChainlinkPriceFeedKeys]: string} = {
+export const CHAINLINK_PRICE_FEEDS: { [key in ChainlinkPriceFeedKeys]: string } = {
     USDT_USD: "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
     USDC_USD: "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
     DAI_USD: "0xAed0c38402a5d19df6E4c03F4E2DceD6e29c1ee9",

@@ -33,11 +33,13 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PendlePools = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.PendlePools = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.commonERC20 = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
-Object.defineProperty(exports, "PRICE_FEEDS", { enumerable: true, get: function () { return chainlinkPriceFeeds_1.PRICE_FEEDS; } });
+Object.defineProperty(exports, "CHAINLINK_PRICE_FEEDS", { enumerable: true, get: function () { return chainlinkPriceFeeds_1.CHAINLINK_PRICE_FEEDS; } });
+var redstonePriceFeeds_1 = require("./ressources/contracts/redstonePriceFeeds");
+Object.defineProperty(exports, "REDSTONE_PRICE_FEEDS", { enumerable: true, get: function () { return redstonePriceFeeds_1.REDSTONE_PRICE_FEEDS; } });
 exports.convexContracts = __importStar(require("./ressources/contracts/convex"));
 exports.stakeDaoContracts = __importStar(require("./ressources/contracts/stakeDao"));
 exports.routers = __importStar(require("./ressources/contracts/routers"));

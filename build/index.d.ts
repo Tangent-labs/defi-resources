@@ -1,5 +1,6 @@
 export * as convergenceContracts from "./ressources/contracts/convergence";
-export { PRICE_FEEDS } from "./ressources/contracts/chainlinkPriceFeeds";
+export { CHAINLINK_PRICE_FEEDS } from "./ressources/contracts/chainlinkPriceFeeds";
+export { REDSTONE_PRICE_FEEDS } from "./ressources/contracts/redstonePriceFeeds";
 export * as convexContracts from "./ressources/contracts/convex";
 export * as stakeDaoContracts from "./ressources/contracts/stakeDao";
 export * as routers from "./ressources/contracts/routers";
