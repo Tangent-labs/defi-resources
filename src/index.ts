@@ -9,6 +9,7 @@ export * as routers from "./ressources/contracts/routers";
 // ERC20
 export * as commonERC20 from "./ressources/erc20/common";
 export * as convexERC20 from "./ressources/erc20/convex";
+export * as curveGauges from "./ressources/erc20/curveGauges";
 export * as stakeDaoERC20 from "./ressources/erc20/stakeDao";
 export * as thiefConfig from "./ressources/erc20/thiefConfig";
 

@@ -40,7 +40,7 @@ import {
     CURVE_zunETH_frxETH_GAUGE,
     CURVE_PYUSD_crvUSD_GAUGE,
     CURVE_CVX_ETH_GAUGE,
-} from "../erc20/curve";
+} from "../erc20/curveGauges";
 import {
     SD_FRAX_3CRV,
     SDT_TRI_USDC_WBTC_ETH_GAUGE,

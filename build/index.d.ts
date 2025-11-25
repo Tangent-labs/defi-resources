@@ -6,6 +6,7 @@ export * as stakeDaoContracts from "./ressources/contracts/stakeDao";
 export * as routers from "./ressources/contracts/routers";
 export * as commonERC20 from "./ressources/erc20/common";
 export * as convexERC20 from "./ressources/erc20/convex";
+export * as curveGauges from "./ressources/erc20/curveGauges";
 export * as stakeDaoERC20 from "./ressources/erc20/stakeDao";
 export * as thiefConfig from "./ressources/erc20/thiefConfig";
 export * as curveLp from "./ressources/lps/curve";
