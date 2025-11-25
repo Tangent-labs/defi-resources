@@ -18,7 +18,7 @@ const ConvexPoolKeys = [
     "GHO_cbBTC_WETH",
     "CVX_ETH",
     "USR_RLP",
-    "LLAMALEND_sDOLA_crvUSD"
+    "LLAMALEND_sDOLA_crvUSD",
 ];
 exports.ConvexCrvPools = {
     // STABLECOIN POOLS
@@ -51,12 +51,12 @@ exports.ConvexCrvPools = {
     WETH_pxETH: {
         lpToken: curve_1.CRV_LP_pxETH_WETH,
         cvxRewardToken: "0x3B793E505A3C7dbCb718Fe871De8eBEf7854e74b",
-        pid: 219,
+        pid: 271,
     },
     WETH_frxETH: {
         lpToken: curve_1.CRV_LP_WETH_frxETH,
         cvxRewardToken: "0xFafDE12dC476C4913e29F47B4747860C148c5E4f",
-        pid: 431,
+        pid: 219,
     },
     pxETH_stETH: {
         lpToken: curve_1.CRV_LP_pxETH_stETH,
