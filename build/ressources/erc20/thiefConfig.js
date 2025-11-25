@@ -527,10 +527,10 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.APW,
         decimals: 18,
     },
-    pyUSD: {
+    PYUSD: {
         isVyper: false,
         slotBalance: 1212,
-        address: common_1.pyUSD,
+        address: common_1.PYUSD,
         decimals: 6,
     },
     mkUSD: {
