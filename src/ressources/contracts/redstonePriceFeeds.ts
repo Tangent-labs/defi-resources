@@ -4,7 +4,6 @@ const RedstonePriceFeedKeys = [
     "ETH_USD",
     "USR_USD",
     "USDe_USD"
-
 ] as const;
 type RedstonePriceFeedKeys = (typeof RedstonePriceFeedKeys)[number];
 

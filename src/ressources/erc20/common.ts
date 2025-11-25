@@ -24,7 +24,7 @@ export const DAI = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
 export const FRAX = "0x853d955aCEf822Db058eb8505911ED77F175b99e";
 export const USDT = "0xdac17f958d2ee523a2206206994597c13d831ec7";
 export const crvUSD = "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E";
-export const pyUSD = "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8";
+export const PYUSD = "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8";
 export const mkUSD = "0x4591DBfF62656E7859Afe5e45f6f47D3669fBB28";
 export const USDP = "0x8e870d67f660d95d5be530380d0ec0bd388289e1";
 export const USDM = "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C";
@@ -39,6 +39,7 @@ export const USR = "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110";
 export const GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 export const frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 export const USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
+export const RLUSD = "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD";
 
 // SAVING ACCOUNTS
 export const sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";

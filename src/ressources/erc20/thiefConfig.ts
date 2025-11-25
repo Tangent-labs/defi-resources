@@ -26,7 +26,7 @@ import {
     APW,
     AG_EUR,
     dYFI,
-    pyUSD,
+    PYUSD,
     mkUSD,
     frxETH,
     fxUSD,
@@ -120,7 +120,7 @@ import {
     _80BAL_20WETH,
     BB_A_USD_OLD,
 } from "./stakeDao";
-import {cvxCRV, cvxFXS, cvxFXN, cvgCVX} from "./convex";
+import { cvxCRV, cvxFXS, cvxFXN, cvgCVX } from "./convex";
 
 export const THIEF_TOKEN_CONFIG: {
     [tokenName: string]: {
@@ -691,10 +691,10 @@ export const THIEF_TOKEN_CONFIG: {
         address: APW,
         decimals: 18,
     },
-    pyUSD: {
+    PYUSD: {
         isVyper: false,
         slotBalance: 1212,
-        address: pyUSD,
+        address: PYUSD,
         decimals: 6,
     },
     mkUSD: {
