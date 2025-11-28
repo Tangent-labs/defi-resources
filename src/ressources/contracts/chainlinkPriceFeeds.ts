@@ -20,6 +20,8 @@ const ChainlinkPriceFeedKeys = [
     "CVX_USD",
     "FXS_USD",
     "LINK_USD",
+    "RLUSD_USD",
+    "PYUSD_USD"
 ] as const;
 type ChainlinkPriceFeedKeys = (typeof ChainlinkPriceFeedKeys)[number];
 
@@ -45,4 +47,6 @@ export const CHAINLINK_PRICE_FEEDS: { [key in ChainlinkPriceFeedKeys]: string } 
     CVX_USD: "0xd962fC30A72A84cE50161031391756Bf2876Af5D",
     FXS_USD: "0x6ebc52c8c1089be9eb3945c4350b68b8e4c2233f",
     LINK_USD: "0x2c1d072e956affc0d435cb7ac38ef18d24d9127c",
+    RLUSD_USD: "0x26C46B7aD0012cA71F2298ada567dC9Af14E7f2A",
+    PYUSD_USD: "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1"
 };
