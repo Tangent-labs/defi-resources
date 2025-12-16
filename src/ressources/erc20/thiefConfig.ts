@@ -922,7 +922,7 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
     },
     RSUP: {
-        isVyper: true,
+        isVyper: false,
         slotBalance: 5,
         address: RSUP,
         decimals: 18,
