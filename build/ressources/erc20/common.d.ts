@@ -75,4 +75,4 @@ export declare const APW = "0x4104b135DBC9609Fc1A9490E61369036497660c8";
 export declare const TOKEMAK = "0x2e9d63788249371f1DFC918a52f8d799F4a38C94";
 export declare const cvgSDT = "0x830614aE209FF9d8706d386fcdBc7a55206fcffC";
 export declare const AG_EUR = "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8";
-export declare const RSUP = "0x419905009e456fdc02418c7df35b1e61ed5f726";
+export declare const RSUP = "0x419905009e4656fdc02418c7df35b1e61ed5f726";
