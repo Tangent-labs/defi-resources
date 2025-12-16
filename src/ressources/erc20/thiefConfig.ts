@@ -45,6 +45,10 @@ import {
     cbBTC,
     pxETH,
     cvgSDT,
+    sINV,
+    RSUP,
+    stRESOLV,
+    sDINERO,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -910,5 +914,29 @@ export const THIEF_TOKEN_CONFIG: {
         slotBalance: 9,
         address: cbBTC,
         decimals: 8,
+    },
+    sINV: {
+        isVyper: false,
+        slotBalance: 3,
+        address: sINV,
+        decimals: 18,
+    },
+    RSUP: {
+        isVyper: false,
+        slotBalance: 5,
+        address: RSUP,
+        decimals: 18,
+    },
+    stRESOLV: {
+        isVyper: false,
+        slotBalance: 0,
+        address: stRESOLV,
+        decimals: 18,
+    },
+    sDINERO: {
+        isVyper: false,
+        slotBalance: 0,
+        address: sDINERO,
+        decimals: 18,
     },
 };

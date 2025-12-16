@@ -743,4 +743,28 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.cbBTC,
         decimals: 8,
     },
+    sINV: {
+        isVyper: false,
+        slotBalance: 3,
+        address: common_1.sINV,
+        decimals: 18,
+    },
+    RSUP: {
+        isVyper: false,
+        slotBalance: 5,
+        address: common_1.RSUP,
+        decimals: 18,
+    },
+    stRESOLV: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.stRESOLV,
+        decimals: 18,
+    },
+    sDINERO: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.sDINERO,
+        decimals: 18,
+    },
 };

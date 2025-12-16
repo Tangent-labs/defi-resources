@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.veYFI = exports.vePENDLE = exports.veFXN = exports.veSDT = exports.vlCVX = exports.veCRV = void 0;
+// VE GOVERNANCE
+exports.veCRV = "0x5f3b5DfEb7B28CDbD7FAba78963EE202a494e2A2";
+exports.vlCVX = "0x72a19342e8F1838460eBFCCEf09F6585e32db86E";
+exports.veSDT = "0x0C30476f66034E11782938DF8e4384970B6c9e8a";
+exports.veFXN = "0xEC6B8A3F3605B083F7044C0F31f2cac0caf1d469";
+exports.vePENDLE = "0x4f30A9D41B80ecC5B94306AB4364951AE3170210";
+exports.veYFI = "0x90c1f9220d90d3966FbeE24045EDd73E1d588aD5";

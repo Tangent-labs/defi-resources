@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.RLUSD = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
-exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = void 0;
+exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.stRSUP = exports.sDINERO = exports.stRESOLV = exports.sINV = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.RLUSD = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
+exports.RSUP = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = void 0;
 /******************************
             ETH
 *******************************/
@@ -52,6 +52,11 @@ exports.sUSDS = "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd";
 exports.sfrxUSD = "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
 exports.wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
 exports.sUSDf = "0xc8cf6d7991f15525488b2a83df53468d682ba4b0";
+// STAKED GOVERNANCE
+exports.sINV = "0x08d23468A467d2bb86FaE0e32F247A26C7E2e994";
+exports.stRESOLV = "0xfe4bce4b3949c35fb17691d8b03c3cadbe2e5e23";
+exports.sDINERO = "0x55769490c825CCb09b2A6Ae955203FaBF04857fd";
+exports.stRSUP = "0x22222222E9fE38F6f1FC8C61b25228adB4D8B953";
 // ALTS
 exports.CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
 exports.CRV = "0xD533a949740bb3306d119CC777fa900bA034cd52";
@@ -78,3 +83,4 @@ exports.APW = "0x4104b135DBC9609Fc1A9490E61369036497660c8";
 exports.TOKEMAK = "0x2e9d63788249371f1DFC918a52f8d799F4a38C94";
 exports.cvgSDT = "0x830614aE209FF9d8706d386fcdBc7a55206fcffC";
 exports.AG_EUR = "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8";
+exports.RSUP = "0x419905009e456fdc02418c7df35b1e61ed5f726";

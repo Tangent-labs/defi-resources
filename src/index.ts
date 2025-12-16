@@ -5,6 +5,8 @@ export { REDSTONE_PRICE_FEEDS } from "./ressources/contracts/redstonePriceFeeds"
 export * as convexContracts from "./ressources/contracts/convex";
 export * as stakeDaoContracts from "./ressources/contracts/stakeDao";
 export * as routers from "./ressources/contracts/routers";
+export * as veTokens from "./ressources/contracts/veTokens";
+
 
 // ERC20
 export * as commonERC20 from "./ressources/erc20/common";
