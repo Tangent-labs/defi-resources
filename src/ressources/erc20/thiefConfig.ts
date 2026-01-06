@@ -49,6 +49,11 @@ import {
     RSUP,
     stRESOLV,
     sDINERO,
+    tBTC,
+    ETHPlus,
+    sfrxUSD,
+    msUSD,
+    msETH,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -107,6 +112,15 @@ import {
     CRV_DUO_GHO_USDe,
     CRV_DUO_GHO_USR,
     CRV_DUO_pxETH_stETH,
+    CRV_DUO_USDT_USDe,
+    CRV_DUO_reUSD_sfrxUSD,
+    CRV_DUO_RLUSD_USDC,
+    CRV_DUO_stUSDS_USDS,
+    CRV_DUO_frxUSD_msUSD,
+    CRV_DUO_crvUSD_sUSDe,
+    CRV_DUO_ETHplus_WETH,
+    CRV_DUO_tBTC_cbBTC,
+    CRV_DUO_msETH_OETH,
 } from "../lps/curve";
 import {
     SD_FRAX_3CRV,
@@ -125,6 +139,7 @@ import {
     BB_A_USD_OLD,
 } from "./stakeDao";
 import { cvxCRV, cvxFXS, cvxFXN, cvgCVX } from "./convex";
+import { CURVE_RLUSD_USDC_GAUGE } from "./curveGauges";
 
 export const THIEF_TOKEN_CONFIG: {
     [tokenName: string]: {
@@ -697,7 +712,7 @@ export const THIEF_TOKEN_CONFIG: {
     },
     PYUSD: {
         isVyper: false,
-        slotBalance: 1212,
+        slotBalance: 1,
         address: PYUSD,
         decimals: 6,
     },
@@ -939,4 +954,90 @@ export const THIEF_TOKEN_CONFIG: {
         address: sDINERO,
         decimals: 18,
     },
+    CRV_DUO_USDT_USDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_USDT_USDe,
+        decimals: 18
+    },
+    CRV_DUO_reUSD_sfrxUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_reUSD_sfrxUSD,
+        decimals: 18
+    },
+    CRV_DUO_RLUSD_USDC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_RLUSD_USDC,
+        decimals: 18
+    },
+    CRV_DUO_stUSDS_USDS: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_stUSDS_USDS,
+        decimals: 18
+    },
+    CRV_DUO_frxUSD_msUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_frxUSD_msUSD,
+        decimals: 18
+    },
+    CRV_DUO_crvUSD_sUSDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_crvUSD_sUSDe,
+        decimals: 18
+    },
+    CRV_DUO_ETHplus_WETH: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_ETHplus_WETH,
+        decimals: 18
+    },
+    CRV_DUO_tBTC_cbBTC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_tBTC_cbBTC,
+        decimals: 18
+    },
+    CRV_DUO_msETH_OETH: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CRV_DUO_msETH_OETH,
+        decimals: 18
+    },
+    tBTC: {
+        isVyper: false,
+        slotBalance: 1,
+        address: tBTC,
+        decimals: 18
+    },
+    ETHPlus: {
+        isVyper: false,
+        slotBalance: 201,
+        address: ETHPlus,
+        decimals: 18
+    },
+    sfrxUSD: {
+        isVyper: false,
+        slotBalance: 3,
+        address: sfrxUSD,
+        decimals: 18
+    },
+    msUSD: {
+        isVyper: false,
+        slotBalance: 3,
+        address: msUSD,
+        decimals: 18
+    },
+    msETH: {
+        isVyper: false,
+        slotBalance: 3,
+        address: msETH,
+        decimals: 18
+    },
+
+
 };

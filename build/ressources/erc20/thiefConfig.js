@@ -529,7 +529,7 @@ exports.THIEF_TOKEN_CONFIG = {
     },
     PYUSD: {
         isVyper: false,
-        slotBalance: 1212,
+        slotBalance: 1,
         address: common_1.PYUSD,
         decimals: 6,
     },
@@ -766,5 +766,89 @@ exports.THIEF_TOKEN_CONFIG = {
         slotBalance: 0,
         address: common_1.sDINERO,
         decimals: 18,
+    },
+    CRV_DUO_USDT_USDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_USDT_USDe,
+        decimals: 18
+    },
+    CRV_DUO_reUSD_sfrxUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_reUSD_sfrxUSD,
+        decimals: 18
+    },
+    CRV_DUO_RLUSD_USDC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_RLUSD_USDC,
+        decimals: 18
+    },
+    CRV_DUO_stUSDS_USDS: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_stUSDS_USDS,
+        decimals: 18
+    },
+    CRV_DUO_frxUSD_msUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_frxUSD_msUSD,
+        decimals: 18
+    },
+    CRV_DUO_crvUSD_sUSDe: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_crvUSD_sUSDe,
+        decimals: 18
+    },
+    CRV_DUO_ETHplus_WETH: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_ETHplus_WETH,
+        decimals: 18
+    },
+    CRV_DUO_tBTC_cbBTC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_tBTC_cbBTC,
+        decimals: 18
+    },
+    CRV_DUO_msETH_OETH: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curve_1.CRV_DUO_msETH_OETH,
+        decimals: 18
+    },
+    tBTC: {
+        isVyper: false,
+        slotBalance: 1,
+        address: common_1.tBTC,
+        decimals: 18
+    },
+    ETHPlus: {
+        isVyper: false,
+        slotBalance: 201,
+        address: common_1.ETHPlus,
+        decimals: 18
+    },
+    sfrxUSD: {
+        isVyper: false,
+        slotBalance: 3,
+        address: common_1.sfrxUSD,
+        decimals: 18
+    },
+    msUSD: {
+        isVyper: false,
+        slotBalance: 3,
+        address: common_1.msUSD,
+        decimals: 18
+    },
+    msETH: {
+        isVyper: false,
+        slotBalance: 3,
+        address: common_1.msETH,
+        decimals: 18
     },
 };
