@@ -10,6 +10,8 @@ export const ETHPlus = "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
 export const pufETH = "0xd9a442856c234a39a81a089c06451ebaa4306a72";
 export const rsETH = "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7";
 export const alETH = "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6";
+export const OETH = ""
+
 
 /******************************
             BTC
@@ -18,7 +20,9 @@ export const WBTC = "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599";
 export const tBTC = "0x18084fba666a33d37592fa2633fd49a74dd93a88";
 export const cbBTC = "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf";
 
-// STABLES
+/******************************
+            STABLES
+*******************************/
 export const USDC = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
 export const DAI = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
 export const FRAX = "0x853d955aCEf822Db058eb8505911ED77F175b99e";
@@ -40,8 +44,12 @@ export const GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 export const frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 export const USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
 export const RLUSD = "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD";
+export const reUSD = ""
+export const msUSD = ""
 
-// SAVING ACCOUNTS
+/******************************
+        SAVING ACCOUNTS
+*******************************/
 export const sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";
 export const sUSDe = "0x9d39a5de30e57443bff2a8307a4256c8797a3497";
 export const scrvUSD = "0x0655977feb2f289a4ab78af67bab0d17aab84367";
@@ -53,14 +61,18 @@ export const wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
 export const sUSDf = "0xc8cf6d7991f15525488b2a83df53468d682ba4b0";
 
 
-// STAKED GOVERNANCE
+/******************************
+        STAKED GOVERNANCE
+*******************************/
 export const sINV = "0x08d23468A467d2bb86FaE0e32F247A26C7E2e994";
 export const stRESOLV = "0xfe4bce4b3949c35fb17691d8b03c3cadbe2e5e23";
 export const sDINERO = "0x55769490c825CCb09b2A6Ae955203FaBF04857fd";
 export const stRSUP = "0x22222222E9fE38F6f1FC8C61b25228adB4D8B953";
 
 
-// ALTS
+/******************************
+            ALTS
+*******************************/
 export const CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
 export const CRV = "0xD533a949740bb3306d119CC777fa900bA034cd52";
 export const CVX = "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B";
@@ -87,3 +99,4 @@ export const TOKEMAK = "0x2e9d63788249371f1DFC918a52f8d799F4a38C94";
 export const cvgSDT = "0x830614aE209FF9d8706d386fcdBc7a55206fcffC";
 export const AG_EUR = "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8";
 export const RSUP = "0x419905009e4656fdc02418c7df35b1e61ed5f726"
+

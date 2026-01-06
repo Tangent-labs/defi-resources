@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FXS = exports.CVX = exports.CRV = exports.CVG = exports.stRSUP = exports.sDINERO = exports.stRESOLV = exports.sINV = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.RLUSD = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
-exports.RSUP = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = void 0;
+exports.CVG = exports.stRSUP = exports.sDINERO = exports.stRESOLV = exports.sINV = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.msUSD = exports.reUSD = exports.RLUSD = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.OETH = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
+exports.RSUP = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = void 0;
 /******************************
             ETH
 *******************************/
@@ -14,13 +14,16 @@ exports.ETHPlus = "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
 exports.pufETH = "0xd9a442856c234a39a81a089c06451ebaa4306a72";
 exports.rsETH = "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7";
 exports.alETH = "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6";
+exports.OETH = "";
 /******************************
             BTC
 *******************************/
 exports.WBTC = "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599";
 exports.tBTC = "0x18084fba666a33d37592fa2633fd49a74dd93a88";
 exports.cbBTC = "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf";
-// STABLES
+/******************************
+            STABLES
+*******************************/
 exports.USDC = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
 exports.DAI = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
 exports.FRAX = "0x853d955aCEf822Db058eb8505911ED77F175b99e";
@@ -42,7 +45,11 @@ exports.GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 exports.frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 exports.USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
 exports.RLUSD = "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD";
-// SAVING ACCOUNTS
+exports.reUSD = "";
+exports.msUSD = "";
+/******************************
+        SAVING ACCOUNTS
+*******************************/
 exports.sDAI = "0x83f20f44975d03b1b09e64809b757c47f942beea";
 exports.sUSDe = "0x9d39a5de30e57443bff2a8307a4256c8797a3497";
 exports.scrvUSD = "0x0655977feb2f289a4ab78af67bab0d17aab84367";
@@ -52,12 +59,16 @@ exports.sUSDS = "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd";
 exports.sfrxUSD = "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
 exports.wstUSR = "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
 exports.sUSDf = "0xc8cf6d7991f15525488b2a83df53468d682ba4b0";
-// STAKED GOVERNANCE
+/******************************
+        STAKED GOVERNANCE
+*******************************/
 exports.sINV = "0x08d23468A467d2bb86FaE0e32F247A26C7E2e994";
 exports.stRESOLV = "0xfe4bce4b3949c35fb17691d8b03c3cadbe2e5e23";
 exports.sDINERO = "0x55769490c825CCb09b2A6Ae955203FaBF04857fd";
 exports.stRSUP = "0x22222222E9fE38F6f1FC8C61b25228adB4D8B953";
-// ALTS
+/******************************
+            ALTS
+*******************************/
 exports.CVG = "0x97efFB790f2fbB701D88f89DB4521348A2B77be8";
 exports.CRV = "0xD533a949740bb3306d119CC777fa900bA034cd52";
 exports.CVX = "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B";
