@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CVG = exports.stRSUP = exports.sDINERO = exports.stRESOLV = exports.sINV = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.msUSD = exports.reUSD = exports.RLUSD = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.OETH = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
-exports.RSUP = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = void 0;
+exports.stRSUP = exports.sDINERO = exports.stRESOLV = exports.sINV = exports.sUSDf = exports.wstUSR = exports.sfrxUSD = exports.sUSDS = exports.sFRAX = exports.sDOLA = exports.scrvUSD = exports.sUSDe = exports.sDAI = exports.msUSD = exports.reUSD = exports.RLUSD = exports.USDf = exports.frxUSD = exports.GHO = exports.USR = exports.deUSD = exports.USD0 = exports.DOLA = exports.USDe = exports.fxUSD = exports.eUSD = exports.USDS = exports.USDM = exports.USDP = exports.mkUSD = exports.PYUSD = exports.crvUSD = exports.USDT = exports.FRAX = exports.DAI = exports.USDC = exports.cbBTC = exports.tBTC = exports.WBTC = exports.msETH = exports.OETH = exports.alETH = exports.rsETH = exports.pufETH = exports.ETHPlus = exports.stETH = exports.pxETH = exports.frxETH = exports.wstETH = exports.WETH = void 0;
+exports.RSUP = exports.AG_EUR = exports.cvgSDT = exports.TOKEMAK = exports.APW = exports.dYFI = exports.YFI = exports.FPIS = exports.PRISMA = exports.SPW = exports.BAL = exports.ANGLE = exports.PENDLE = exports.FXN = exports.SPELL = exports.LDO = exports.FIS = exports.LINK = exports.STG = exports.RSR = exports.CNC = exports.SDT = exports.FXS = exports.CVX = exports.CRV = exports.CVG = void 0;
 /******************************
             ETH
 *******************************/
@@ -14,7 +14,8 @@ exports.ETHPlus = "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
 exports.pufETH = "0xd9a442856c234a39a81a089c06451ebaa4306a72";
 exports.rsETH = "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7";
 exports.alETH = "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6";
-exports.OETH = "";
+exports.OETH = "0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3";
+exports.msETH = "0x64351fC9810aDAd17A690E4e1717Df5e7e085160";
 /******************************
             BTC
 *******************************/
@@ -45,8 +46,8 @@ exports.GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 exports.frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 exports.USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
 exports.RLUSD = "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD";
-exports.reUSD = "";
-exports.msUSD = "";
+exports.reUSD = "0x57aB1E0003F623289CD798B1824Be09a793e4Bec";
+exports.msUSD = "0xab5eB14c09D416F0aC63661E57EDB7AEcDb9BEfA";
 /******************************
         SAVING ACCOUNTS
 *******************************/

@@ -10,7 +10,8 @@ export declare const ETHPlus = "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
 export declare const pufETH = "0xd9a442856c234a39a81a089c06451ebaa4306a72";
 export declare const rsETH = "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7";
 export declare const alETH = "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6";
-export declare const OETH = "";
+export declare const OETH = "0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3";
+export declare const msETH = "0x64351fC9810aDAd17A690E4e1717Df5e7e085160";
 /******************************
             BTC
 *******************************/
@@ -41,8 +42,8 @@ export declare const GHO = "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f";
 export declare const frxUSD = "0xcacd6fd266af91b8aed52accc382b4e165586e29";
 export declare const USDf = "0xfa2b947eec368f42195f24f36d2af29f7c24cec2";
 export declare const RLUSD = "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD";
-export declare const reUSD = "";
-export declare const msUSD = "";
+export declare const reUSD = "0x57aB1E0003F623289CD798B1824Be09a793e4Bec";
+export declare const msUSD = "0xab5eB14c09D416F0aC63661E57EDB7AEcDb9BEfA";
 /******************************
         SAVING ACCOUNTS
 *******************************/
