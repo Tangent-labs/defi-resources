@@ -851,4 +851,22 @@ exports.THIEF_TOKEN_CONFIG = {
         address: common_1.msETH,
         decimals: 18
     },
+    OETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: common_1.OETH,
+        decimals: 18
+    },
+    reUSD: {
+        isVyper: false,
+        slotBalance: 5,
+        address: common_1.reUSD,
+        decimals: 18
+    },
+    USDS: {
+        isVyper: false,
+        slotBalance: 2,
+        address: common_1.USDS,
+        decimals: 18
+    }
 };

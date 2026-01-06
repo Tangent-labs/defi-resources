@@ -54,6 +54,9 @@ import {
     sfrxUSD,
     msUSD,
     msETH,
+    OETH,
+    reUSD,
+    USDS,
 } from "./common";
 import {
     CRV_DUO_FRAXBP,
@@ -1038,6 +1041,23 @@ export const THIEF_TOKEN_CONFIG: {
         address: msETH,
         decimals: 18
     },
-
+    OETH: {
+        isVyper: false,
+        slotBalance: 0,
+        address: OETH,
+        decimals: 18
+    },
+    reUSD: {
+        isVyper: false,
+        slotBalance: 5,
+        address: reUSD,
+        decimals: 18
+    },
+    USDS: {
+        isVyper: false,
+        slotBalance: 2,
+        address: USDS,
+        decimals: 18
+    }
 
 };
