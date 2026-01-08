@@ -2,6 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PendlePools = void 0;
 const __1 = require("../..");
+const PendlePoolKeys = [
+    "sUSDe 09/25/25", "USDe 09/25/25", "wstUSR 09/25/25",
+    "USR 09/04/25", "sUSDe 27/11/25", "sUSDf 29/01/26",
+    "USDe 27/11/25", "sUSDe 05/02/26", "reUSD 25/06/26",
+    "wstETH 25/06/26", "wstUSR 29/01/26"
+];
 exports.PendlePools = {
     "sUSDe 09/25/25": {
         MARKET: "0xA36b60A14A1A5247912584768C6e53E1a269a9F7",
