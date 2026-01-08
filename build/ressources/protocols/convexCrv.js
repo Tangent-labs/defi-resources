@@ -19,6 +19,12 @@ const ConvexPoolKeys = [
     "CVX_ETH",
     "USR_RLP",
     "LLAMALEND_sDOLA_crvUSD",
+    "GHO_crvUSD",
+    "reUSD_sfrxUSD",
+    "frxUSD_msUSD",
+    "msETH_OETH",
+    "tBTC_cbBTC",
+    "ETHPlus_WETH"
 ];
 exports.ConvexCrvPools = {
     // STABLECOIN POOLS
@@ -47,6 +53,21 @@ exports.ConvexCrvPools = {
         cvxRewardToken: "0xb5a97cFB06f9005005a79dAA27EB44106b7ad79A",
         pid: 431,
     },
+    GHO_crvUSD: {
+        lpToken: curve_1.CRV_DUO_GHO_crvUSD,
+        cvxRewardToken: "0x5eC758f79b96AE74e7F1Ba9583009aFB3fc8eACB",
+        pid: 335,
+    },
+    reUSD_sfrxUSD: {
+        lpToken: curve_1.CRV_DUO_reUSD_sfrxUSD,
+        cvxRewardToken: "0x18574c2047A2D4786567A2C31B4f25Ae291ed6bF",
+        pid: 439,
+    },
+    frxUSD_msUSD: {
+        lpToken: curve_1.CRV_DUO_frxUSD_msUSD,
+        cvxRewardToken: '0x60Aa76b7797644c89EB004b84286B47517a8DDb3',
+        pid: 510
+    },
     // ETH POOLS
     WETH_pxETH: {
         lpToken: curve_1.CRV_LP_pxETH_WETH,
@@ -62,6 +83,22 @@ exports.ConvexCrvPools = {
         lpToken: curve_1.CRV_LP_pxETH_stETH,
         cvxRewardToken: "0x633556C8413FCFd45D83656290fF8d64EE41A7c1",
         pid: 273,
+    },
+    msETH_OETH: {
+        lpToken: curve_1.CRV_DUO_msETH_OETH,
+        cvxRewardToken: "0x6597d955e2510Ee86539C68fe2e4D6b01ba6374d",
+        pid: 452,
+    },
+    ETHPlus_WETH: {
+        lpToken: curve_1.CRV_DUO_ETHplus_WETH,
+        cvxRewardToken: "0x9e0A248528Aa933ff1F8f707ea75F61eD780836E",
+        pid: 470,
+    },
+    // BTC POOLS
+    tBTC_cbBTC: {
+        lpToken: curve_1.CRV_DUO_tBTC_cbBTC,
+        cvxRewardToken: "0xB683a3D855D016A1c78c3e7887812A7CAB3989B0",
+        pid: 402,
     },
     cbBTC_WBTC: {
         lpToken: curve_1.CRV_DUO_cbBTC_WBTC,

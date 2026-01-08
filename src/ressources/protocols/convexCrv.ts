@@ -1,9 +1,14 @@
 import {
     CRV_DUO_cbBTC_WBTC,
-    CRV_DUO_DOLA_crvUSD,
     CRV_DUO_DOLA_sUSDS,
     CRV_DUO_ETH_CVX_TOKEN,
+    CRV_DUO_ETHplus_WETH,
+    CRV_DUO_frxUSD_msUSD,
     CRV_DUO_frxUSD_USDe,
+    CRV_DUO_GHO_crvUSD,
+    CRV_DUO_msETH_OETH,
+    CRV_DUO_reUSD_sfrxUSD,
+    CRV_DUO_tBTC_cbBTC,
     CRV_DUO_USDC_crvUSD,
     CRV_DUO_USDC_USDT,
     CRV_DUO_USDT_crvUSD,
@@ -40,10 +45,16 @@ const ConvexPoolKeys = [
     "CVX_ETH",
     "USR_RLP",
     "LLAMALEND_sDOLA_crvUSD",
+    "GHO_crvUSD",
+    "reUSD_sfrxUSD",
+    "frxUSD_msUSD",
+    "msETH_OETH",
+    "tBTC_cbBTC",
+    "ETHPlus_WETH"
 ] as const;
 type ConvexPoolKeys = (typeof ConvexPoolKeys)[number];
 
-export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
+export const ConvexCrvPools: { [key in ConvexPoolKeys]: ConvexCrvPool } = {
     // STABLECOIN POOLS
     USDC_crvUSD: {
         lpToken: CRV_DUO_USDC_crvUSD,
@@ -70,6 +81,22 @@ export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
         cvxRewardToken: "0xb5a97cFB06f9005005a79dAA27EB44106b7ad79A",
         pid: 431,
     },
+    GHO_crvUSD: {
+        lpToken: CRV_DUO_GHO_crvUSD,
+        cvxRewardToken: "0x5eC758f79b96AE74e7F1Ba9583009aFB3fc8eACB",
+        pid: 335,
+    },
+    reUSD_sfrxUSD: {
+        lpToken: CRV_DUO_reUSD_sfrxUSD,
+        cvxRewardToken: "0x18574c2047A2D4786567A2C31B4f25Ae291ed6bF",
+        pid: 439,
+    },
+    frxUSD_msUSD: {
+        lpToken: CRV_DUO_frxUSD_msUSD,
+        cvxRewardToken: '0x60Aa76b7797644c89EB004b84286B47517a8DDb3',
+        pid: 510
+    },
+
 
     // ETH POOLS
     WETH_pxETH: {
@@ -86,6 +113,24 @@ export const ConvexCrvPools: {[key in ConvexPoolKeys]: ConvexCrvPool} = {
         lpToken: CRV_LP_pxETH_stETH,
         cvxRewardToken: "0x633556C8413FCFd45D83656290fF8d64EE41A7c1",
         pid: 273,
+    },
+    msETH_OETH: {
+        lpToken: CRV_DUO_msETH_OETH,
+        cvxRewardToken: "0x6597d955e2510Ee86539C68fe2e4D6b01ba6374d",
+        pid: 452,
+    },
+    ETHPlus_WETH: {
+        lpToken: CRV_DUO_ETHplus_WETH,
+        cvxRewardToken: "0x9e0A248528Aa933ff1F8f707ea75F61eD780836E",
+        pid: 470,
+    },
+
+    // BTC POOLS
+
+    tBTC_cbBTC: {
+        lpToken: CRV_DUO_tBTC_cbBTC,
+        cvxRewardToken: "0xB683a3D855D016A1c78c3e7887812A7CAB3989B0",
+        pid: 402,
     },
     cbBTC_WBTC: {
         lpToken: CRV_DUO_cbBTC_WBTC,

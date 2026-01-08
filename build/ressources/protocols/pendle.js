@@ -58,5 +58,37 @@ exports.PendlePools = {
         YT: "0x99c92d4da7a81c7698ef33a39d7538d0f92623f7",
         UNDERLYING_IN: [__1.commonERC20.USDe],
         UNDERLYING_OUT: [__1.commonERC20.USDe],
-    }
+    },
+    "sUSDe 05/02/26": {
+        MARKET: "0xed81f8ba2941c3979de2265c295748a6b6956567",
+        PT: "0xe8483517077afa11a9b07f849cee2552f040d7b2",
+        SY: "0x50cbf8837791ab3d8dcfb3ce3d1b0d128e1105d4",
+        YT: "0xe36c6c271779c080ba2e68e1e68410291a1b3f7a",
+        UNDERLYING_IN: [__1.commonERC20.USDe, __1.commonERC20.sUSDe],
+        UNDERLYING_OUT: [__1.commonERC20.USDe],
+    },
+    "reUSD 25/06/26": {
+        MARKET: "0xf5929a1c332ceab7918a4593a43db2b9ac20095f",
+        PT: "0x3eaa0f0f0a5d3d595ae4e4b0d27f439d01c3e7b2",
+        SY: "0x9487bd5a3b16ecb5f3184453e3ee75b800141648",
+        YT: "0x03f1954443e73513a6fa6840685488a379ed6f64",
+        UNDERLYING_IN: [__1.commonERC20.reUSD],
+        UNDERLYING_OUT: [__1.commonERC20.reUSD],
+    },
+    "wstUSR 29/01/26": {
+        MARKET: "0x39c3f8e0e7c6f44dc8f0397feb124517ba82e26e",
+        PT: "0xfceeb7586bab730fa400a5bf3fcf298d0db4c7e7",
+        SY: "0x6c78661c00d797c9c7fcbe4bcacbd9612a61c07f",
+        YT: "0x112b56037552d9a5142493f44480ba98c2586805",
+        UNDERLYING_IN: [__1.commonERC20.USR, __1.commonERC20.wstUSR],
+        UNDERLYING_OUT: [__1.commonERC20.USR, __1.commonERC20.wstUSR],
+    },
+    "wstETH 25/06/26": {
+        MARKET: "0xcfd848b9f6fef552204014ac67901223ad6bf679",
+        PT: "0x9ce6478ef45bb1baac69efd8a3ea0ed110a43042",
+        SY: "0xcbc72d92b2dc8187414f6734718563898740c0bc",
+        YT: "0x12cc7b6ee36b1a33ebc33dc41c39d383b3b33896",
+        UNDERLYING_IN: [__1.commonERC20.CHAIN_COIN, __1.commonERC20.WETH, __1.commonERC20.stETH, __1.commonERC20.wstETH],
+        UNDERLYING_OUT: [__1.commonERC20.stETH, __1.commonERC20.wstETH],
+    },
 };

@@ -27,4 +27,53 @@ export declare const CURVE_CONTEXT: {
         convexRewardToken: string;
         convexPID: number;
     };
+    GHO_crvUSD: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    reUSD_sfrxUSD: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    stUSDS_USDS: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    frxUSD_msUSD: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    ETHPlus_WETH: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    tBTC_cbBTC: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    msETH_OETH: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
 };

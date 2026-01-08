@@ -1,6 +1,7 @@
 /******************************
             ETH
 *******************************/
+export declare const CHAIN_COIN = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE";
 export declare const WETH = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
 export declare const wstETH = "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0";
 export declare const frxETH = "0x5e8422345238f34275888049021821e8e08caa1f";
