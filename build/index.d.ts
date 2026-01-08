@@ -20,4 +20,4 @@ export * as CURVE_CONTEXT from "./ressources/mappings/curveContext";
 export * as durations from "./utils/durations";
 export { ConvexCrvPools } from "./ressources/protocols/convexCrv";
 export { ConvexFxnPools } from "./ressources/protocols/convexFxn";
-export { PendlePools } from "./ressources/protocols/pendle";
+export { PendlePools, PENDLE_POOL_KEYS } from "./ressources/protocols/pendle";
