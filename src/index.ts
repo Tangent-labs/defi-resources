@@ -17,6 +17,8 @@ export * as stakeDaoERC20 from "./ressources/erc20/stakeDao";
 export * as thiefConfig from "./ressources/erc20/thiefConfig";
 
 // LP
+export { CURVE_LPS } from "./ressources/lps/curveLP";
+
 export * as curveLp from "./ressources/lps/curve";
 export * as uniswapLp from "./ressources/lps/uniswap";
 export * as balancerLp from "./ressources/lps/balancer";

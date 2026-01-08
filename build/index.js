@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.curveGauges = exports.convexERC20 = exports.COMMON_ERC20S = exports.commonERC20 = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.CURVE_LPS = exports.thiefConfig = exports.stakeDaoERC20 = exports.curveGauges = exports.convexERC20 = exports.COMMON_ERC20S = exports.commonERC20 = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
@@ -53,6 +53,8 @@ exports.curveGauges = __importStar(require("./ressources/erc20/curveGauges"));
 exports.stakeDaoERC20 = __importStar(require("./ressources/erc20/stakeDao"));
 exports.thiefConfig = __importStar(require("./ressources/erc20/thiefConfig"));
 // LP
+var curveLP_1 = require("./ressources/lps/curveLP");
+Object.defineProperty(exports, "CURVE_LPS", { enumerable: true, get: function () { return curveLP_1.CURVE_LPS; } });
 exports.curveLp = __importStar(require("./ressources/lps/curve"));
 exports.uniswapLp = __importStar(require("./ressources/lps/uniswap"));
 exports.balancerLp = __importStar(require("./ressources/lps/balancer"));
