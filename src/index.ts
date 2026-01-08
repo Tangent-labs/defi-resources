@@ -32,4 +32,4 @@ export * as durations from "./utils/durations";
 // PROTOCOLS
 export { ConvexCrvPools } from "./ressources/protocols/convexCrv";
 export { ConvexFxnPools } from "./ressources/protocols/convexFxn";
-export { PendlePools, PENDLE_POOL_KEYS } from "./ressources/protocols/pendle";
+export { PENDLE_POOLS } from "./ressources/protocols/pendle";
