@@ -5,7 +5,7 @@ export declare const COMMON_ERC20S: {
     readonly frxETH: "0x5e8422345238f34275888049021821e8e08caa1f";
     readonly pxETH: "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6";
     readonly stETH: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84";
-    readonly ETHPlus: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
+    readonly "ETH+": "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8";
     readonly pufETH: "0xd9a442856c234a39a81a089c06451ebaa4306a72";
     readonly rsETH: "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7";
     readonly alETH: "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6";
