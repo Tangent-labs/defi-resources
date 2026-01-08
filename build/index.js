@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.curveGauges = exports.convexERC20 = exports.commonERC20 = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.curveGauges = exports.convexERC20 = exports.COMMON_ERC20S = exports.commonERC20 = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
@@ -46,6 +46,8 @@ exports.routers = __importStar(require("./ressources/contracts/routers"));
 exports.veTokens = __importStar(require("./ressources/contracts/veTokens"));
 // ERC20
 exports.commonERC20 = __importStar(require("./ressources/erc20/common"));
+var commonERC20_1 = require("./ressources/erc20/commonERC20");
+Object.defineProperty(exports, "COMMON_ERC20S", { enumerable: true, get: function () { return commonERC20_1.COMMON_ERC20S; } });
 exports.convexERC20 = __importStar(require("./ressources/erc20/convex"));
 exports.curveGauges = __importStar(require("./ressources/erc20/curveGauges"));
 exports.stakeDaoERC20 = __importStar(require("./ressources/erc20/stakeDao"));
