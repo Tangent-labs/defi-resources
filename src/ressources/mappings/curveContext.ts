@@ -72,7 +72,6 @@ export const CURVE_CONTEXT = {
         convexRewardToken: ConvexCrvPools.frxUSD_msUSD.cvxRewardToken,
         convexPID: ConvexCrvPools.frxUSD_msUSD.pid,
     },
-
     ETHPlus_WETH: {
         curveLp: CRV_DUO_ETHplus_WETH,
         curveGauge: CRV_GAUGE_ETHPlus_WETH,

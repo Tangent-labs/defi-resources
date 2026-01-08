@@ -21,7 +21,8 @@ const ChainlinkPriceFeedKeys = [
     "FXS_USD",
     "LINK_USD",
     "RLUSD_USD",
-    "PYUSD_USD"
+    "PYUSD_USD",
+    "tBTC_USD"
 ] as const;
 type ChainlinkPriceFeedKeys = (typeof ChainlinkPriceFeedKeys)[number];
 
@@ -48,5 +49,6 @@ export const CHAINLINK_PRICE_FEEDS: { [key in ChainlinkPriceFeedKeys]: string } 
     FXS_USD: "0x6ebc52c8c1089be9eb3945c4350b68b8e4c2233f",
     LINK_USD: "0x2c1d072e956affc0d435cb7ac38ef18d24d9127c",
     RLUSD_USD: "0x26C46B7aD0012cA71F2298ada567dC9Af14E7f2A",
-    PYUSD_USD: "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1"
+    PYUSD_USD: "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1",
+    tBTC_USD: "0x8350b7De6a6a2C1368E7D4Bd968190e13E354297"
 };
