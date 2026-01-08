@@ -46,6 +46,7 @@ export declare const COMMON_ERC20S: {
     readonly sfrxUSD: "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6";
     readonly wstUSR: "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055";
     readonly sUSDf: "0xc8cf6d7991f15525488b2a83df53468d682ba4b0";
+    readonly stUSDS: "0x99CD4Ec3f88A45940936F469E4bB72A2A701EEB9";
     readonly sINV: "0x08d23468A467d2bb86FaE0e32F247A26C7E2e994";
     readonly stRESOLV: "0xfe4bce4b3949c35fb17691d8b03c3cadbe2e5e23";
     readonly sDINERO: "0x55769490c825CCb09b2A6Ae955203FaBF04857fd";
