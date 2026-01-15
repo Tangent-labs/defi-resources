@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.CURVE_LPS = exports.thiefConfig = exports.stakeDaoERC20 = exports.curveGauges = exports.convexERC20 = exports.COMMON_ERC20S = exports.commonERC20 = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.curveLp = exports.CURVE_LPS = exports.thiefConfig = exports.stakeDaoERC20 = exports.curveGauges = exports.convexERC20 = exports.COMMON_ERC20S = exports.commonERC20 = exports.FXN_GLOBAL_CONTRACTS = exports.CURVE_GLOBAL_CONTRACTS = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
@@ -44,6 +44,10 @@ exports.convexContracts = __importStar(require("./ressources/contracts/convex"))
 exports.stakeDaoContracts = __importStar(require("./ressources/contracts/stakeDao"));
 exports.routers = __importStar(require("./ressources/contracts/routers"));
 exports.veTokens = __importStar(require("./ressources/contracts/veTokens"));
+var curve_1 = require("./ressources/contracts/curve");
+Object.defineProperty(exports, "CURVE_GLOBAL_CONTRACTS", { enumerable: true, get: function () { return curve_1.CURVE_GLOBAL_CONTRACTS; } });
+var fxn_1 = require("./ressources/contracts/fxn");
+Object.defineProperty(exports, "FXN_GLOBAL_CONTRACTS", { enumerable: true, get: function () { return fxn_1.FXN_GLOBAL_CONTRACTS; } });
 // ERC20
 exports.commonERC20 = __importStar(require("./ressources/erc20/common"));
 var commonERC20_1 = require("./ressources/erc20/commonERC20");
