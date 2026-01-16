@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.THIEF_TOKEN_CONFIG = void 0;
-const common_1 = require("./common");
+const commonERC20_1 = require("./commonERC20");
 const curve_1 = require("../lps/curve");
 const stakeDao_1 = require("./stakeDao");
 const convex_1 = require("./convex");
 exports.THIEF_TOKEN_CONFIG = {
     cvgSDT: {
-        address: common_1.cvgSDT,
+        address: commonERC20_1.COMMON_ERC20S.cvgSDT,
         isVyper: false,
         slotBalance: 0,
         decimals: 18,
@@ -21,61 +21,61 @@ exports.THIEF_TOKEN_CONFIG = {
     CVG: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.CVG,
+        address: commonERC20_1.COMMON_ERC20S.CVG,
         decimals: 18,
     },
     DAI: {
         isVyper: false,
         slotBalance: 2,
-        address: common_1.DAI,
+        address: commonERC20_1.COMMON_ERC20S.DAI,
         decimals: 18,
     },
     FRAX: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.FRAX,
+        address: commonERC20_1.COMMON_ERC20S.FRAX,
         decimals: 18,
     },
     WETH: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.WETH,
+        address: commonERC20_1.COMMON_ERC20S.WETH,
         decimals: 18,
     },
     CRV: {
         isVyper: true,
         slotBalance: 3,
-        address: common_1.CRV,
+        address: commonERC20_1.COMMON_ERC20S.CRV,
         decimals: 18,
     },
     CVX: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.CVX,
+        address: commonERC20_1.COMMON_ERC20S.CVX,
         decimals: 18,
     },
     CNC: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.CNC,
+        address: commonERC20_1.COMMON_ERC20S.CNC,
         decimals: 18,
     },
     FXS: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.FXS,
+        address: commonERC20_1.COMMON_ERC20S.FXS,
         decimals: 18,
     },
     PENDLE: {
         isVyper: false,
         slotBalance: 15,
-        address: common_1.PENDLE,
+        address: commonERC20_1.COMMON_ERC20S.PENDLE,
         decimals: 18,
     },
     SDT: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.SDT,
+        address: commonERC20_1.COMMON_ERC20S.SDT,
         decimals: 18,
     },
     FRAXBP: {
@@ -87,13 +87,13 @@ exports.THIEF_TOKEN_CONFIG = {
     USDC: {
         isVyper: false,
         slotBalance: 9,
-        address: common_1.USDC,
+        address: commonERC20_1.COMMON_ERC20S.USDC,
         decimals: 6,
     },
     USDT: {
         isVyper: false,
         slotBalance: 2,
-        address: common_1.USDT,
+        address: commonERC20_1.COMMON_ERC20S.USDT,
         decimals: 6,
     },
     _3CRV: {
@@ -105,7 +105,7 @@ exports.THIEF_TOKEN_CONFIG = {
     crvUSD: {
         isVyper: true,
         slotBalance: 1,
-        address: common_1.crvUSD,
+        address: commonERC20_1.COMMON_ERC20S.crvUSD,
         decimals: 18,
     },
     SDFRAX3CRV: {
@@ -117,25 +117,25 @@ exports.THIEF_TOKEN_CONFIG = {
     wstETH: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.wstETH,
+        address: commonERC20_1.COMMON_ERC20S.wstETH,
         decimals: 18,
     },
     FIS: {
         isVyper: false,
         slotBalance: 1,
-        address: common_1.FIS,
+        address: commonERC20_1.COMMON_ERC20S.FIS,
         decimals: 18,
     },
     LDO: {
         isVyper: false,
         slotBalance: 1,
-        address: common_1.LDO,
+        address: commonERC20_1.COMMON_ERC20S.LDO,
         decimals: 18,
     },
     SPELL: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.SPELL,
+        address: commonERC20_1.COMMON_ERC20S.SPELL,
         decimals: 18,
     },
     sd_CRV: {
@@ -184,7 +184,7 @@ exports.THIEF_TOKEN_CONFIG = {
     BAL: {
         isVyper: false,
         slotBalance: 1,
-        address: common_1.BAL,
+        address: commonERC20_1.COMMON_ERC20S.BAL,
         decimals: 18,
     },
     // ANGLE
@@ -203,19 +203,19 @@ exports.THIEF_TOKEN_CONFIG = {
     AG_EUR: {
         isVyper: false,
         slotBalance: 51,
-        address: common_1.AG_EUR,
+        address: commonERC20_1.COMMON_ERC20S.AG_EUR,
         decimals: 18,
     },
     ANGLE: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.ANGLE,
+        address: commonERC20_1.COMMON_ERC20S.ANGLE,
         decimals: 18,
     },
     FXN: {
         isVyper: true,
         slotBalance: 6,
-        address: common_1.FXN,
+        address: commonERC20_1.COMMON_ERC20S.FXN,
         decimals: 18,
     },
     sd_FXN: {
@@ -488,7 +488,7 @@ exports.THIEF_TOKEN_CONFIG = {
     eUSD: {
         isVyper: false,
         slotBalance: 201,
-        address: common_1.eUSD,
+        address: commonERC20_1.COMMON_ERC20S.eUSD,
         decimals: 18,
     },
     eUSD_FRAXLP: {
@@ -500,55 +500,55 @@ exports.THIEF_TOKEN_CONFIG = {
     PRISMA: {
         isVyper: false,
         slotBalance: 7,
-        address: common_1.PRISMA,
+        address: commonERC20_1.COMMON_ERC20S.PRISMA,
         decimals: 18,
     },
     FPIS: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.FPIS,
+        address: commonERC20_1.COMMON_ERC20S.FPIS,
         decimals: 18,
     },
     YFI: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.YFI,
+        address: commonERC20_1.COMMON_ERC20S.YFI,
         decimals: 18,
     },
     dYFI: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.dYFI,
+        address: commonERC20_1.COMMON_ERC20S.dYFI,
         decimals: 18,
     },
     APW: {
         isVyper: false,
         slotBalance: 101,
-        address: common_1.APW,
+        address: commonERC20_1.COMMON_ERC20S.APW,
         decimals: 18,
     },
     PYUSD: {
         isVyper: false,
         slotBalance: 1,
-        address: common_1.PYUSD,
+        address: commonERC20_1.COMMON_ERC20S.PYUSD,
         decimals: 6,
     },
     mkUSD: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.mkUSD,
+        address: commonERC20_1.COMMON_ERC20S.mkUSD,
         decimals: 18,
     },
     frxETH: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.frxETH,
+        address: commonERC20_1.COMMON_ERC20S.frxETH,
         decimals: 18,
     },
     pxETH: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.pxETH,
+        address: commonERC20_1.COMMON_ERC20S.pxETH,
         decimals: 18,
     },
     WETH_frxETH: {
@@ -572,31 +572,37 @@ exports.THIEF_TOKEN_CONFIG = {
     fxUSD: {
         isVyper: false,
         slotBalance: 151,
-        address: common_1.fxUSD,
+        address: commonERC20_1.COMMON_ERC20S.fxUSD,
         decimals: 18,
     },
     USR: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.USR,
+        address: commonERC20_1.COMMON_ERC20S.USR,
+        decimals: 18,
+    },
+    wstUSR: {
+        isVyper: false,
+        slotBalance: 0,
+        address: commonERC20_1.COMMON_ERC20S.wstUSR,
         decimals: 18,
     },
     frxUSD: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.frxUSD,
+        address: commonERC20_1.COMMON_ERC20S.frxUSD,
         decimals: 18,
     },
     USDe: {
         isVyper: false,
         slotBalance: 2,
-        address: common_1.USDe,
+        address: commonERC20_1.COMMON_ERC20S.USDe,
         decimals: 18,
     },
     DOLA: {
         isVyper: false,
         slotBalance: 6,
-        address: common_1.DOLA,
+        address: commonERC20_1.COMMON_ERC20S.DOLA,
         decimals: 18,
     },
     CRV_USDC_USDT: {
@@ -638,31 +644,37 @@ exports.THIEF_TOKEN_CONFIG = {
     sUSDe: {
         isVyper: false,
         slotBalance: 4,
-        address: common_1.sUSDe,
+        address: commonERC20_1.COMMON_ERC20S.sUSDe,
         decimals: 18,
     },
     sDAI: {
         isVyper: false,
         slotBalance: 1,
-        address: common_1.sDAI,
+        address: commonERC20_1.COMMON_ERC20S.sDAI,
         decimals: 18,
     },
     deUSD: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.deUSD,
+        address: commonERC20_1.COMMON_ERC20S.deUSD,
         decimals: 18,
     },
     sUSDS: {
         isVyper: false,
         slotBalance: 2,
-        address: common_1.sUSDS,
+        address: commonERC20_1.COMMON_ERC20S.sUSDS,
+        decimals: 18,
+    },
+    stUSDS: {
+        isVyper: false,
+        slotBalance: 2,
+        address: commonERC20_1.COMMON_ERC20S.stUSDS,
         decimals: 18,
     },
     scrvUSD: {
         isVyper: true,
         slotBalance: 18,
-        address: common_1.scrvUSD,
+        address: commonERC20_1.COMMON_ERC20S.scrvUSD,
         decimals: 18,
     },
     CRV_DUO_sDAI_sUSDe: {
@@ -686,7 +698,7 @@ exports.THIEF_TOKEN_CONFIG = {
     stETH: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.stETH,
+        address: commonERC20_1.COMMON_ERC20S.stETH,
         decimals: 18,
     },
     cbBTC_WBTC: {
@@ -698,13 +710,13 @@ exports.THIEF_TOKEN_CONFIG = {
     WBTC: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.WBTC,
+        address: commonERC20_1.COMMON_ERC20S.WBTC,
         decimals: 8,
     },
     GHO: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.GHO,
+        address: commonERC20_1.COMMON_ERC20S.GHO,
         decimals: 18,
     },
     GHO_crvUSD: {
@@ -740,31 +752,31 @@ exports.THIEF_TOKEN_CONFIG = {
     cbBTC: {
         isVyper: false,
         slotBalance: 9,
-        address: common_1.cbBTC,
+        address: commonERC20_1.COMMON_ERC20S.cbBTC,
         decimals: 8,
     },
     sINV: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.sINV,
+        address: commonERC20_1.COMMON_ERC20S.sINV,
         decimals: 18,
     },
     RSUP: {
         isVyper: false,
         slotBalance: 5,
-        address: common_1.RSUP,
+        address: commonERC20_1.COMMON_ERC20S.RSUP,
         decimals: 18,
     },
     stRESOLV: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.stRESOLV,
+        address: commonERC20_1.COMMON_ERC20S.stRESOLV,
         decimals: 18,
     },
     sDINERO: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.sDINERO,
+        address: commonERC20_1.COMMON_ERC20S.sDINERO,
         decimals: 18,
     },
     CRV_DUO_USDT_USDe: {
@@ -824,49 +836,49 @@ exports.THIEF_TOKEN_CONFIG = {
     tBTC: {
         isVyper: false,
         slotBalance: 1,
-        address: common_1.tBTC,
+        address: commonERC20_1.COMMON_ERC20S.tBTC,
         decimals: 18
     },
     ETHPlus: {
         isVyper: false,
         slotBalance: 201,
-        address: common_1.ETHPlus,
+        address: commonERC20_1.COMMON_ERC20S['ETH+'],
         decimals: 18
     },
     sfrxUSD: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.sfrxUSD,
+        address: commonERC20_1.COMMON_ERC20S.sfrxUSD,
         decimals: 18
     },
     msUSD: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.msUSD,
+        address: commonERC20_1.COMMON_ERC20S.msUSD,
         decimals: 18
     },
     msETH: {
         isVyper: false,
         slotBalance: 3,
-        address: common_1.msETH,
+        address: commonERC20_1.COMMON_ERC20S.msETH,
         decimals: 18
     },
     OETH: {
         isVyper: false,
         slotBalance: 0,
-        address: common_1.OETH,
+        address: commonERC20_1.COMMON_ERC20S.OETH,
         decimals: 18
     },
     reUSD: {
         isVyper: false,
         slotBalance: 5,
-        address: common_1.reUSD,
+        address: commonERC20_1.COMMON_ERC20S.reUSD,
         decimals: 18
     },
     USDS: {
         isVyper: false,
         slotBalance: 2,
-        address: common_1.USDS,
+        address: commonERC20_1.COMMON_ERC20S.USDS,
         decimals: 18
     }
 };
