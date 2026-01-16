@@ -188,4 +188,5 @@ export declare const CURVE_LPS: {
     CRV_DUO_OETH_WETH: string;
     CRV_DUO_OETH_ETH: string;
     CRV_DUO_DOLA_wstUSR: string;
+    CRV_TRI_POOL_CRYPTO_USDT2: string;
 };
