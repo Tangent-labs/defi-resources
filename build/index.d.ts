@@ -7,7 +7,6 @@ export * as routers from "./ressources/contracts/routers";
 export * as veTokens from "./ressources/contracts/veTokens";
 export { CURVE_GLOBAL_CONTRACTS } from "./ressources/contracts/curve";
 export { FXN_GLOBAL_CONTRACTS } from "./ressources/contracts/fxn";
-export * as commonERC20 from "./ressources/erc20/common";
 export { COMMON_ERC20S } from "./ressources/erc20/commonERC20";
 export * as convexERC20 from "./ressources/erc20/convex";
 export * as stakeDaoERC20 from "./ressources/erc20/stakeDao";

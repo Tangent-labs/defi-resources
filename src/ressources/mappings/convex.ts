@@ -1,4 +1,5 @@
-import { CRV, CVX, FXN, FXS } from "../erc20/common";
+
+import { COMMON_ERC20S } from "../erc20/commonERC20";
 import { cvgCVX, cvxCRV, cvxFXN, cvxFXS } from "../erc20/convex";
 import { CURVE_LPS } from "../protocols/curve/curveLP";
 import { CURVE_TYPE, LiquidLockerStruct } from "./stakeDao";
@@ -15,7 +16,7 @@ export const cvxAssets_LP_ARRAY: LiquidLockerStruct[] = [
     {
         name: "cvgCVX",
         address: cvgCVX,
-        referenceAsset: CVX,
+        referenceAsset: COMMON_ERC20S.CVX,
         referenceIndex: 0,
         pool: CURVE_LPS.DUO_cvgCVX_CVX1,
         type: CURVE_TYPE,
@@ -23,7 +24,7 @@ export const cvxAssets_LP_ARRAY: LiquidLockerStruct[] = [
     {
         name: "cvxCRV",
         address: cvxCRV,
-        referenceAsset: CRV,
+        referenceAsset: COMMON_ERC20S.CRV,
         referenceIndex: 0,
         pool: CURVE_LPS.DUO_cvxCRV_CRV,
         type: CURVE_TYPE,
@@ -31,7 +32,7 @@ export const cvxAssets_LP_ARRAY: LiquidLockerStruct[] = [
     {
         name: "cvxFXS",
         address: cvxFXS,
-        referenceAsset: FXS,
+        referenceAsset: COMMON_ERC20S.FXS,
         referenceIndex: 0,
         pool: CURVE_LPS.DUO_cvxFXS_FXS,
         type: CURVE_TYPE,
@@ -39,7 +40,7 @@ export const cvxAssets_LP_ARRAY: LiquidLockerStruct[] = [
     {
         name: "cvxFXN",
         address: cvxFXN,
-        referenceAsset: FXN,
+        referenceAsset: COMMON_ERC20S.FXN,
         referenceIndex: 0,
         pool: CURVE_LPS.DUO_cvxFXN_FXN,
         type: CURVE_TYPE,

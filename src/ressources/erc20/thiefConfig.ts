@@ -1,4 +1,4 @@
-import { COMMON_ERC20S, } from "./commonERC20";
+
 
 import {
     SD_FRAX_3CRV,
@@ -18,6 +18,7 @@ import {
 } from "./stakeDao";
 import { cvxCRV, cvxFXS, cvxFXN, cvgCVX } from "./convex";
 import { CURVE_LPS } from "../protocols/curve/curveLP";
+import { COMMON_ERC20S } from "./commonERC20";
 
 export const THIEF_TOKEN_CONFIG: {
     [tokenName: string]: {

@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.THIEF_TOKEN_CONFIG = void 0;
-const commonERC20_1 = require("./commonERC20");
 const stakeDao_1 = require("./stakeDao");
 const convex_1 = require("./convex");
 const curveLP_1 = require("../protocols/curve/curveLP");
+const commonERC20_1 = require("./commonERC20");
 exports.THIEF_TOKEN_CONFIG = {
     cvgSDT: {
         address: commonERC20_1.COMMON_ERC20S.cvgSDT,
