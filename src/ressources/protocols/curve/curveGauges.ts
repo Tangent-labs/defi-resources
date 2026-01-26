@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.CURVE_GAUGES = void 0;
-exports.CURVE_GAUGES = {
+export const CURVE_GAUGES = {
     FRAX_3CRV: "0x72e158d38dbd50a483501c24f792bdaaa3e7d55c",
     TRI_USDC_WBTC_ETH: "0x85d44861d024cb7603ba906f2dc9569fc02083f6",
     crvUSD_USDT: "0x4e6bb6b7447b7b2aa268c16ab87f4bb48bf57939",
@@ -66,4 +63,4 @@ exports.CURVE_GAUGES = {
     USDC_fxUSD: "0xd7f9111d529ed8859a0d5a1dc1ba7a021b61f22a",
     pxETH_WETH: "0xabad903647511a0ec755a118849f733f7d2ba002",
     crvUSD_frxUSD: "0x22804B0F6bE741a9Fa1BbaEcDD6c8D4116E96944",
-};
+}

@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.CURVE_LPS = void 0;
-exports.CURVE_LPS = {
+export const CURVE_LPS = {
     _3CRV: "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
     FRAX3CRV: "0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B",
     ["LP_USD0_USD0++"]: "0x1d08e7adc263cfc70b1babe6dc5bb339c16eec52",
@@ -177,4 +174,4 @@ exports.CURVE_LPS = {
     DUO_OETH_ETH: "0x94B17476A93b3262d87B9a326965D1E91f9c13E7",
     DUO_DOLA_wstUSR: "0x64273624eb57c5cA961d366CBF3968e760Bf0452",
     TRI_POOL_CRYPTO_USDT2: "0xd51a44d3fae010294c616388b506acda1bfaae46"
-};
+}
