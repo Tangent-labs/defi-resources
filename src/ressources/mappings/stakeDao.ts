@@ -1,5 +1,5 @@
 import { CRV, BAL, USDC, ANGLE, WETH, PENDLE, FXS, YFI, dYFI, APW, FXN, wstETH, AG_EUR, CNC, FIS, LDO, SPELL, cvgSDT, SDT, crvUSD } from "../erc20/common";
-import { CURVE_CNC_ETH_GAUGE, CURVE_MIM_DAI_USDC_USDT_GAUGE, CURVE_STETH_ETH_GAUGE, CURVE_TRI_crvUSD_TBTC_WSTETH_GAUGE } from "../erc20/curveGauges";
+import { CURVE_GAUGES } from "../protocols/curve/curveGauges";
 import {
     sdCRV,
     sdPENDLE,
@@ -22,22 +22,13 @@ import {
     SDT_RETH_ETH_GAUGE,
 } from "../erc20/stakeDao";
 import { BAL_80BAL_20WETH_ID, BAL_SDBAL } from "../lps/balancer";
-import {
-    CRV_DUO_SDANGLE_ANGLE,
-    CRV_DUO_SDAPW_APW,
-    CRV_DUO_SDCRV_CRV,
-    CRV_DUO_SDFXN_FXN,
-    CRV_DUO_SDFXS_FXS,
-    CRV_DUO_SDPENDLE_PENDLE,
-    CRV_DUO_SDYFI_YFI,
-    CRV_DUO_cvgSDT_SDT,
-    _3CRV,
-} from "../lps/curve";
+import { CURVE_LPS } from "../protocols/curve/curveLP";
+
 
 export const SD_TOKENS_LIST = [sdCRV, sdPENDLE, sdFXS, sdBAL, sdANGLE, sdFXN, sdYFI, sdAPW];
 
 export const REWARDS_TOKEN_SD_ASSETS: { [sdGaugeAsset: string]: string[] } = {
-    [sdCRV_GAUGE]: [_3CRV, CRV, crvUSD],
+    [sdCRV_GAUGE]: [CURVE_LPS._3CRV, CRV, crvUSD],
     [sdBAL_GAUGE]: [BAL, USDC],
     [sdANGLE_GAUGE]: [SAN_USDC_EUR, AG_EUR, ANGLE],
     [sdPENDLE_GAUGE]: [WETH, PENDLE],
@@ -55,7 +46,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: cvgSDT,
         referenceAsset: SDT,
         referenceIndex: 0,
-        pool: CRV_DUO_cvgSDT_SDT,
+        pool: CURVE_LPS.DUO_cvgSDT_SDT,
         type: CURVE_TYPE,
         referencePool: null,
         idReferencePool: null,
@@ -65,7 +56,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdCRV,
         referenceAsset: CRV,
         referenceIndex: 0,
-        pool: CRV_DUO_SDCRV_CRV,
+        pool: CURVE_LPS.DUO_SDCRV_CRV,
         type: CURVE_TYPE,
         gauge: sdCRV_GAUGE,
         referencePool: null,
@@ -76,7 +67,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdFXS,
         referenceAsset: FXS,
         referenceIndex: 0,
-        pool: CRV_DUO_SDFXS_FXS,
+        pool: CURVE_LPS.DUO_SDFXS_FXS,
         type: CURVE_TYPE,
         gauge: sdFXS_GAUGE,
         referencePool: null,
@@ -98,7 +89,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdANGLE,
         referenceAsset: ANGLE,
         referenceIndex: 0,
-        pool: CRV_DUO_SDANGLE_ANGLE,
+        pool: CURVE_LPS.DUO_SDANGLE_ANGLE,
         type: CURVE_TYPE,
         gauge: sdANGLE_GAUGE,
         referencePool: null,
@@ -109,7 +100,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdPENDLE,
         referenceAsset: PENDLE,
         referenceIndex: 0,
-        pool: CRV_DUO_SDPENDLE_PENDLE,
+        pool: CURVE_LPS.DUO_SDPENDLE_PENDLE,
         type: CURVE_TYPE,
         gauge: sdPENDLE_GAUGE,
         referencePool: null,
@@ -120,7 +111,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdFXN,
         referenceAsset: FXN,
         referenceIndex: 0,
-        pool: CRV_DUO_SDFXN_FXN,
+        pool: CURVE_LPS.DUO_SDFXN_FXN,
         type: CURVE_TYPE,
         gauge: sdFXN_GAUGE,
         referencePool: null,
@@ -131,7 +122,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdYFI,
         referenceAsset: YFI,
         referenceIndex: 0,
-        pool: CRV_DUO_SDYFI_YFI,
+        pool: CURVE_LPS.DUO_SDYFI_YFI,
         type: CURVE_TYPE,
         gauge: sdYFI_GAUGE,
         referencePool: null,
@@ -142,7 +133,7 @@ export const SDASSETS: LiquidLockerStruct[] = [
         address: sdAPW,
         referenceAsset: APW,
         referenceIndex: 0,
-        pool: CRV_DUO_SDAPW_APW,
+        pool: CURVE_LPS.DUO_SDAPW_APW,
         type: CURVE_TYPE,
         gauge: sdAPW_GAUGE,
         referencePool: null,
@@ -152,15 +143,15 @@ export const SDASSETS: LiquidLockerStruct[] = [
 
 export const SPECIAL_LP_TOKENS: { [curveGaugeAddress: string]: string[] } = {
     // TriLlama => WsETH
-    [CURVE_TRI_crvUSD_TBTC_WSTETH_GAUGE]: [wstETH],
+    [CURVE_GAUGES.TRI_crvUSD_TBTC_WSTETH]: [wstETH],
     // Mim 3CRV => SPELL
-    [CURVE_MIM_DAI_USDC_USDT_GAUGE]: [SPELL],
+    [CURVE_GAUGES.MIM_DAI_USDC_USDT]: [SPELL],
     // rCRV => FIS
     [SDT_RETH_ETH_GAUGE]: [FIS],
     // CNC-ETH => CNC
-    [CURVE_CNC_ETH_GAUGE]: [CNC],
+    [CURVE_GAUGES.CNC_ETH]: [CNC],
     // ETH-stETH => LDO
-    [CURVE_STETH_ETH_GAUGE]: [LDO],
+    [CURVE_GAUGES.STETH_ETH]: [LDO],
 };
 export interface LiquidLockerStruct {
     name: string;

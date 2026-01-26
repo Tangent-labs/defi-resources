@@ -1,4 +1,4 @@
-import { CRV_DUO_fxUSD_reUSD, CRV_DUO_GHO_fxUSD, CRV_DUO_msUSD_fxUSD, CRV_LP_USDC_fxUSD } from "../lps/curve";
+import { CURVE_LPS } from "../curve/curveLP";
 
 type ConvexFxnPool = {
     lpToken: string;
@@ -11,19 +11,19 @@ type ConvexFxnPoolKeys = (typeof ConvexFxnPoolKeys)[number];
 export const ConvexFxnPools: { [key in ConvexFxnPoolKeys]: ConvexFxnPool } = {
     // STABLECOIN POOLS
     USDC_fxUSD: {
-        lpToken: CRV_LP_USDC_fxUSD,
+        lpToken: CURVE_LPS.LP_USDC_fxUSD,
         pid: 32,
     },
     GHO_fxUSD: {
-        lpToken: CRV_DUO_GHO_fxUSD,
+        lpToken: CURVE_LPS.DUO_GHO_fxUSD,
         pid: 14,
     },
     fxUSD_reUSD: {
-        lpToken: CRV_DUO_fxUSD_reUSD,
+        lpToken: CURVE_LPS.DUO_fxUSD_reUSD,
         pid: 38,
     },
     msUSD_fxUSD: {
-        lpToken: CRV_DUO_msUSD_fxUSD,
+        lpToken: CURVE_LPS.DUO_msUSD_fxUSD,
         pid: 41,
     },
 };

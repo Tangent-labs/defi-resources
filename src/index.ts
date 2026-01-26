@@ -13,14 +13,11 @@ export { FXN_GLOBAL_CONTRACTS } from "./ressources/contracts/fxn";
 export * as commonERC20 from "./ressources/erc20/common";
 export { COMMON_ERC20S } from "./ressources/erc20/commonERC20";
 export * as convexERC20 from "./ressources/erc20/convex";
-export * as curveGauges from "./ressources/erc20/curveGauges";
 export * as stakeDaoERC20 from "./ressources/erc20/stakeDao";
 export * as thiefConfig from "./ressources/erc20/thiefConfig";
 
-// LP
-export { CURVE_LPS } from "./ressources/lps/curveLP";
 
-export * as curveLp from "./ressources/lps/curve";
+
 export * as uniswapLp from "./ressources/lps/uniswap";
 export * as balancerLp from "./ressources/lps/balancer";
 
@@ -33,7 +30,16 @@ export * as CURVE_CONTEXT from "./ressources/mappings/curveContext";
 // UTILS
 export * as durations from "./utils/durations";
 
-// PROTOCOLS
-export { ConvexCrvPools } from "./ressources/protocols/convexCrv";
-export { ConvexFxnPools } from "./ressources/protocols/convexFxn";
+// CURVE
+export { CURVE_LPS } from "./ressources/protocols/curve/curveLP";
+export { CURVE_GAUGES } from "./ressources/protocols/curve/curveGauges";
+
+// CONVEX
+export { ConvexCrvPools } from "./ressources/protocols/convex/convexCrv";
+export { ConvexFxnPools } from "./ressources/protocols/convex/convexFxn";
+
+// PENDLE
 export { PENDLE_POOLS } from "./ressources/protocols/pendle";
+
+
+

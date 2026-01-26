@@ -13,6 +13,13 @@ export declare const CURVE_CONTEXT: {
         convexRewardToken: string;
         convexPID: number;
     };
+    frxUSD_crvUSD: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
     LLAMALEND_sDOLA_crvUSD: {
         curveLp: string;
         curveGauge: string;
