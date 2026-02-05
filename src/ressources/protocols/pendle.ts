@@ -1,12 +1,18 @@
-import { COMMON_ERC20S } from "../erc20/commonERC20";
-
-
+import {COMMON_ERC20S} from "../erc20/commonERC20";
 
 const PENDLE_POOL_KEYS = [
-    "sUSDe 09/25/25", "USDe 09/25/25", "wstUSR 09/25/25",
-    "USR 09/04/25", "sUSDe 27/11/25", "sUSDf 29/01/26",
-    "USDe 27/11/25", "sUSDe 05/02/26", "reUSD 25/06/26",
-    "wstETH 25/06/26", "wstUSR 29/01/26"] as const;
+    "sUSDe 09/25/25",
+    "USDe 09/25/25",
+    "wstUSR 09/25/25",
+    "USR 09/04/25",
+    "sUSDe 27/11/25",
+    "sUSDf 29/01/26",
+    "USDe 27/11/25",
+    "sUSDe 05/02/26",
+    "reUSD 25/06/26",
+    "wstETH 25/06/26",
+    "wstUSR 29/01/26",
+] as const;
 type PENDLE_POOL_KEYS = (typeof PENDLE_POOL_KEYS)[number];
 
 export const PENDLE_POOLS: {
@@ -82,7 +88,7 @@ export const PENDLE_POOLS: {
         SY: "0x50cbf8837791ab3d8dcfb3ce3d1b0d128e1105d4",
         YT: "0xe36c6c271779c080ba2e68e1e68410291a1b3f7a",
         UNDERLYING_IN: [COMMON_ERC20S.USDe, COMMON_ERC20S.sUSDe],
-        UNDERLYING_OUT: [COMMON_ERC20S.USDe],
+        UNDERLYING_OUT: [COMMON_ERC20S.sUSDe],
     },
     "reUSD 25/06/26": {
         MARKET: "0xf5929a1c332ceab7918a4593a43db2b9ac20095f",
