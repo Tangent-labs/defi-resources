@@ -1,18 +1,11 @@
-import {COMMON_ERC20S} from "../erc20/commonERC20";
+import { COMMON_ERC20S } from "../erc20/commonERC20";
 
 const PENDLE_POOL_KEYS = [
-    "sUSDe 09/25/25",
-    "USDe 09/25/25",
-    "wstUSR 09/25/25",
-    "USR 09/04/25",
-    "sUSDe 27/11/25",
-    "sUSDf 29/01/26",
-    "USDe 27/11/25",
-    "sUSDe 05/02/26",
-    "reUSD 25/06/26",
-    "wstETH 25/06/26",
-    "wstUSR 29/01/26",
-] as const;
+    "sUSDe 09/25/25", "USDe 09/25/25", "wstUSR 09/25/25",
+    "USR 09/04/25", "sUSDe 27/11/25", "sUSDf 29/01/26",
+    "USDe 27/11/25", "sUSDe 05/02/26", "reUSD 25/06/26",
+    "wstETH 25/06/26", "wstUSR 29/01/26", "wstUSR 25/06/26",
+    "sUSDe 07/05/26", "USDe 07/05/26"] as const;
 type PENDLE_POOL_KEYS = (typeof PENDLE_POOL_KEYS)[number];
 
 export const PENDLE_POOLS: {
@@ -25,6 +18,31 @@ export const PENDLE_POOLS: {
         UNDERLYING_OUT: string[];
     };
 } = {
+
+    "wstUSR 25/06/26": {
+        MARKET: "0x70d87838387bd8876c9e9ecf509d1130d4ac7530",
+        PT: "0x90a2d7a50692f2620b467747a32cfa61889997b1",
+        SY: "0x6c78661c00d797c9c7fcbe4bcacbd9612a61c07f",
+        YT: "0x343580002208c98e48fab1ca3d15265f99c0541d",
+        UNDERLYING_IN: [COMMON_ERC20S.USR, COMMON_ERC20S.wstUSR],
+        UNDERLYING_OUT: [COMMON_ERC20S.USR, COMMON_ERC20S.wstUSR],
+    },
+    "sUSDe 07/05/26": {
+        MARKET: "0x8dae8ece668cf80d348873f23d456448e8694883",
+        PT: "0x3de0ff76e8b528c092d47b9dac775931cef80f49",
+        SY: "0xbf98480425a29197e5d99d003017f63a1e595d02",
+        YT: "0x30775b422b9c7415349855346352faa61fd97e41",
+        UNDERLYING_IN: [COMMON_ERC20S.USDe, COMMON_ERC20S.sUSDe],
+        UNDERLYING_OUT: [COMMON_ERC20S.sUSDe],
+    },
+    "USDe 07/05/26": {
+        MARKET: "0xa3336f04f7afbf26714331e395054f33b77c9b8d",
+        PT: "0xaebf0bb9f57e89260d57f31af34eb58657d96ce0",
+        SY: "0xf0bacd9c3d94fc924dbcaaf644208c4e3f4d3bb4",
+        YT: "0x4265ebf36f738d4d623c201becbbc0f92be57198",
+        UNDERLYING_IN: [COMMON_ERC20S.USDe],
+        UNDERLYING_OUT: [COMMON_ERC20S.USDe],
+    },
     "sUSDe 09/25/25": {
         MARKET: "0xA36b60A14A1A5247912584768C6e53E1a269a9F7",
         PT: "0x9F56094C450763769BA0EA9Fe2876070c0fD5F77",
