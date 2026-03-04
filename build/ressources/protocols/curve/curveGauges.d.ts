@@ -63,4 +63,6 @@ export declare const CURVE_GAUGES: {
     USDC_fxUSD: string;
     pxETH_WETH: string;
     crvUSD_frxUSD: string;
+    USG_USDC: string;
+    USG_frxUSD: string;
 };

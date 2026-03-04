@@ -30,12 +30,24 @@ const ConvexPoolKeys = [
     "frxUSD_msUSD",
     "msETH_OETH",
     "tBTC_cbBTC",
-    "ETHPlus_WETH"
+    "ETHPlus_WETH",
+    "USG_USDC",
+    "USG_frxUSD"
 ] as const;
 type ConvexPoolKeys = (typeof ConvexPoolKeys)[number];
 
 export const ConvexCrvPools: { [key in ConvexPoolKeys]: ConvexCrvPool } = {
     // STABLECOIN POOLS
+    USG_USDC: {
+        lpToken: CURVE_LPS.DUO_USG_USDC,
+        cvxRewardToken: "0x3eAFd8C2B36B93A8463A5f460a01A1b3D37b6929",
+        pid: 541,
+    },
+    USG_frxUSD: {
+        lpToken: CURVE_LPS.DUO_USG_frxUSD,
+        cvxRewardToken: "0x8D79FA117C3B3a4da1D3F1c037f2e500a2f6D70D",
+        pid: 542,
+    },
     USDC_crvUSD: {
         lpToken: CURVE_LPS.DUO_USDC_crvUSD,
         cvxRewardToken: "0x44D8FaB7CD8b7877D5F79974c2F501aF6E65AbBA",
