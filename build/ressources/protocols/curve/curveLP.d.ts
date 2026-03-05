@@ -174,4 +174,6 @@ export declare const CURVE_LPS: {
     DUO_OETH_ETH: string;
     DUO_DOLA_wstUSR: string;
     TRI_POOL_CRYPTO_USDT2: string;
+    DUO_USG_USDC: string;
+    DUO_USG_frxUSD: string;
 };
