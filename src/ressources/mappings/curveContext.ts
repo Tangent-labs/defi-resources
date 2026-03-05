@@ -12,11 +12,28 @@ import {
     SDT_msETH_OETH_VAULT,
     SDT_reUSD_sfrxUSD_VAULT,
     SDT_tBTC_cbBTC_VAULT,
+    SDT_USG_frxUSD_VAULT,
+    SDT_USG_USDC_VAULT,
 } from "../erc20/stakeDao";
 import { CURVE_LPS } from "../protocols/curve/curveLP";
 import { ConvexCrvPools } from "../protocols/convex/convexCrv";
 
 export const CURVE_CONTEXT = {
+
+    USG_USDC: {
+        curveLp: CURVE_LPS.DUO_USG_USDC,
+        curveGauge: CURVE_GAUGES.USG_USDC,
+        stakeDaoVault: SDT_USG_USDC_VAULT,
+        convexRewardToken: ConvexCrvPools.USG_USDC.cvxRewardToken,
+        convexPID: ConvexCrvPools.USG_USDC.pid,
+    },
+    USG_frxUSD: {
+        curveLp: CURVE_LPS.DUO_USG_frxUSD,
+        curveGauge: CURVE_GAUGES.USG_frxUSD,
+        stakeDaoVault: SDT_USG_frxUSD_VAULT,
+        convexRewardToken: ConvexCrvPools.USG_frxUSD.cvxRewardToken,
+        convexPID: ConvexCrvPools.USG_frxUSD.pid,
+    },
     USDC_crvUSD: {
         curveLp: CURVE_LPS.DUO_USDC_crvUSD,
         curveGauge: CURVE_GAUGES.crvUSD_USDC,

@@ -7,6 +7,20 @@ const stakeDao_1 = require("../erc20/stakeDao");
 const curveLP_1 = require("../protocols/curve/curveLP");
 const convexCrv_1 = require("../protocols/convex/convexCrv");
 exports.CURVE_CONTEXT = {
+    USG_USDC: {
+        curveLp: curveLP_1.CURVE_LPS.DUO_USG_USDC,
+        curveGauge: curveGauges_1.CURVE_GAUGES.USG_USDC,
+        stakeDaoVault: stakeDao_1.SDT_USG_USDC_VAULT,
+        convexRewardToken: convexCrv_1.ConvexCrvPools.USG_USDC.cvxRewardToken,
+        convexPID: convexCrv_1.ConvexCrvPools.USG_USDC.pid,
+    },
+    USG_frxUSD: {
+        curveLp: curveLP_1.CURVE_LPS.DUO_USG_frxUSD,
+        curveGauge: curveGauges_1.CURVE_GAUGES.USG_frxUSD,
+        stakeDaoVault: stakeDao_1.SDT_USG_frxUSD_VAULT,
+        convexRewardToken: convexCrv_1.ConvexCrvPools.USG_frxUSD.cvxRewardToken,
+        convexPID: convexCrv_1.ConvexCrvPools.USG_frxUSD.pid,
+    },
     USDC_crvUSD: {
         curveLp: curveLP_1.CURVE_LPS.DUO_USDC_crvUSD,
         curveGauge: curveGauges_1.CURVE_GAUGES.crvUSD_USDC,

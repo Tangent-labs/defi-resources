@@ -1,4 +1,18 @@
 export declare const CURVE_CONTEXT: {
+    USG_USDC: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
+    USG_frxUSD: {
+        curveLp: string;
+        curveGauge: string;
+        stakeDaoVault: string;
+        convexRewardToken: string;
+        convexPID: number;
+    };
     USDC_crvUSD: {
         curveLp: string;
         curveGauge: string;
