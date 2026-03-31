@@ -39,6 +39,7 @@ export declare const COMMON_ERC20S: {
     readonly RLUSD: "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD";
     readonly reUSD: "0x57aB1E0003F623289CD798B1824Be09a793e4Bec";
     readonly msUSD: "0xab5eB14c09D416F0aC63661E57EDB7AEcDb9BEfA";
+    readonly pmUSD: "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf";
     readonly sDAI: "0x83f20f44975d03b1b09e64809b757c47f942beea";
     readonly sUSDe: "0x9d39a5de30e57443bff2a8307a4256c8797a3497";
     readonly scrvUSD: "0x0655977feb2f289a4ab78af67bab0d17aab84367";
@@ -79,4 +80,5 @@ export declare const COMMON_ERC20S: {
     readonly cvgSDT: "0x830614aE209FF9d8706d386fcdBc7a55206fcffC";
     readonly AG_EUR: "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8";
     readonly RSUP: "0x419905009e4656fdc02418c7df35b1e61ed5f726";
+    readonly YB: "0x01791f726b4103694969820be083196cc7c045ff";
 };
