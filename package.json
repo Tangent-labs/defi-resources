@@ -11,7 +11,7 @@
   "author": "Convergence Finance",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.11",
-    "typescript": "^5.4.5"
+    "@types/node": "20.12.11",
+    "typescript": "5.4.5"
   }
 }
