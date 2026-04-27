@@ -176,4 +176,6 @@ export declare const CURVE_LPS: {
     TRI_POOL_CRYPTO_USDT2: string;
     DUO_USG_USDC: string;
     DUO_USG_frxUSD: string;
+    DUO_BOLD_USDC: string;
+    DUO_frxUSD_OUSD: string;
 };
