@@ -83,4 +83,5 @@ export declare const COMMON_ERC20S: {
     readonly AG_EUR: "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8";
     readonly RSUP: "0x419905009e4656fdc02418c7df35b1e61ed5f726";
     readonly YB: "0x01791f726b4103694969820be083196cc7c045ff";
+    readonly WFRAX: "0x04acaf8d2865c0714f79da09645c13fd2888977f";
 };

@@ -113,3 +113,6 @@ export declare const SDT_frxUSD_msUSD_VAULT = "0x4fdb3cb3DBD6D24B64276645c1ADCb8
 export declare const SDT_reUSD_sfrxUSD_VAULT = "0x77CEf0EfeC7c62b9979b1F5eAF289591c213dCC5";
 export declare const SDT_scrvUSD_sUSDe_VAULT = "0xABf0973EC993be9F0151cFe4CD03A87c3CC7f638";
 export declare const SDT_crvUSD_frxUSD_VAULT = "0xCA137e3853Eab95541290B372223e7F2ee4c0cFa";
+export declare const SDT_eUSD_USDC_VAULT = "0x5e645A9F3a2E0c851aFA41E15b47649F848cD3fe";
+export declare const SDT_frxUSD_sDOLA_VAULT = "0x67Ea89D21d449bf9183c0773f0d02af8545F810c";
+export declare const SDT_frxUSD_scrvUSD_VAULT = "0x8fe5Ff2d6784d048e7eBFB915709e9E3c07841dB";
