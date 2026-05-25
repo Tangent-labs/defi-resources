@@ -833,6 +833,48 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curveLP_1.CURVE_LPS.DUO_msETH_OETH,
         decimals: 18
     },
+    fxUSD_reUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_fxUSD_reUSD,
+        decimals: 18,
+    },
+    frxUSD_sUSDS: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_frxUSD_sUSDS,
+        decimals: 18,
+    },
+    BOLD_USDC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_BOLD_USDC,
+        decimals: 18,
+    },
+    eUSD_USDC: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_eUSD_USDC,
+        decimals: 18,
+    },
+    frxUSD_OUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_frxUSD_OUSD,
+        decimals: 18,
+    },
+    frxUSD_sDOLA: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_frxUSD_sDOLA,
+        decimals: 18,
+    },
+    frxUSD_scrvUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_frxUSD_scrvUSD,
+        decimals: 18,
+    },
     tBTC: {
         isVyper: false,
         slotBalance: 1,
