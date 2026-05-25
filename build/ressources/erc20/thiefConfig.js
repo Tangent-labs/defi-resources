@@ -783,55 +783,55 @@ exports.THIEF_TOKEN_CONFIG = {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_USDT_USDe,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_reUSD_sfrxUSD: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_reUSD_sfrxUSD,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_RLUSD_USDC: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_RLUSD_USDC,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_stUSDS_USDS: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_stUSDS_USDS,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_frxUSD_msUSD: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_frxUSD_msUSD,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_crvUSD_sUSDe: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_crvUSD_sUSDe,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_ETHplus_WETH: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_ETHplus_WETH,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_tBTC_cbBTC: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_tBTC_cbBTC,
-        decimals: 18
+        decimals: 18,
     },
     CRV_DUO_msETH_OETH: {
         isVyper: true,
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_msETH_OETH,
-        decimals: 18
+        decimals: 18,
     },
     fxUSD_reUSD: {
         isVyper: true,
@@ -857,6 +857,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curveLP_1.CURVE_LPS.DUO_eUSD_USDC,
         decimals: 18,
     },
+    reUSD_scrvUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_reUSD_scrvUSD,
+        decimals: 18,
+    },
     frxUSD_OUSD: {
         isVyper: true,
         slotBalance: 38,
@@ -879,48 +885,48 @@ exports.THIEF_TOKEN_CONFIG = {
         isVyper: false,
         slotBalance: 1,
         address: commonERC20_1.COMMON_ERC20S.tBTC,
-        decimals: 18
+        decimals: 18,
     },
     ETHPlus: {
         isVyper: false,
         slotBalance: 201,
-        address: commonERC20_1.COMMON_ERC20S['ETH+'],
-        decimals: 18
+        address: commonERC20_1.COMMON_ERC20S["ETH+"],
+        decimals: 18,
     },
     sfrxUSD: {
         isVyper: false,
         slotBalance: 3,
         address: commonERC20_1.COMMON_ERC20S.sfrxUSD,
-        decimals: 18
+        decimals: 18,
     },
     msUSD: {
         isVyper: false,
         slotBalance: 3,
         address: commonERC20_1.COMMON_ERC20S.msUSD,
-        decimals: 18
+        decimals: 18,
     },
     msETH: {
         isVyper: false,
         slotBalance: 3,
         address: commonERC20_1.COMMON_ERC20S.msETH,
-        decimals: 18
+        decimals: 18,
     },
     OETH: {
         isVyper: false,
         slotBalance: 0,
         address: commonERC20_1.COMMON_ERC20S.OETH,
-        decimals: 18
+        decimals: 18,
     },
     reUSD: {
         isVyper: false,
         slotBalance: 5,
         address: commonERC20_1.COMMON_ERC20S.reUSD,
-        decimals: 18
+        decimals: 18,
     },
     USDS: {
         isVyper: false,
         slotBalance: 2,
         address: commonERC20_1.COMMON_ERC20S.USDS,
-        decimals: 18
-    }
+        decimals: 18,
+    },
 };
