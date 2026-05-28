@@ -1005,4 +1005,16 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
         isVyper: false,
     },
+    sDOLA: {
+        address: COMMON_ERC20S.sDOLA,
+        slotBalance: 3,
+        decimals: 18,
+        isVyper: false,
+    },
+    USDT_sUSDS: {
+        address: CURVE_LPS.DUO_sUSDS_USDT,
+        slotBalance: 38,
+        decimals: 18,
+        isVyper: true,
+    },
 };

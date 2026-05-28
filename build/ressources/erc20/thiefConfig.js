@@ -935,4 +935,22 @@ exports.THIEF_TOKEN_CONFIG = {
         decimals: 18,
         isVyper: false,
     },
+    BOLD: {
+        address: commonERC20_1.COMMON_ERC20S.BOLD,
+        slotBalance: 1,
+        decimals: 18,
+        isVyper: false,
+    },
+    sDOLA: {
+        address: commonERC20_1.COMMON_ERC20S.sDOLA,
+        slotBalance: 3,
+        decimals: 18,
+        isVyper: false,
+    },
+    USDT_sUSDS: {
+        address: curveLP_1.CURVE_LPS.DUO_sUSDS_USDT,
+        slotBalance: 38,
+        decimals: 18,
+        isVyper: true,
+    },
 };
