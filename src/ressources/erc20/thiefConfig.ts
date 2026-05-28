@@ -993,4 +993,16 @@ export const THIEF_TOKEN_CONFIG: {
         address: COMMON_ERC20S.USDS,
         decimals: 18,
     },
+    LUSD: {
+        address: COMMON_ERC20S.LUSD,
+        slotBalance: 2,
+        decimals: 18,
+        isVyper: false,
+    },
+    BOLD: {
+        address: COMMON_ERC20S.BOLD,
+        slotBalance: 1,
+        decimals: 18,
+        isVyper: false,
+    },
 };
