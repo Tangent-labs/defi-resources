@@ -33,7 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.CURVE_GAUGES = exports.CURVE_LPS = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.COMMON_ERC20S = exports.FXN_GLOBAL_CONTRACTS = exports.CURVE_GLOBAL_CONTRACTS = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
+exports.MORPHO_MARKETS = exports.PENDLE_POOLS = exports.ConvexFxnPools = exports.ConvexCrvPools = exports.CURVE_GAUGES = exports.CURVE_LPS = exports.durations = exports.CURVE_CONTEXT = exports.convexMapping = exports.curveLpMapping = exports.stakeDaoMapping = exports.balancerLp = exports.uniswapLp = exports.thiefConfig = exports.stakeDaoERC20 = exports.convexERC20 = exports.COMMON_ERC20S = exports.FXN_GLOBAL_CONTRACTS = exports.CURVE_GLOBAL_CONTRACTS = exports.veTokens = exports.routers = exports.stakeDaoContracts = exports.convexContracts = exports.REDSTONE_PRICE_FEEDS = exports.CHAINLINK_PRICE_FEEDS = exports.convergenceContracts = void 0;
 // Contracts
 exports.convergenceContracts = __importStar(require("./ressources/contracts/convergence"));
 var chainlinkPriceFeeds_1 = require("./ressources/contracts/chainlinkPriceFeeds");
@@ -76,3 +76,6 @@ Object.defineProperty(exports, "ConvexFxnPools", { enumerable: true, get: functi
 // PENDLE
 var pendle_1 = require("./ressources/protocols/pendle");
 Object.defineProperty(exports, "PENDLE_POOLS", { enumerable: true, get: function () { return pendle_1.PENDLE_POOLS; } });
+// MORPHO
+var markets_1 = require("./ressources/protocols/morpho/markets");
+Object.defineProperty(exports, "MORPHO_MARKETS", { enumerable: true, get: function () { return markets_1.MORPHO_MARKETS; } });
