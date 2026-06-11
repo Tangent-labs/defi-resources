@@ -40,5 +40,8 @@ export { ConvexFxnPools } from "./ressources/protocols/convex/convexFxn";
 // PENDLE
 export { PENDLE_POOLS } from "./ressources/protocols/pendle";
 
+// MORPHO
+export { MORPHO_MARKETS } from "./ressources/protocols/morpho/markets";
+
 
 

@@ -23,3 +23,4 @@ export { CURVE_GAUGES } from "./ressources/protocols/curve/curveGauges";
 export { ConvexCrvPools } from "./ressources/protocols/convex/convexCrv";
 export { ConvexFxnPools } from "./ressources/protocols/convex/convexFxn";
 export { PENDLE_POOLS } from "./ressources/protocols/pendle";
+export { MORPHO_MARKETS } from "./ressources/protocols/morpho/markets";
