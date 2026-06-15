@@ -1017,4 +1017,10 @@ export const THIEF_TOKEN_CONFIG: {
         decimals: 18,
         isVyper: true,
     },
+    msETH_WETH: {
+        address: CURVE_LPS.DUO_msETH_WETH,
+        slotBalance: 20,
+        decimals: 18,
+        isVyper: true,
+    },
 };
