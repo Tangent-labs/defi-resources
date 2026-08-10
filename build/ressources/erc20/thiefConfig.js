@@ -959,4 +959,10 @@ exports.THIEF_TOKEN_CONFIG = {
         decimals: 18,
         isVyper: true,
     },
+    CRV_DUO_reUSD_sDOLA: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_reUSD_sDOLA,
+        decimals: 18,
+    },
 };

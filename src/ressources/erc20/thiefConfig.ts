@@ -14,9 +14,9 @@ import {
     _80BAL_20WETH,
     BB_A_USD_OLD,
 } from "./stakeDao";
-import {cvxCRV, cvxFXS, cvxFXN, cvgCVX} from "./convex";
-import {CURVE_LPS} from "../protocols/curve/curveLP";
-import {COMMON_ERC20S} from "./commonERC20";
+import { cvxCRV, cvxFXS, cvxFXN, cvgCVX } from "./convex";
+import { CURVE_LPS } from "../protocols/curve/curveLP";
+import { COMMON_ERC20S } from "./commonERC20";
 
 export const THIEF_TOKEN_CONFIG: {
     [tokenName: string]: {
@@ -1022,5 +1022,11 @@ export const THIEF_TOKEN_CONFIG: {
         slotBalance: 20,
         decimals: 18,
         isVyper: true,
+    },
+    CRV_DUO_reUSD_sDOLA: {
+        isVyper: true,
+        slotBalance: 38,
+        address: CURVE_LPS.DUO_reUSD_sDOLA,
+        decimals: 18,
     },
 };

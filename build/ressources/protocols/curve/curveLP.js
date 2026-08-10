@@ -187,5 +187,6 @@ exports.CURVE_LPS = {
     DUO_frxUSD_scrvUSD: "0x4d968a5db8da0822a2f08840f553de4129aae5f3",
     DUO_eUSD_USDC: "0x08bfa22bb3e024cdfeb3eca53c0cb93bf59c4147",
     DUO_BOLD_LUSD: "0x7ed17e037b7d88a8270c89b3afa9c38e5218f12b",
-    TRI_LUSD_DAI_USDC_USDT: "0xed279fdd11ca84beef15af5d39bb4d4bee23f0ca"
+    TRI_LUSD_DAI_USDC_USDT: "0xed279fdd11ca84beef15af5d39bb4d4bee23f0ca",
+    DUO_reUSD_sDOLA: "0x48d670d189b4b48757992d36897bca6e3f889040"
 };
