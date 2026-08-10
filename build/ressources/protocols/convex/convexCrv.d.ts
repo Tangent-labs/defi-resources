@@ -1,5 +1,6 @@
 type ConvexCrvPool = {
     lpToken: string;
+    cvxDepositToken?: string;
     cvxRewardToken: string;
     pid: number;
 };
