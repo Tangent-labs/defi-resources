@@ -1,12 +1,13 @@
 import { COMMON_ERC20S } from "../erc20/commonERC20";
 
 const PENDLE_POOL_KEYS = [
+    "sUSG 26/11/26",
     "sUSDe 08/13/2026",
     "sUSDe 09/25/25", "USDe 09/25/25", "wstUSR 09/25/25",
     "USR 09/04/25", "sUSDe 27/11/25", "sUSDf 29/01/26",
     "USDe 27/11/25", "sUSDe 05/02/26", "reUSD 25/06/26",
     "wstETH 25/06/26", "wstUSR 29/01/26", "wstUSR 25/06/26",
-    "sUSDe 07/05/26", "USDe 07/05/26"] as const;
+    "sUSDe 07/05/26", "USDe 07/05/26", "USG 26/11/26"] as const;
 type PENDLE_POOL_KEYS = (typeof PENDLE_POOL_KEYS)[number];
 
 export const PENDLE_POOLS: {
@@ -19,6 +20,22 @@ export const PENDLE_POOLS: {
         UNDERLYING_OUT: string[];
     };
 } = {
+    "sUSG 26/11/26": {
+        MARKET: "0x68b647308f86f8669eaced155a9168769ce72265",
+        PT: "0xe2dbd6bafcd6b1da90483108f0f437addf7bd885",
+        SY: "0xe31b01ce6f29107cf8870599911703fa2aa36e1c",
+        YT: "0x89cedb3c823315c9922d8eb841c114782d5a4de2",
+        UNDERLYING_IN: [COMMON_ERC20S.USG, COMMON_ERC20S.sUSG],
+        UNDERLYING_OUT: [COMMON_ERC20S.USG, COMMON_ERC20S.sUSG],
+    },
+    "USG 26/11/26": {
+        MARKET: "0xaf7571bac71242d0642075f37f5914ed303b0442",
+        PT: "0x5b2922c27f9f4f9ba36ed6b745dee97fa2a31c7f",
+        SY: "0xaf27a9c4cd90c4ef8471033a8ee7651bd699c093",
+        YT: "0xa01ee56be712343ec8fc65b658cf9c2a0cac023a",
+        UNDERLYING_IN: [COMMON_ERC20S.USG, COMMON_ERC20S.sUSG],
+        UNDERLYING_OUT: [COMMON_ERC20S.USG, COMMON_ERC20S.sUSG],
+    },
     "sUSDe 08/13/2026": {
         MARKET: "0x177768caf9d0e036725a51d3f60d7e20f2d4d194",
         PT: "0x5a19fa369f2895dcd8d2cee62e4ceae58ef92bbb",
@@ -141,4 +158,5 @@ export const PENDLE_POOLS: {
         UNDERLYING_IN: [COMMON_ERC20S.CHAIN_COIN, COMMON_ERC20S.WETH, COMMON_ERC20S.stETH, COMMON_ERC20S.wstETH],
         UNDERLYING_OUT: [COMMON_ERC20S.stETH, COMMON_ERC20S.wstETH],
     },
+
 };
