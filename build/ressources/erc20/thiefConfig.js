@@ -108,6 +108,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: commonERC20_1.COMMON_ERC20S.crvUSD,
         decimals: 18,
     },
+    DUSD: {
+        isVyper: false,
+        slotBalance: 0,
+        address: commonERC20_1.COMMON_ERC20S.DUSD,
+        decimals: 18,
+    },
     SDFRAX3CRV: {
         isVyper: false,
         slotBalance: 0,
@@ -965,4 +971,10 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curveLP_1.CURVE_LPS.DUO_reUSD_sDOLA,
         decimals: 18,
     },
+    frxUSD_DUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_frxUSD_DUSD,
+        decimals: 18,
+    }
 };

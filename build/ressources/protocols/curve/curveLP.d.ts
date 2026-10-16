@@ -186,4 +186,5 @@ export declare const CURVE_LPS: {
     DUO_BOLD_LUSD: string;
     TRI_LUSD_DAI_USDC_USDT: string;
     DUO_reUSD_sDOLA: string;
+    DUO_frxUSD_DUSD: string;
 };

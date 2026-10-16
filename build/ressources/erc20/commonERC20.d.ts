@@ -43,6 +43,7 @@ export declare const COMMON_ERC20S: {
     readonly BOLD: "0x6440f144b7e50D6a8439336510312d2F54beB01D";
     readonly LUSD: "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0";
     readonly OUSD: "0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86";
+    readonly DUSD: "0x63d74d22e689c715a04f2c13962b1f77f443d35b";
     readonly sDAI: "0x83f20f44975d03b1b09e64809b757c47f942beea";
     readonly sUSDe: "0x9d39a5de30e57443bff2a8307a4256c8797a3497";
     readonly scrvUSD: "0x0655977feb2f289a4ab78af67bab0d17aab84367";
