@@ -3,6 +3,7 @@ export declare const CURVE_CONTEXT: {
         curveLp: string;
         curveGauge: string;
         stakeDaoVault: string;
+        convexDepositToken: string;
         convexRewardToken: string;
         convexPID: number;
     };
@@ -10,6 +11,7 @@ export declare const CURVE_CONTEXT: {
         curveLp: string;
         curveGauge: string;
         stakeDaoVault: string;
+        convexDepositToken: string;
         convexRewardToken: string;
         convexPID: number;
     };

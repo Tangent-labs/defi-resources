@@ -33,11 +33,13 @@ exports.ConvexCrvPools = {
     // STABLECOIN POOLS
     USG_USDC: {
         lpToken: curveLP_1.CURVE_LPS.DUO_USG_USDC,
+        cvxDepositToken: "0xab7364878bd4ec38a89134d6d8350b7fda66ebc1",
         cvxRewardToken: "0x3eAFd8C2B36B93A8463A5f460a01A1b3D37b6929",
         pid: 541,
     },
     USG_frxUSD: {
         lpToken: curveLP_1.CURVE_LPS.DUO_USG_frxUSD,
+        cvxDepositToken: "0x1c0a3dacd1d6cd370302d1caa50aa663fd9fc2ee",
         cvxRewardToken: "0x8D79FA117C3B3a4da1D3F1c037f2e500a2f6D70D",
         pid: 542,
     },
