@@ -755,7 +755,7 @@ export const THIEF_TOKEN_CONFIG: {
         isVyper: true,
         slotBalance: 23,
         address: CURVE_LPS.TRI_GHO_cbBTC_ETH,
-        decimals: 23,
+        decimals: 18,
     },
 
     CVX_ETH: {
