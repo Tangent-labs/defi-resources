@@ -976,5 +976,11 @@ exports.THIEF_TOKEN_CONFIG = {
         slotBalance: 38,
         address: curveLP_1.CURVE_LPS.DUO_frxUSD_DUSD,
         decimals: 18,
-    }
+    },
+    crvUSD_frxUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_crvUSD_frxUSD,
+        decimals: 18,
+    },
 };
