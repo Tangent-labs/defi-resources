@@ -442,6 +442,12 @@ exports.THIEF_TOKEN_CONFIG = {
         address: curveLP_1.CURVE_LPS.DUO_PYUSD_USDC,
         decimals: 18,
     },
+    PYUSD_crvUSD: {
+        isVyper: true,
+        slotBalance: 38,
+        address: curveLP_1.CURVE_LPS.DUO_PYUSD_crvUSD,
+        decimals: 18,
+    },
     sd_YFI: {
         isVyper: false,
         slotBalance: 0,
